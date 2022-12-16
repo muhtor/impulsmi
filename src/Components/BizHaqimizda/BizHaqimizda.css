@@ -1,0 +1,527 @@
+
+
+/* banner =========================== */
+
+
+
+
+.banner
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../../imgs/bizhaqimzida\ rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: var(--fff);
+    padding: 20px 3%;
+    overflow: hidden;
+}
+
+.banner::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.404);
+}
+
+
+.banner h1, h2 
+{
+    z-index: 1;
+    font-size: 3em;
+    color:  var(--fff);
+}
+
+
+
+
+
+
+
+
+
+/* banner =========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header =========================== */
+
+
+.header
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 3%;
+    overflow: hidden;
+}
+
+
+.header h1
+{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color:  var(--gb-color);
+    font-weight: 500;
+}
+
+.header p
+{
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+.left-header-menu,
+.right-header-menu
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.left-header-menu div,
+.right-header-menu div
+{
+    width: 50%;
+}
+
+.left-header-menu div img,
+.right-header-menu div img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* header =========================== */
+
+
+
+
+
+
+
+
+
+.galereya
+{
+    width: 100%;
+    position: relative;
+    padding: 30px 3%;
+    position: relative;
+    color:  var(--gb-color);
+    overflow: hidden;
+}
+
+
+
+.galereya h1 
+{
+    font-size: 2.5em;
+}
+
+
+.galereya-box
+{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-flow: dense;
+}
+
+
+.imgs
+{
+    max-width: 100%;
+    height: auto;
+    background: var(--000);
+    cursor: pointer;
+}
+
+.imgs img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.img-preview
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: var(--rgbaBG);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    padding: 20px;
+}
+
+
+.img-preview.active
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+body.active
+{
+    overflow: hidden;
+}
+
+
+.img-preview img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+
+
+
+.closeBtn
+{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background: var(--fff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2em;
+    cursor: pointer;
+    transform: scale(0);
+    transition: .5s;
+}
+
+
+
+.img-preview.active img,
+.img-preview.active .closeBtn
+{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1020px) {
+    .header p
+    {
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+
+    .galereya-box
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+
+@media (max-width: 870px) {
+
+    .footer-box div
+    {
+        margin: 0 30px;
+    }
+
+    .btn-up
+    {
+        position: absolute;
+        left: 70%;
+    }
+    .footer-box h1
+    {
+        font-size: 1.2em;
+    }
+  
+}
+
+
+
+
+
+
+@media (max-width: 780px) {
+
+    .nav-top-info
+    {
+        display: none;
+    }
+    .nav-top-info span
+    {
+        padding: 10px 20px;
+        border-bottom: 1px solid var(--border-color);
+        width: 100%;
+    }
+
+    .nav-top-info span:last-child
+    {
+        border-bottom: none;
+    }
+
+    .phone-univer
+    {
+        border-right: none;
+        border-left: none;
+    }
+
+    
+
+    .btn-up
+    {
+        left: 90%;
+    }
+
+    .contact-info a i 
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 1.4em;
+    }
+    
+
+/* 
+    .galereya-box
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } */
+
+    .left-header-menu,
+    .right-header-menu
+    {
+        flex-direction: column;
+    }
+
+    .left-header-menu div,
+    .right-header-menu div
+    {
+        width: auto;
+    }
+
+    .right-header-menu
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .banner h1, h2
+    {
+        font-size: 3em;
+    }
+
+    .contact-info a i
+    {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+@media (max-width: 550px) {
+
+
+    .banner
+    {
+        height: 50vh;
+    }
+
+    .footer-box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-box div
+    {
+        margin: 20px 0;
+    }
+
+    .nav
+    {
+        padding: 20px;
+    }
+    .navbar-brand h1
+    {
+        font-size: 1.2em;
+    }
+
+
+    .banner h1,h2
+    {
+        font-size: 2em;
+    }
+
+    .header h1
+    {
+        font-size: 1.3em;
+        color:  var(--gb-color);
+        font-weight: 500
+    }
+
+    .header p
+    {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+
+    .imgs
+    {
+        height: 20vh;
+    }
+
+    .img-preview img
+    {
+        width: 95%;
+        height: 40%;
+    }
+
+    .closeBtn
+    {
+        width: 30px;
+        height: 30px;
+        font-size: 1.5em;
+        top: 20px;
+        right: 20px;
+    }
+
+    .closeBtn svg
+    {
+        width: 18px;
+    }
+
+    .video-box
+    {
+        height: auto;
+    }
+    .video-box video
+    {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .galereya h1
+    {
+        font-size: 1.2em;
+        color: var(--gb-color);
+    }
+
+    .banner h1,h2
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+
+    .bizhaqimizda-text h1
+    {
+        font-size: 1.5em;
+        margin: 20px 0;
+        color: var(--gb-color);
+    }
+
+    
+    .bizhaqimizda-text p
+    {
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

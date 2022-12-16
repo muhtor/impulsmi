@@ -1,0 +1,208 @@
+
+
+
+
+
+footer
+{
+    padding: 30px 4%;
+    width: 100%;
+    height: auto;
+}
+
+.footer-box
+{
+    display: flex;
+}
+
+.footer-box div:first-child
+{
+    margin: 0 0;
+}
+
+.footer-box div
+{
+    margin: 0 80px;
+}
+
+
+
+.footer-box a
+{
+    color: var(--link-color);
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.footer-box .hamkorlar-info a:hover,
+.footer-box .sections-info a:hover
+{
+    text-decoration: underline; 
+    color: var(--gb-color);
+}
+
+
+    
+.contact-info a svg
+{
+    font-size: 1em;
+    width: 35px;
+    height: 40px;
+    margin-right: 10px;
+    color: var(--gb-color)!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location
+{
+    color: var(--gb-color)!important;
+}
+
+.phones p
+{
+    margin: 0 10px;
+}
+
+
+
+.footer-copyryter
+{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+    color: var(--gb-color);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+    font-weight: 600;
+}
+
+
+.btn-up
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    border: 1px solid var(--rgbaBG);
+    border-radius: 5px;
+    font-size: 2em;
+    background: var(--fff);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.btn-up:hover
+{
+    background: var(--gb-color);
+    color: var(--fff);
+    border-color: var(--fff);
+}
+
+
+.sections-info span
+{
+    transition: .5s;
+}
+
+
+.map
+{
+    width: 400px; 
+    height: 200px;
+    border: 2px solid var(--gb-color);
+    margin-top: 30px !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map:hover
+{
+    opacity: .7;
+}
+
+
+.map img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+@media (max-width: 870px) {
+
+    .footer-box div
+    {
+        margin: 0 30px;
+    }
+
+    .footer-box h1
+    {
+        font-size: 1.2em;
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 520px) {
+    .footer-box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phones p
+    {
+        margin: 0 5px;
+    }
+
+
+    .footer-box div
+    {
+        margin: 20px 0;
+    }
+
+
+    .btn-up
+    {
+        left: 90%;
+    }
+    
+    .map
+    {
+        width: 100%; 
+        height: 200px;
+        border: 2px solid var(--gb-color);
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    
+}
