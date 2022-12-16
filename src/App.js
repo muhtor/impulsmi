@@ -15,7 +15,6 @@ function App() {
         <Navbar />
         <AnimatedPages />
         <Footer />
-        <h1>Adsasdasdsa</h1>
       </BrowserRouter>
     </>
   );
