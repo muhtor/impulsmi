@@ -57,10 +57,10 @@
     color: var(--ffff);
 }
 
-    .phone-univer a
-    {
-        color:var(--fff)!important;
-    }
+.phone-univer a
+{
+    color:var(--fff)!important;
+}
 
 
 
@@ -97,11 +97,17 @@
     background: var(--fff);
 }
 
+
+
 .name-univer
 {
     font-size: .9em;
 }
 
+.email-univer a
+{
+    color:  var(--fff);
+}
 
 
 

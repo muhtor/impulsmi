@@ -85,7 +85,7 @@ function Navbar() {
               <a href="Tel:+998692395015">+998 69 239 50 15</a>
             </span>
             <span className="email-univer">
-              <p>impulsedu1@gmail.com</p>
+              <a href='mialto:info@impulsmi.uz'>impulsedu1@gmail.com</a>
             </span>
           </div>
           <div className="nav">
