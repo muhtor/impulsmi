@@ -120,7 +120,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link onClick={changePages} to="/kutibxona">
+                <Link onClick={changePages} to="/kutubxona">
                   {t("kutibxona")}
                 </Link>
               </li>

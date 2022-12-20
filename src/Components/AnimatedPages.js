@@ -21,7 +21,7 @@ function AnimatedPages() {
             <Route path="/" element={<BoshSahifa />} />
             <Route path="/bizhaqimizda" element={<BizHaqimizda />} />
             <Route path="/usmle" element={<USMLE />} />
-            <Route path="/kutibxona" element={<Kutibxona />} />
+            <Route path="/kutubxona" element={<Kutibxona />} />
             <Route path="/aloqa" element={<Aloqa />} />
           </Routes>
         </AnimatePresence>

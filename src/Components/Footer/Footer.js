@@ -50,7 +50,7 @@ function Footer() {
               <Link onClick={upBtnF} to="/bizhaqimizda">
                 {t("biz_haqimizda")}
               </Link>
-              <Link onClick={upBtnF} to="/kutibxona">
+              <Link onClick={upBtnF} to="/kutubxona">
                 {t("kutibxona")}
               </Link>
               <Link onClick={upBtnF} to="/aloqa">
