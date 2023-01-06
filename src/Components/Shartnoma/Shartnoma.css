@@ -1,0 +1,191 @@
+.shartnoma_box
+{
+    width: 100%;
+    height: 130vh;
+    display: grid;
+    place-items: center;
+    background: url(../../imgs/shartnoma\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.shartnoma_box form
+{
+    border-radius: 3px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 50%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.shartnoma_box form input
+{
+    width: 70%;
+    border-radius: 4px;
+    padding: 10px 8px;
+    border: 2px solid rgb(87, 99, 170);
+}
+
+
+.shartnoma_box form input::placeholder
+{
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.452);
+}
+
+
+.shartnoma_logo
+{
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+
+
+.shartnoma_box form label
+{
+    font-size: 1.4em;
+}
+
+
+
+.shartnoma_box button
+{
+    width: 70%;
+    padding: 10px 20px;
+    background: blue;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+.shartnoma_box button:hover
+{
+    opacity: .7;
+}
+
+.shartnoma_loader
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.568);
+    display: none;
+}
+
+
+
+
+.loader_icon
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    font-size: 5em;
+    transform: translate(-50%,-50%);
+}
+
+.shartnoma_loader.active
+{
+    display: block;
+}
+
+.shartnoma_loader.active .loader_icon
+{
+    animation: loader infinite 5s alternate;
+}
+
+
+
+@keyframes loader {
+    0%{
+        transform: translate(-50%,-50%) rotate(10deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(1580deg);
+    }
+}
+
+
+
+
+.shartnoma
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../imgs/shartnoma\ bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.shartnoma.active
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+.file_icon
+{
+    font-size: 15em;
+    margin-bottom: 20px;
+}
+
+
+.shartnoma h3
+{
+    margin-bottom: 10px;
+}
+
+.shartnoma .view_btns a
+{
+    background: blue;
+    color: #fff !important;
+    padding: 9px 20px;
+    border-radius: 4px;
+    margin: 10px;    
+    font-size: 1.2em;
+}
+
+.view_btns a svg path
+{
+    stroke: #fff;
+}
+
+.shartnoma .view_btns a:hover
+{
+    opacity: .7;
+}
+
+.file_icon:hover
+{
+    opacity: .7;
+}

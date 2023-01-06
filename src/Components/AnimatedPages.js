@@ -4,6 +4,7 @@ import BizHaqimizda from "./BizHaqimizda/BizHaqimizda";
 import USMLE from './USMLE/USMLE';
 import Kutibxona from "./Kutibxona/Kutibxona";
 import Aloqa from "./Aloqa/Aloqa";
+import Shartnoma from './Shartnoma/Shartnoma';
 
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function AnimatedPages() {
             <Route path="/usmle" element={<USMLE />} />
             <Route path="/kutubxona" element={<Kutibxona />} />
             <Route path="/aloqa" element={<Aloqa />} />
+            <Route path="/shartnoma" element={<Shartnoma />} />
           </Routes>
         </AnimatePresence>
       </>

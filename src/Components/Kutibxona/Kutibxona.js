@@ -5,8 +5,6 @@ import db from "../Firebase/Firebase";
 import { onSnapshot, collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { GrClose } from "react-icons/gr";
-import { BsFillGrid3X3GapFill } from "react-icons/bs";
-import { FaThList } from "react-icons/fa";
 
 
 
@@ -17,6 +15,7 @@ import { useTranslation } from "react-i18next";
 
 
 function Kutibxona() {
+
 
 
     const { t } = useTranslation();
