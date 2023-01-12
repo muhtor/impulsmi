@@ -67,7 +67,7 @@ function Shartnoma() {
                         <div className="shartnoma" id={el.seriya} key={i}>
                             <h3>Shartnomangiz topildi</h3>
                             <h3>{el.name} {el.lastname} {el.otchestvo}</h3>
-                            <a href="#" target="_blank"><FiFileText className='file_icon' /></a>
+                            <a href={el.view} target="_blank"><FiFileText className='file_icon' /></a>
                             <div className="view_btns">
                                 <a href={el.view} target="_blank"><GrView /></a>
                                 <a href={el.shartnomasi} target="_blank"><HiDownload /></a>
