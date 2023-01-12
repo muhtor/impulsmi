@@ -69,7 +69,7 @@ function Shartnoma() {
                             <h3>{el.name} {el.lastname} {el.otchestvo}</h3>
                             <a href="#" target="_blank"><FiFileText className='file_icon' /></a>
                             <div className="view_btns">
-                                <a href={el.shartnomasi} target="_blank"><GrView /></a>
+                                <a href={el.view} target="_blank"><GrView /></a>
                                 <a href={el.shartnomasi} target="_blank"><HiDownload /></a>
                                 <a href="#" onClick={close_file}><GrClose /></a>
                             </div>
