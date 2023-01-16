@@ -5,7 +5,7 @@ import Img2 from '../../imgs/2.jpg';
 import Img3 from '../../imgs/3.jpg';
 import Img4 from '../../imgs/4.jpg';
 import Img5 from '../../imgs/5.jpg';
-import logo from '../../imgs/white logo.png';
+import logo from '../../imgs/new logo.png';
 
 import bizhaqimizdaImg from '../../imgs/bizhaqimizda img1.png';
 import impuls1Img from '../../imgs/111111.jpg';
@@ -104,7 +104,7 @@ function BoshSahifa() {
       <>
 
       <div className={loader ? "loader" : "loader active"}>
-        <img src={logo} alt="" />
+        <img src={logoImg} alt="" />
         <div className='shadow'></div>
       </div>
 

@@ -39,15 +39,23 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 200px;
+    width: 300px;
     transition: .5s;
+}
+
+.loader img
+{
+    z-index: 1;
+    width: 250px;
 }
 
 .shadow
 {
-    height: 200px;
+    height: 300px;
     border-radius: 50%;
-    animation: loader 5s ease forwards;
+    box-shadow: 0 0 10px var(--fff);
+    animation: load 5s infinite alternate;
+    background: #fff;
 }
 
 
@@ -60,29 +68,28 @@
 }
 
 
-@keyframes loader {
+@keyframes load {
     0%
     {
-        box-shadow: 0 0 10px var(--fff),
-        0 0 10px var(--fff);
+        box-shadow: 0 0 10px var(--fff);
     }
     50%
     {
-        box-shadow: 0 0 10px var(--fff),
-        0 0 20px var(--fff),
-        0 0 30px var(--fff),
-        0 0 50px var(--fff),
-        0 0 150px var(--fff),
-        0 0 200px var(--fff);
+        box-shadow: 0 0px 10px var(--fff),
+        0 0px 20px var(--fff),
+        0 0px 30px var(--fff),
+        0 0px 50px var(--fff),
+        0 0px 150px var(--fff),
+        0 0px 200px var(--fff);
     }
     100%
     {
         box-shadow: 0 0 10px var(--fff),
-        0 0 20px var(--fff),
-        0 0 30px var(--fff),
-        0 0 50px var(--fff),
-        0 0 20px var(--fff),
-        0 0 150px var(--fff);
+        0 0px 20px var(--fff),
+        0 0px 30px var(--fff),
+        0 0px 50px var(--fff),
+        0 0px 20px var(--fff),
+        0 0px 150px var(--fff);
     }
 }
 
