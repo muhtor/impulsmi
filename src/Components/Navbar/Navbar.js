@@ -82,7 +82,7 @@ function Navbar() {
           <div className={navbarClass ? "nav-top-info active" : "nav-top-info"}>
             <span className="name-univer">{t("name_univer")}</span>
             <span className="phone-univer">
-              <a href="Tel:+998692395015">+998 69 239 50 15</a>
+              <a href="Tel:+998555105015">+998  55 510 50 15</a>
             </span>
             <span className="email-univer">
               <a href='mialto:info@impulsmi.uz'>impulsedu1@gmail.com</a>
