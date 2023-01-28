@@ -37,9 +37,9 @@ function Footer() {
                 <GrInstagram />
                 Instagram
               </a>
-              <a href="Tel:+998692395015" className="phones">
+              <a href="Tel:+998555105015" className="phones">
                 <FaPhone />
-                <p>+998 69 239 50 15</p>
+                <p>+998 55 510 50 15</p>
               </a>
             </div>
             <div className="sections-info">
