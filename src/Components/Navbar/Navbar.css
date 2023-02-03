@@ -7,49 +7,69 @@
     transition: .5s;
     z-index: 999 !important;
     position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
     width: 100%;
-    background: linear-gradient(0, transparent,rgba(110, 110, 110, 0.527));
+    background: rgba(86, 86, 92, 0);
 }
 
+.navbar.active {
+    position: fixed;
+    width: 99%;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+    z-index: 2;
+    z-index: 1000;
+    background: rgba(28, 28, 31, 0.39);
+    /* background: rgba(0, 0, 250, 0.479); */
+    /* background: var(--gb-color); */
+    padding: 8px 10px 10px 10px !important;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+}
 
-.name-univer img {
-    margin-right: 10px;
-    width: 40px;
+.phone_icon
+{
+    font-size: 20px !important;
 }
 
 .nav-top-info {
     display: flex;
+    justify-content: space-between;
     transition: .5s;
     height: 8vh;
+    width: 92%;
+    margin: 0 auto;
     color: var(--fff);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.527);
 }
 
-
 .nav-top-info.active {
-    height: 0;
-    overflow: hidden;
+    width: 94%;
 }
 
 .nav-top-info span {
     display: flex;
     align-items: center;
-    padding: 2px 30px;
-    width: 300px;
+    padding: 2px 5px;
+    margin: 0 15px;
     font-weight: 500;
 }
 
+.nav_top_spans a
+{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    font-size: 15px !important;
+}
 
-
-.navbar.active {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    z-index: 1000;
-    background: rgba(185, 185, 185, 0.493);
-    padding: 20px !important;
-    backdrop-filter: blur(20px);
+.nav_top_spans a svg
+{
+    font-size: 25px;
+    margin-right: 5px;
 }
 
 .nav-top-info span i {
@@ -62,14 +82,11 @@
     color:var(--fff)!important;
 }
 
-
-
-
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 5%;
+    padding: 7px 3%;
     position: relative;
     transition: .5s;
     z-index: 2;
@@ -95,6 +112,7 @@
     border-radius: 50px;
     transition: .5s;
     background: var(--fff);
+    
 }
 
 
@@ -152,6 +170,12 @@
     text-align: center;
     color: var(--fff);
     cursor: pointer;
+    margin: 0 !important;
+}
+
+.lngs
+{
+    margin: 0 !important;
 }
 
 .navigation {
@@ -167,12 +191,146 @@
     width: 100%;
     display: inline-block;
     transition: .5s;
+    padding: 7px 10px;
+    transition: .5s;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.navigation li a:hover {
+    background: var(--fff);
+    color: var(--gb-color) !important;
+}
+
+.navigation li a svg {
+    margin-left: 5px;
 }
 
 .navbar.active .navigation li a
 {
     font-weight: 500;
 }
+
+
+
+.ul_pages
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    top: 85%;
+    background: var(--gb-color);
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    overflow: hidden;
+    transition: .5s;
+    display: none;
+    color: var(--gb-color);
+}
+
+.ul_pages a:hover
+{
+    background:#fff !important;
+    color: #fff;
+}
+
+.ariza_btn
+{
+    background: var(--gb-color);
+    color: var(--fff);
+    position: relative;
+}
+
+.ariza_btn::before
+{
+    content: "Tez kunda";
+    position: absolute;
+    padding: 2px 4px;
+    font-size: 8px;
+    background: rgb(5, 238, 168);
+    color: blue;
+    right: -5%;
+    top: -8px;
+    border-radius: 3px;
+    animation: news 4s alternate infinite;
+    color: #fff;
+}
+.faq::before
+{
+    content: "Tez kunda";
+    position: absolute;
+    padding: 2px 4px;
+    font-size: 8px;
+    background: rgb(5, 238, 168);
+    color: blue;
+    right: -40%;
+    transform: translateX(-50%);
+    top: -6px;
+    border-radius: 3px;
+    animation: news 4s alternate infinite;
+    color: #fff;
+}
+
+.yangi{
+    position: relative;
+}
+
+.yangi::before
+{
+    content: "Tez kunda";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 8px;
+    padding: 2px;
+    background: rgb(5, 238, 168);
+    color: blue;
+    border-radius: 2px;
+    animation: news 4s alternate infinite;
+    color: #fff;
+}
+
+
+@keyframes news {
+    0%{
+        background: rgb(154, 3, 214);
+    }
+    20%
+    {
+        background: rgb(228, 8, 8);
+    }
+    30%
+    {
+        background: rgb(230, 11, 182);
+    }
+    40%
+    {
+        background: rgb(253, 106, 21);
+    }
+    50%
+    {
+        background: rgb(79, 233, 8);
+    }
+    70%
+    {
+        background: rgb(245, 161, 6);
+    }
+}
+
+
+
+
+
+
+.imi:hover .ul_pages
+{
+    display: block;
+}
+
+
 
 .navbar.active .navigation li a, .navbar-brand a
 {
@@ -194,37 +352,18 @@
 
 
 
-.lng-box svg
-{
-    color: var(--fff);
-}
-
-
-.lng-box svg
-{
-    width: 25px;
-    height: 25px;
-}
 
 
 .lng-box
 {
     position: relative;
+    border-left: 1px solid rgba(255, 255, 255, 0.438);
 }
 
 
-.languages
-{
-    transform: translateX(-42%);
-    /* background: var(--fff); */
-    border-radius: 2px;
-    /* border: 2px solid var(--fff); */
-}
 
-/* .languages.active
-{
-    display: flex;
-} */
+
+
 
 .lng-box span
 {
@@ -232,9 +371,14 @@
     border-radius: 4px;
 }
 
-.lng-box span
+.lng
 {
+    margin-right: 0 !important;
+}
 
+.nav_lng
+{
+    display: none;
 }
 
 
@@ -273,6 +417,14 @@
 
 @media (max-width: 870px) {
 
+    .nav_lng
+    {
+        display: flex;
+    }
+    .lng-box
+    {
+        border-left: 0;
+    }
 
     .navbar.active .navigation
     {
@@ -285,11 +437,13 @@
         left: 0;
         top: -100%;
         width: 100%!important;
-        height: 0;
+        height: 0 !important;
+        border-radius: 10px;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.281);
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         font-size: 1.2em;
         line-height: 50px;
         padding-top: 30px;
@@ -302,15 +456,72 @@
     .navigation.active
     {
         top: 0;
-        height: 70vh;
+        height: 90vh !important;
     }
+
+
+
     
     .navigation li a
     {
         color: var(--fff);
+        padding: 0 7px;
+        margin-bottom: 4px;
+        display: flex !important;
+        text-align: center;
+    }
+    
+
+    .imi a
+    {
+        display: flex !important;
+        align-items: center;
+        text-align: center;
     }
 
 
+
+    .ul_pages
+    {
+        background: rgba(0, 0, 0, 0);
+        z-index: 1;
+        width: 100%;
+        position: static;
+        display: block;
+        transform: translateX(0);
+        text-align: center;
+        padding: 0;
+    }
+
+    .ul_pages a
+    {
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .imi:focus .ul_pages
+    {
+        padding: 5px;
+        height: auto;
+    }
+
+    .imi:hover
+    {
+        background: rgba(0, 0,0, 0) !important;
+    }
+
+
+    .navigation
+    {
+        height: auto;
+    }
+
+
+
+
+    .imi:focus .ul_pages{
+        display: block;
+    }
 
     .nav-top-info
     {
@@ -329,7 +540,23 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    .desktop_item
+    {
+        display: none !important;
+        position: absolute !important;
+        top: -300%;
+    }
   
+
+    .yangi::before,
+    .ariza_btn:before,
+    .faq::before
+    {
+        display: none;
+    }
+
+
 }
 
 @media (max-width: 780px) {

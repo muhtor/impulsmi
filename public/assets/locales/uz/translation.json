@@ -1,10 +1,13 @@
 {
   "name_univer": "Impuls Tibbiyot Instituti",
-  "bosh_sahifa": "Bosh Sahifa",
+  "bosh_sahifa": "IMI haqida",
   "usmle": "USMLE",
   "biz_haqimizda": "Biz Haqimizda",
   "kutibxona": "Kutubxona",
   "aloqa": "Aloqa",
+  "ariza_qoldirish": "Ariza qoldirish",
+  "FAQ": "FAQ",
+  "navtop_location": "Namangan shahar, K.Otamirzayev ko'chasi. 1",
 
   "img_h1_1": "USMLE dasturi asosida faoliyat olib boramiz",
   "img_h1_2": "Gibrit ta'lim - an'anaviy darslar va videoroliklar",
@@ -13,7 +16,9 @@
   "img_h1_5": "10% talaba uchun grant imkoniyati",
 
   "biz_haqimzida_h1": "Impuls Tibbiyot Instituti",
-  "biz_haqimizda_p": "IMPULS tibbiyot instituti tibbiyot sohasida taʻlim berishga moʻljallangan. IMPULS tibbiyot instituti Oʻzbekistonda joylashgan boʻlib, Yevropa va Osiyodagi tibbiyot oliygohlari standartlarini oʻzida mujassamlashtirgan, hamda ta’lim berishning eng zamonaviy va yangicha metodlaridan foydalanadigan institutdir. IMPULS tibbiyot institutida talabalar ingiliz tilida tibbiyot mutaxassisligini mukammal oʻrganib nafaqat Oʻzbekistonda, balki Yevropa va Osiyoda ham ishlash imkoniyatiga ega boʻladilar. Bu institut kredit modul tizimiga asoslangan holda o'qitadi. Zamonaviy oʻqitish tizimi deyilishiga sabab bizning institutda 80% darslar amaliyotga asoslangan holda boʻladi bu esa davlat oliygohlaridan tubdan farq qiladi.",
+  "biz_haqimizda_p-1": "IMPULS tibbiyot instituti tibbiyot sohasida taʻlim berishga moʻljallangan. IMPULS tibbiyot instituti Oʻzbekistonda joylashgan boʻlib, Yevropa va Osiyodagi tibbiyot oliygohlari standartlarini oʻzida mujassamlashtirgan, hamda ta’lim berishning eng zamonaviy va yangicha metodlaridan foydalanadigan institutdir.",
+  "biz_haqimizda_p-2": "IMPULS tibbiyot institutida talabalar ingiliz tilida tibbiyot mutaxassisligini mukammal oʻrganib nafaqat Oʻzbekistonda, balki Yevropa va Osiyoda ham ishlash imkoniyatiga ega boʻladilar. Bu institut kredit modul tizimiga asoslangan holda o'qitadi.",
+  "biz_haqimizda_p-3": "Zamonaviy oʻqitish tizimi deyilishiga sabab bizning institutda 80% darslar amaliyotga asoslangan holda boʻladi bu esa davlat oliygohlaridan tubdan farq qiladi.",
   "biz_haqimizda_btn": "Biz haqimizda batafsil",
 
   "impuls_box_h1_1": "IMPULS",

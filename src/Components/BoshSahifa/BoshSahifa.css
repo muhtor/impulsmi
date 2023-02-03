@@ -18,80 +18,9 @@
 }
 
 
-.loader
-{
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    background: rgba(0, 0, 0, 0.322);
-    backdrop-filter: blur(70px);
-    width: 100%;
-    height: 100vh;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s!important;
-}
-
-.loader img, .shadow
-{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    transition: .5s;
-}
-
-.loader img
-{
-    z-index: 1;
-    width: 250px;
-}
-
-.shadow
-{
-    height: 300px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px var(--fff);
-    animation: load 5s infinite alternate;
-    background: #fff;
-}
 
 
 
-.loader.active
-{
-    visibility: visible;
-    opacity: 1;
-    z-index: 999;
-}
-
-
-@keyframes load {
-    0%
-    {
-        box-shadow: 0 0 10px var(--fff);
-    }
-    50%
-    {
-        box-shadow: 0 0px 10px var(--fff),
-        0 0px 20px var(--fff),
-        0 0px 30px var(--fff),
-        0 0px 50px var(--fff),
-        0 0px 150px var(--fff),
-        0 0px 200px var(--fff);
-    }
-    100%
-    {
-        box-shadow: 0 0 10px var(--fff),
-        0 0px 20px var(--fff),
-        0 0px 30px var(--fff),
-        0 0px 50px var(--fff),
-        0 0px 20px var(--fff),
-        0 0px 150px var(--fff);
-    }
-}
 
 
 
@@ -207,31 +136,6 @@ header .img {
 
 
 
-.litsensiya
-{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../../imgs/litsenziya.jpg);
-    background-size: cover;
-}
-
-.lit_1, .lit_2
-{
-    width: 40%;
-    height: 70%;
-}
-
-.lit_1 img, .lit_2 img
-{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 
 
@@ -297,11 +201,11 @@ header .img {
 /* biz haqimizda ============================= */
 
 .biz-haqimizda {
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 3%;
+    padding: 50px 3%;
     position: relative;
     z-index: 2;
     overflow: hidden ;
@@ -315,6 +219,8 @@ header .img {
 .bizhaqimzida-img
 {
     width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .bizhaqimzida-img img
@@ -330,8 +236,35 @@ header .img {
     line-height: 25px;
 }
 
+.bizhaqimizda-text h1
+{
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-left: 44px;
+    position: relative;
+    color: var(--gb-color);
+}
+
+.bizhaqimizda-text h1:before
+{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: var(--gb-color);
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
+.bizhaqimizda-text h3{
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: 20px;
+    color: var(--gb-color);
+}
 
 .biz-haqimizda a
 {

@@ -5,15 +5,16 @@ import Img2 from '../../imgs/2.jpg';
 import Img3 from '../../imgs/3.jpg';
 import Img4 from '../../imgs/4.jpg';
 import Img5 from '../../imgs/5.jpg';
-import logo from '../../imgs/new logo.png';
 
-import bizhaqimizdaImg from '../../imgs/bizhaqimizda img1.png';
+import bizhaqimizdaImg from '../../imgs/bizhaqimizda img1.jpg';
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
 import logoImg from '../../imgs/new logo.png';
 
+
+import {BsPatchCheck} from 'react-icons/bs'
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -44,17 +45,8 @@ function BoshSahifa() {
 
 
   const [nav, setNav] = useState(false);
-  const [loader, setLoader] = useState(false);
 
-
-    useEffect(() => {
-      setLoader(false);
-          
-      setTimeout(() => {
-        setLoader(true);
-      }, 5000);
-
-    }, [])
+   
     
 
     useEffect(() => {
@@ -103,10 +95,6 @@ function BoshSahifa() {
     return (
       <>
 
-      <div className={loader ? "loader" : "loader active"}>
-        <img src={logoImg} alt="" />
-        <div className='shadow'></div>
-      </div>
 
         <header id="boshSahifa">
           <div className="img imgs-0 active">
@@ -130,18 +118,9 @@ function BoshSahifa() {
             <img src={Img5} alt=""></img>
           </div>
         </header>
+       
 
-        {/* <div className="litsensiya">
-            <div className="lit_1">
-              <img src={lit1} alt="" />
-            </div>
-            <div className="lit_2">
-              <img src={lit2} alt="" />
-            </div>
-          </div> */}
-
-        <div
-          className="biz-haqimizda reveal section"
+        <div className="biz-haqimizda reveal section"
           id="bizHaqimizda"
           initial="hidden"
           whileInView="visible"
@@ -149,10 +128,15 @@ function BoshSahifa() {
         >
           <div className="bizhaqimizda-text">
             <h1 className="reveal-text" custom={0} variants={TextAnimation}>
-              {t("biz_haqimzida_h1")}
+              {t("biz_haqimizda")}
             </h1>
+            <h3 className="reveal-text" custom={0} variants={TextAnimation}>
+            IMPULS TIBBIYOT INSTITUTI OILASI
+            </h3>
             <p custom={1} variants={TextAnimation} className="reveal-text">
-              {t("biz_haqimizda_p")}
+              {t("biz_haqimizda_p-1")} <br /> <br />
+              {t("biz_haqimizda_p-2")} <br /> <br />
+              {t("biz_haqimizda_p-3")}
             </p>
             <Link onClick={upBtnF} to="/bizhaqimizda" className="btn">
               {t("biz_haqimizda_btn")}
@@ -168,6 +152,34 @@ function BoshSahifa() {
             <img src={bizhaqimizdaImg} alt="" />
           </div>
         </div>
+
+        {/* <div className="avzalliklar">
+          <div>
+            <BsPatchCheck />
+            <h2>USMLE</h2>
+            <p>USMLE dasturi asosida faoliyat olib boramiz</p>
+          </div>
+          <div>
+            <BsPatchCheck />
+            <h2>Gibrid ta`lim</h2>
+            <p>Gibrit ta'lim - an'anaviy darslar va videoroliklar</p>
+          </div>
+          <div>
+            <BsPatchCheck />
+            <h2>Ta`lim barchaga</h2>
+            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
+          </div>
+          <div>
+            <BsPatchCheck />
+            <h2>Ta`lim barchaga</h2>
+            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
+          </div>
+          <div>
+            <BsPatchCheck />
+            <h2>Ta`lim barchaga</h2>
+            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
+          </div>
+        </div> */}
 
         <div className="usmle">
           <div className="usmle_box">
@@ -196,7 +208,7 @@ function BoshSahifa() {
             <h1>{t("impuls_box_h1_1")}</h1>
             <p>{t("impuls_box_p_1")}</p>
           </div>
-
+          
           <div
             className="impuls-box"
             initial={{ y: 100, opacity: 0 }}
