@@ -431,13 +431,18 @@
         background: var(--gb-color);
     }
 
+    .navbar.active
+    {
+        width: 97%;
+    }
+
     .navigation
     {
         position: fixed;
         left: 0;
-        top: -100%;
+        top: -100vh;
         width: 100%!important;
-        height: 0 !important;
+        height: auto !important;
         border-radius: 10px;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.281);
@@ -455,8 +460,7 @@
 
     .navigation.active
     {
-        top: 0;
-        height: 90vh !important;
+        top:0;
     }
 
 
