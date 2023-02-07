@@ -12,6 +12,10 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
+
+import navbar_brand from '../../imgs/navbar-brand.png'
+
+
 const languages = [
   {
     language: 'uz',
@@ -52,6 +56,26 @@ function Navbar() {
         nav ? setNav(false) : setNav(true);
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+    }
+
+
+    function visible_menu(e) {
+      let ul_menu_1 = document.querySelector('.ul_menu_1')
+      let ul_menu_2 = document.querySelector('.ul_menu_2')
+      let ul_menu_3 = document.querySelector('.ul_menu_3')
+      if (e.target.parentElement.className === 'imi') {
+        ul_menu_1.className === 'ul_menu_1 active' ?
+        ul_menu_1.className = "ul_menu_1" : 
+        ul_menu_1.className ="ul_menu_1 active";
+      } else if(e.target.parentElement.className === 'tuzilma'){
+        ul_menu_2.className === 'ul_menu_2 active' ?
+        ul_menu_2.className = "ul_menu_2" : 
+        ul_menu_2.className ="ul_menu_2 active";
+      } else if(e.target.parentElement.className === 'talabalar'){
+        ul_menu_3.className === 'ul_menu_3 active' ?
+        ul_menu_3.className = "ul_menu_3" : 
+        ul_menu_3.className ="ul_menu_3 active";
+      } 
     }
 
 
@@ -157,7 +181,11 @@ function Navbar() {
           <div className="nav">
             <div className="navbar-brand">
               <Link onClick={upBtnF} to="/">
-                <h1>{t("name_univer")}</h1>
+                <img src={navbar_brand} alt="" />
+                <div>
+                  <p>IMPULS</p>
+                  <p>TIBBIYOT INSTITUTI</p>
+                </div>
               </Link>
               <div
                 className={nav ? "menu active" : "menu"}
@@ -170,25 +198,53 @@ function Navbar() {
             </div>
 
             <ul className={nav ? "navigation active" : "navigation"}>
-              <li className='imi'>
-                <Link className='desktop_item'>
+              <li className='imi' onClick={(e) => visible_menu(e)}>
+                <Link>
                   {t("bosh_sahifa")}
                   <IoIosArrowDown />
                 </Link>
-                  <div className="ul_pages">
-                      <Link onClick={changePages} to="/bizhaqimizda" href="#">{t("bosh_sahifa")}</Link>
-                      <Link className='yangi' to="/" onClick={changePages} href="#">Struktura</Link>
-                      <Link className='yangi' to="/" onClick={changePages} href="#">O'quv binosi</Link>
-                  </div>
+                <div className="ul_menu_1">
+                  <li><a href="#">IMI haqida</a></li>
+                  <li><a href="#">Struktura</a></li>
+                  <li><a href="#">O'quv binosi</a></li>
+                  <li><a href="#">Yotoqxona</a></li>
+                </div>
+              </li>
+              <li className="tuzilma" onClick={(e) => visible_menu(e)}>
+                <Link>
+                  Tuzilma
+                  <IoIosArrowDown />
+                </Link>
+                <div className="ul_menu_2">
+                  <li><a href="#">Institut nizomi</a></li>
+                  <li><a href="#">Rektorat</a></li>
+                  <li><a href="#">Institut kengashi</a></li>
+                  <li><a href="#">Rekvizitlar</a></li>
+                  <li><a href="#">Tuzilma</a></li>
+                  <li><a href="#">Fakultetlar</a></li>
+                  <li><a href="#">Markaz va Bo'limlar</a></li>
+                </div>
+              </li>
+              <li className='talabalar' onClick={(e) => visible_menu(e)}>
+                <Link>
+                  Talabalar
+                  <IoIosArrowDown />
+                </Link>
+                <div className="ul_menu_3">
+                  <li><a href="#">EVEREST TEAM</a></li>
+                  <li><a href="#">Iqtidorli talabalar</a></li>
+                  <li><a href="#">Dars jadvali</a></li>
+                  <li><a href="#">Online ta'lim</a></li>
+                </div>
               </li>
               <li>
-                <Link onClick={changePages} to="/usmle">
-                  {t("usmle")}
+                <Link>
+                  Yangiliklar
                 </Link>
               </li>
               <li>
-                <Link onClick={changePages} to="/kutubxona">
-                  {t("kutibxona")}
+                <Link onClick={changePages} to="/aloqa">
+                  Kutubxona
                 </Link>
               </li>
               <li>

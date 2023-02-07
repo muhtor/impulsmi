@@ -47,7 +47,7 @@
 }
 
 .nav-top-info.active {
-    width: 94%;
+    width: 99%;
 }
 
 .nav-top-info span {
@@ -115,12 +115,6 @@
     
 }
 
-
-
-.name-univer
-{
-    font-size: .9em;
-}
 
 .email-univer a
 {
@@ -213,28 +207,22 @@
 }
 
 
-
-.ul_pages
+.navbar-brand a
 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-30%);
-    top: 85%;
-    background: var(--gb-color);
-    border-radius: 8px;
-    padding: 5px;
-    width: 150px;
-    overflow: hidden;
-    transition: .5s;
-    display: none;
-    color: var(--gb-color);
+    display: flex !important;
+    align-items: flex-end;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.navbar-brand img
+{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 5px;
 }
 
-.ul_pages a:hover
-{
-    background:#fff !important;
-    color: #fff;
-}
+
 
 .ariza_btn
 {
@@ -351,6 +339,26 @@
 
 
 
+.ul_menu_1,
+.ul_menu_2,
+.ul_menu_3
+{
+    position: absolute;
+    background: blue;
+    padding: 10px 0;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.ul_menu_1.active,
+.ul_menu_2.active,
+.ul_menu_3.active
+{
+    visibility: visible;
+    opacity: 1;
+}
 
 
 
@@ -442,7 +450,7 @@
         left: 0;
         top: -100vh;
         width: 100%!important;
-        height: auto !important;
+        height: 90vh !important;
         border-radius: 10px;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.281);
@@ -456,6 +464,12 @@
         transition: .5s;
         backdrop-filter: blur(80px);
         box-shadow: 0 0 30px rgba(255, 255, 255, 0.918);
+        overflow-y: scroll;
+    }
+
+    .navigation::-webkit-scrollbar
+    {
+        display: none;
     }
 
     .navigation.active
@@ -476,56 +490,61 @@
     }
     
 
-    .imi a
+    .imi a,
+    .tuzilma a,
+    .talabalar a
     {
         display: flex !important;
-        align-items: center;
+        align-items: center !important;
         text-align: center;
     }
 
 
+   
 
-    .ul_pages
-    {
-        background: rgba(0, 0, 0, 0);
-        z-index: 1;
-        width: 100%;
-        position: static;
-        display: block;
-        transform: translateX(0);
-        text-align: center;
-        padding: 0;
-    }
-
-    .ul_pages a
-    {
-        text-align: center !important;
-        width: 100%;
-    }
-
-    .imi:focus .ul_pages
-    {
-        padding: 5px;
-        height: auto;
-    }
-
+   
     .imi:hover
     {
         background: rgba(0, 0,0, 0) !important;
     }
 
 
-    .navigation
+
+
+    .ul_menu_1,
+    .ul_menu_2,
+    .ul_menu_3
+    {
+        position: static;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        background: #ffffff00;
+        line-height: 30px;
+    }
+
+
+    .ul_menu_1.active,
+    .ul_menu_2.active,
+    .ul_menu_3.active
     {
         height: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .ul_menu_1 li a,
+    .ul_menu_2 li a,
+    .ul_menu_3 li a
+    {
+        padding: 0 10px !important;
+        margin: 0;
     }
 
 
-
-
-    .imi:focus .ul_pages{
-        display: block;
-    }
 
     .nav-top-info
     {
@@ -544,13 +563,7 @@
         align-items: center;
         justify-content: space-between;
     }
-
-    .desktop_item
-    {
-        display: none !important;
-        position: absolute !important;
-        top: -300%;
-    }
+ 
   
 
     .yangi::before,
@@ -570,6 +583,7 @@
         flex-direction: column;
         height: 23vh;
     }
+
     .nav-top-info span
     {
         padding: 10px 20px;
@@ -659,5 +673,25 @@
     .navbar.active
     {
         padding: 0 !important;
+    }
+
+    .navbar-brand p
+    {
+        font-size: .8em;
+    }
+    .navbar-brand img
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-brand a
+    {
+        align-items: center !important;
+    }
+
+    .navigation
+    {
+        padding: 10px !important;
     }
 }
