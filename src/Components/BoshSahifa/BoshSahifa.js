@@ -12,9 +12,9 @@ import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
 import logoImg from '../../imgs/new logo.png';
+import impuls_img from '../../imgs/impuls.jpg';
 
 
-import {BsPatchCheck} from 'react-icons/bs'
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -126,17 +126,17 @@ function BoshSahifa() {
           whileInView="visible"
           viewport={{ amount: 0.2 }}
         >
+          
           <div className="bizhaqimizda-text">
             <h1 className="reveal-text" custom={0} variants={TextAnimation}>
               {t("biz_haqimizda")}
             </h1>
             <h3 className="reveal-text" custom={0} variants={TextAnimation}>
-            IMPULS TIBBIYOT INSTITUTI OILASI
+            IMPULS TIBBIYOT INSTITUTI
             </h3>
             <p custom={1} variants={TextAnimation} className="reveal-text">
               {t("biz_haqimizda_p-1")} <br /> <br />
               {t("biz_haqimizda_p-2")} <br /> <br />
-              {t("biz_haqimizda_p-3")}
             </p>
             <Link onClick={upBtnF} to="/bizhaqimizda" className="btn">
               {t("biz_haqimizda_btn")}
@@ -144,12 +144,8 @@ function BoshSahifa() {
           </div>
           <div
             className="bizhaqimzida-img"
-            initial={{ y: 200, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ amount: 0.2 }}
           >
-            <img src={bizhaqimizdaImg} alt="" />
+            <img src={impuls_img} alt="" />
           </div>
         </div>
 

@@ -52,10 +52,20 @@ function Navbar() {
         lng ? setLng(false) : setLng(true);
     }
 
-    function changePages() {
+    function changePages(e) {
         nav ? setNav(false) : setNav(true);
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+    }
+
+
+
+    function ul_menu(e){
+      document.querySelector('.ul_menu_3').classList.remove('active');
+      e.target.parentElement.parentElement.classList.remove('active');
+      
+
+
     }
 
 
@@ -67,15 +77,25 @@ function Navbar() {
         ul_menu_1.className === 'ul_menu_1 active' ?
         ul_menu_1.className = "ul_menu_1" : 
         ul_menu_1.className ="ul_menu_1 active";
+        ul_menu_2.classList.remove('active');
+        ul_menu_3.classList.remove('active');
       } else if(e.target.parentElement.className === 'tuzilma'){
         ul_menu_2.className === 'ul_menu_2 active' ?
         ul_menu_2.className = "ul_menu_2" : 
         ul_menu_2.className ="ul_menu_2 active";
+        ul_menu_1.classList.remove('active');
+        ul_menu_3.classList.remove('active');
       } else if(e.target.parentElement.className === 'talabalar'){
         ul_menu_3.className === 'ul_menu_3 active' ?
         ul_menu_3.className = "ul_menu_3" : 
         ul_menu_3.className ="ul_menu_3 active";
-      } 
+        ul_menu_1.classList.remove('active');
+        ul_menu_2.classList.remove('active');
+      } else{
+        ul_menu_1.classList.remove('active');
+        ul_menu_2.classList.remove('active');
+        ul_menu_3.classList.remove('active');
+      }
     }
 
 
@@ -203,11 +223,13 @@ function Navbar() {
                   {t("bosh_sahifa")}
                   <IoIosArrowDown />
                 </Link>
-                <div className="ul_menu_1">
-                  <li><a href="#">IMI haqida</a></li>
-                  <li><a href="#">Struktura</a></li>
-                  <li><a href="#">O'quv binosi</a></li>
-                  <li><a href="#">Yotoqxona</a></li>
+                <div className="ul_menu_1 ul_menu">
+                  <li><Link onClick={ul_menu} href="#">IMI haqida</Link></li>
+                  {/* <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">IMI haqida</Link></li> */}
+                  <li><Link onClick={ul_menu} href="#">Struktura</Link></li>
+                  {/* <li><Link to="/struktura" onClick={ul_menu} href="#">Struktura</Link></li> */}
+                  <li><a onClick={ul_menu} href="#">O'quv binosi</a></li>
+                  <li><a onClick={ul_menu} href="#">Yotoqxona</a></li>
                 </div>
               </li>
               <li className="tuzilma" onClick={(e) => visible_menu(e)}>
@@ -215,14 +237,14 @@ function Navbar() {
                   Tuzilma
                   <IoIosArrowDown />
                 </Link>
-                <div className="ul_menu_2">
-                  <li><a href="#">Institut nizomi</a></li>
-                  <li><a href="#">Rektorat</a></li>
-                  <li><a href="#">Institut kengashi</a></li>
-                  <li><a href="#">Rekvizitlar</a></li>
-                  <li><a href="#">Tuzilma</a></li>
-                  <li><a href="#">Fakultetlar</a></li>
-                  <li><a href="#">Markaz va Bo'limlar</a></li>
+                <div className="ul_menu_2 ul_menu">
+                  <li><a onClick={ul_menu} href="#">Institut nizomi</a></li>
+                  <li><a onClick={ul_menu} href="#">Rektorat</a></li>
+                  <li><a onClick={ul_menu} href="#">Institut kengashi</a></li>
+                  <li><a onClick={ul_menu} href="#">Rekvizitlar</a></li>
+                  <li><a onClick={ul_menu} href="#">Tuzilma</a></li>
+                  <li><a onClick={ul_menu} href="#">Fakultetlar</a></li>
+                  <li><a onClick={ul_menu} href="#">Markaz va Bo'limlar</a></li>
                 </div>
               </li>
               <li className='talabalar' onClick={(e) => visible_menu(e)}>
@@ -230,11 +252,11 @@ function Navbar() {
                   Talabalar
                   <IoIosArrowDown />
                 </Link>
-                <div className="ul_menu_3">
-                  <li><a href="#">EVEREST TEAM</a></li>
-                  <li><a href="#">Iqtidorli talabalar</a></li>
-                  <li><a href="#">Dars jadvali</a></li>
-                  <li><a href="#">Online ta'lim</a></li>
+                <div className="ul_menu_3 ul_menu">
+                  <li><a href="#" onClick={ul_menu}>EVEREST TEAM</a></li>
+                  <li><a onClick={ul_menu} href="#">Iqtidorli talabalar</a></li>
+                  <li><a onClick={ul_menu} href="#">Dars jadvali</a></li>
+                  <li><a onClick={ul_menu} href="#">Online ta'lim</a></li>
                 </div>
               </li>
               <li>
