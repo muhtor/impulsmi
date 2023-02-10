@@ -63,9 +63,7 @@ function Navbar() {
     function ul_menu(e){
       document.querySelector('.ul_menu_3').classList.remove('active');
       e.target.parentElement.parentElement.classList.remove('active');
-      
-
-
+      upBtnF();
     }
 
 
@@ -224,10 +222,8 @@ function Navbar() {
                   <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_1 ul_menu">
-                  <li><Link onClick={ul_menu} href="#">IMI haqida</Link></li>
-                  {/* <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">IMI haqida</Link></li> */}
-                  <li><Link onClick={ul_menu} href="#">Struktura</Link></li>
-                  {/* <li><Link to="/struktura" onClick={ul_menu} href="#">Struktura</Link></li> */}
+                  <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">IMI haqida</Link></li>
+                  <li><Link to="/" onClick={ul_menu} href="#">Struktura</Link></li>
                   <li><a onClick={ul_menu} href="#">O'quv binosi</a></li>
                   <li><a onClick={ul_menu} href="#">Yotoqxona</a></li>
                 </div>
@@ -244,7 +240,7 @@ function Navbar() {
                   <li><a onClick={ul_menu} href="#">Rekvizitlar</a></li>
                   <li><a onClick={ul_menu} href="#">Tuzilma</a></li>
                   <li><a onClick={ul_menu} href="#">Fakultetlar</a></li>
-                  <li><a onClick={ul_menu} href="#">Markaz va Bo'limlar</a></li>
+                  <li><Link onClick={ul_menu} to="/markaz">Markaz va Bo'limlar</Link></li>
                 </div>
               </li>
               <li className='talabalar' onClick={(e) => visible_menu(e)}>

@@ -1,9 +1,9 @@
 import React from "react";
-import './Struktura.css';
+import './Markaz.css';
 import {Link} from 'react-router-dom';
 
 
-function Struktura() {
+function Markaz() {
     return(
         <>
             <div className="struktura_wrapper">
@@ -14,10 +14,6 @@ function Struktura() {
                     <h1>INSTITUT TASHKILIY TUZILISHI VA BO‘LINMALARNING VAZIFALARI</h1>
                 </div>
                 <div className="struktura">
-                    <div>
-                        <h3>Rektorat</h3>
-                        <p>Universitening umumiy akademik, ilmiy-ishlab chiqarish, xo‘jalik va moliyaviy faoliyatini tashkil etish, nazorat qilish va boshqarish.</p>
-                    </div>
                     <div>
                         <h3>Huquqiy taʼminot bo‘limi</h3>
                         <p>Universitetda qonun ustuvorligi va qonuniylikni taʼminlash, normativ-huquqiy hujjatlar bilan taʼminlash, tayyorlanayotgan hujjatlarning qonunchilikka muvofiqligi ustidan huquqiy nazoratni o‘rnatish hamda shartnomaviy-huquqiy va talabnoma-daʼvo ishlarini yuritish</p>
@@ -56,4 +52,4 @@ function Struktura() {
     )
 }
 
-export default Struktura;
+export default Markaz;

@@ -7,8 +7,6 @@ footer
 {
     padding: 50px 1%;
     width: 100%;
-    /* height: 70vh; */
-    display: none;
 }
 
 .footer_wrapper
@@ -145,5 +143,35 @@ footer
 
 
 
+@media (max-width: 1050px) {
+     .footer_wrapper .footer_boxs
+     {
+        padding: 0;
+     }
 
+}
+
+
+@media (max-width: 950px) {
+     .footer_wrapper .footer_boxs
+     {
+        padding: 10px;
+     }
+
+     .footer_wrapper
+     {
+        flex-direction: column;
+     }
+
+     .footer_boxs
+     {
+        width: 100% !important;
+     }
+
+     .footer_logo_div
+     {
+        align-items: flex-end;
+     }
+
+}
 
