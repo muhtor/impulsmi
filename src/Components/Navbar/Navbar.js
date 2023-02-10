@@ -241,7 +241,8 @@ function Navbar() {
                   <li><a onClick={ul_menu} to="/">Rekvizitlar</a></li>
                   <li><a onClick={ul_menu} to="/">Tuzilma</a></li>
                   <li><a onClick={ul_menu} to="/">Fakultetlar</a></li>
-                  <li><Link onClick={ul_menu} to="/markaz">Markaz va Bo'limlar</Link></li>
+                  {/* <li><Link onClick={ul_menu} to="/markaz">Markaz va Bo'limlar</Link></li> */}
+                  <li><Link onClick={ul_menu} to="/">Markaz va Bo'limlar</Link></li>
                 </div>
               </li>
               <li className='talabalar' onClick={(e) => visible_menu(e)}>
