@@ -34,7 +34,7 @@
 
 .rektorat_banner h1
 {
-    font-size: 4.5em;
+    font-size: 3.5em;
     width: 70%;
     text-align: center;
 }
@@ -121,10 +121,22 @@
 
 
 @media (max-width: 676px) {
-    .rektorat_banner h1
+    .rektorat h1
     {
-        font-size: 1.2em;
+        font-size: 1em !important;
     }
+
+    .m_faoliyati h1
+    {
+        font-size: 1.5em !important;
+    }
+
+
+    .m_faoliyati p
+    {
+        font-size: .9em;
+    }
+
 
     .rektorat
     {
@@ -143,7 +155,7 @@
 
     .rektorat-img
     {
-        height: 80vh;
+        height: 50vh;
         margin-bottom: 20px;
     }
 
