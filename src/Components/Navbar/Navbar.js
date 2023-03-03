@@ -229,7 +229,7 @@ function Navbar() {
 
             <ul className={nav ? "navigation active" : "navigation"}>
             <li>
-              <Link onClick={ul_menu} to="/bizhaqimizda">{t("biz_haqimizda")}</Link>
+              <Link to="/bizhaqimizda">{t("biz_haqimizda")}</Link>
               </li>
               {/* <li className='imi' onClick={(e) => visible_menu(e)}>
                 <Link>
@@ -251,8 +251,8 @@ function Navbar() {
                   <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_2 ul_menu">
-                  <li><Link onClick={ul_menu} to="/nizom">{t("imi_nizom")}</Link></li>
-                  <li><Link onClick={ul_menu} to="/rektorat">{t("rektorat")}</Link></li>
+                  <li><Link to="/nizom">{t("imi_nizom")}</Link></li>
+                  <li><Link to="/rektorat">{t("rektorat")}</Link></li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
@@ -274,7 +274,7 @@ function Navbar() {
                 </div>
               </li> */}
               <li>
-              <Link onClick={ul_menu} to="/rektorat">{t("rektorat")}</Link>
+              <Link to="/rektorat">{t("rektorat")}</Link>
               </li>
               <li>
                 <Link onClick={changePages} to="/kutubxona">
