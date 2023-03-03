@@ -1,4 +1,6 @@
 {
+  "impuls": "IMPULS",
+  "impuls_2": "TIBBIYOT INSTITUTI",
   "name_univer": "Impuls Tibbiyot Instituti",
   "bosh_sahifa": "IMI haqida",
   "usmle": "USMLE",
@@ -8,18 +10,25 @@
   "ariza_qoldirish": "Ariza qoldirish",
   "FAQ": "FAQ",
   "navtop_location": "Namangan shahar, K.Otamirzayev ko'chasi. 1",
+  "imi_support": "imi_support",
+  "tuzilma": "Tuzilma",
+  "o'quv_bino": "O'quv bino",
+  "imi_nizom": "Institut nizomi",
+  "rektorat": "Rektorat",
+  "rektor": "Rektor",
+  "kengash": "Institut kengashi",
+  "markaz_bo'lim": "Markaz va bo'limlar",
+  "bosh_sahifa": "BOSH SAHIFA",
 
-  "img_h1_1": "USMLE dasturi asosida faoliyat olib boramiz",
-  "img_h1_2": "Gibrit ta'lim - an'anaviy darslar va videoroliklar",
-  "img_h1_3": "Work and travel Germany - dasturi",
-  "img_h1_4": "Mashg'ulotlar asosan amaliyotdan iborat",
-  "img_h1_5": "10% talaba uchun grant imkoniyati",
+
 
   "biz_haqimzida_h1": "Impuls Tibbiyot Instituti",
-  "biz_haqimizda_p-1": "IMPULS tibbiyot instituti tibbiyot sohasida taʻlim berishga moʻljallangan. IMPULS tibbiyot instituti Oʻzbekistonda joylashgan boʻlib, Yevropa va Osiyodagi tibbiyot oliygohlari standartlarini oʻzida mujassamlashtirgan, hamda ta’lim berishning eng zamonaviy va yangicha metodlaridan foydalanadigan institutdir.",
-  "biz_haqimizda_p-2": "IMPULS tibbiyot institutida talabalar ingiliz tilida tibbiyot mutaxassisligini mukammal oʻrganib nafaqat Oʻzbekistonda, balki Yevropa va Osiyoda ham ishlash imkoniyatiga ega boʻladilar. Bu institut kredit modul tizimiga asoslangan holda o'qitadi.",
-  "biz_haqimizda_p-3": "Zamonaviy oʻqitish tizimi deyilishiga sabab bizning institutda 80% darslar amaliyotga asoslangan holda boʻladi bu esa davlat oliygohlaridan tubdan farq qiladi.",
+  "biz_haqimizda_p-1": "Impuls tibbiyot instituti oʻz oldiga mintaqadagi yetakchi oliy taʼlim muassasasi boʻlish maqsadini amalga oshirish va Oʻzbekiston taraqqiyotiga hissa qoʻshishni maqsad qilgan.",
+  "biz_haqimizda_p-2": "Institutning vazifasi: Mamlakatning tibbiyot hodimlariga boʻlgan talabini hisobga olib, yetarli miqdordagi talabalarni oʻqitish, professional kadrlar tayyorlash boʻyicha yechimlar taklif qilish, yangi taʼlim texnologiyalarini ishlab chiqarish va taʼlim-tarbiya tamoyillarini ishlab chiqish. Impuls tibbiyot instituti turli mamlakatlardan kelgan talabalarga xalqaro miqyosda tan olingan standartlarda ta’lim beradi.",
+  "biz_haqimizda_p-3": "O‘quv jarayoni yetakchi xalqaro ilmiy-tadqiqot muassasalari jumladan tibbiyot yo‘nalishidagi va xorijda mehnat qilayotgan yurtdoshlarimiz bilan hamkorlikda olib borilmoqda. O‘qish ingliz va oʻzbek tilida bo‘lib, 6 yil davom etadi. Bitiruvchilarga oliy ma’lumot toʻgʻrisidagi diplom beriladi. Impuls instituti mas’uliyatni yaxshi biladi, oʻz kuchi va imkoniyatini talabalar va professor-o‘qituvchilar birgalikda samarali tadqiqot olib borishlari mumkin bo‘lgan intellektual muhitni yaratishga bag‘ishlaydi. Institut oʻz talabalariga eng zamonaviy va eng sifatli taʻlimni taklif qilishni maqsad qilgan. Institutni ushbu uzoq ta’lim yo‘liga qadam qo‘ygan har bir talaba o‘z bilimlari bilan to‘liq ta’minlangan shaxs sifatida bitiradi",
+  "biz_haqimizda_p-4": "Impuls instituti bu mas’uliyatni yaxshi biladi va o‘zini talabalar va professor-o‘qituvchilar birgalikda samarali va samarali tadqiqot olib borishlari mumkin bo‘lgan intellektual muhitni yaratishga bag‘ishlaydi. Institut o'z talabalariga eng zamonaviy va eng sifatli ta'limni taklif qilishni maqsad qilgan. Institutimizda ushbu uzoq ta’lim yo‘liga qadam qo‘ygan har bir talaba o‘z bilimlari bilan to‘liq ta’minlangan va to‘liq ta’minlangan shaxs sifatida bitiradi.",
   "biz_haqimizda_btn": "Biz haqimizda batafsil",
+
 
   "impuls_box_h1_1": "IMPULS",
   "impuls_box_p_1": "tibbiyot instituti bilan jahon bilimlar eshigini oching.",
@@ -28,6 +37,8 @@
   "impuls_box_h1_3": "Namanganda",
   "impuls_box_p_3": "ilk bor xususiy raqamli tibbiyot instituti.",
 
+
+  
   "ko'p_beriladighan_savollar": "Ko'p Beriladigan Savollar",
   "accordion_section_p": "Impuls Instituti o'qitish, o'rganish va tadqiqot sohasida mukammallikka intiladi. Impuls instituti va uning asoschisi talabalar, xodimlar uchun eng zamonaviy sharoitlarni yaratish ustida astoydil harakat qilmoqda. Bizning maqsadimiz nafaqat O‘zbekistonda balki Markaziy Osiyoda ham eng yaxshi ta’lim va tadqiqot muhitini yaratishdir.",
 
@@ -122,5 +133,46 @@
   "usmle_big_p_8_li_1": "Litsenziyalovchi organlarga shifokorning xususiyatlarini baholash natijasida kelib chiqadigan mazmunli ma'lumotlarni, shu jumladan bemorlarga xavfsiz va samarali yordam ko'rsatish uchun muhim bo'lgan tibbiy bilim, ko'nikma, qadriyatlar va munosabatlarni taqdim eting.",
   "usmle_big_p_8_li_2": "Ushbu baholashlarni ishlab chiqish va ishlab chiqishda sog'liqni saqlash o'qituvchilari va ularning muassasalarini, litsenziyalovchi organlar a'zolarini va amaliyotchi klinisyenlarni jalb qiling.",
   "usmle_big_p_8_li_3": "Eng yuqori professional test standartlari orqali shifokorlarning adolatliligi va tengligini ta'minlash.",
-  "usmle_big_p_8_li_4": "Shifokorlarni yanada aniqroq va har tomonlama baholash uchun litsenziyalash uchun baholashlarni ishlab chiqish va takomillashtirishni davom ettiring."
+  "usmle_big_p_8_li_4": "Shifokorlarni yanada aniqroq va har tomonlama baholash uchun litsenziyalash uchun baholashlarni ishlab chiqish va takomillashtirishni davom ettiring.",
+
+
+
+  "footer_p":"Biz bilan ilmning yuqori cho‘qqilarini egallang va malakali shifokorga aylaning",
+  "fopter_litsenziya":"Litsenziya L-4409568, 09.11.2022y.",
+  "fakultetlar":"Fakultetlar",
+  "davolash_ishi_fakulteti":"Davolash ishi fakulteti",
+
+  "rektor-name":"Nizomiddinov Shuxratjon Nizommidin o'g'li",
+  "rektor_lavozim":"Impuls Tibbiyot Instituti rektori",
+  "rektor-qabul_kunlari":"Qabul kunlari: Dushanbadan - Shanba, 10:00 - 14:00 gacha",
+  "rektor-tel":"Tel: +998 (91) 601 76 46",
+  "rektor-email":"E-mail: shuhrat.uz@gmail.com",
+  "rektor_mehnat_faoliyati":"Mehnat faoliyati",
+  "r-mh_1":"2016 yil English Life o'quv markazi katta o'qituvchi",
+  "r-mh_2":"2017 yil 6 oilaviy poliklinika umumiy amaliyot shifokori",
+  "r-mh_3":"2018 Logistika xalqaro kompaniya menejeri",
+  "r-mh_4":"2019 Intellect hususiy maktabi asoschi va rahbari",
+  "r-mh_5":"2020 Azim shifo xususiy shifoxona Neyroxirurg nevrpatolog",
+  "r-mh_6":"2021 yil Andijon davlat tibbiyot insitituti Taravamatalogiya va Neyroxirurgiya kafedra asistenti  ",
+  "r-mh_7":"2022 Impuls tibbiyot instituti rektori",
+
+
+  "prorektor_lavozim_1":"O'QUV ISHLARI BO'YICHA PROREKTOR V.V.B",
+  "prorektor-name":"Adilov Sadirbek Adilovich",
+  "prorektor_lavozim":"Mutaxassisligi Ona tili va adabiyoti (Qirg'iz tili va adabiyoti)",
+  "prorektor-qabul_kunlari":"Qabul kunlari: Dushanbadan - Shanbagacha, 08:00 - 17:00 gacha",
+  "prorektor-tel":"Tel: +998 (94) 678 97 00",
+  "prorektor-email":"E-mail: anddupi2@gmail.com",
+  "prorektor_mehnat_faoliyati":"Mehnat faoliyati",
+  "pr-mh_1":"2016 - 2020 yy – Andijon davlat universiteti talabasi",
+  "pr-mh_2":"2020 - 2021 yy – Andijon davlat universiteti filologiya fakulteti uslubchisi",
+  "pr-mh_3":"2021 - 2022 yy - Andijon davlat pedagogika instituti o'quv uslubiy bo'lim boshlig'i o'rinbosari",
+  "pr-mh_4":"2022 - 2023 yy - Impuls Tibbiyot Instituti o'quv uslubiy bo'lim boshlig'i",
+  "pr-mh_5":"2023 - h.v Impuls Tibbiyot Instituti o'quv ishlari bo'yicha prorektor v.v.b"
+
+
+
+
 }
+
+

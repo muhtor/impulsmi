@@ -1,0 +1,135 @@
+
+.kengash_banner
+{
+    width: 100%;
+    height: 80vh;
+    background: url(../../imgs/impuls.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 250, 250);
+}
+
+.kengash_banner p
+{
+    padding: 10px 15px;
+    background: #c0baba59;
+    backdrop-filter: blur(20xp);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.kengash_banner p a
+{
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+    font-size: .9em;
+}
+
+
+.kengash_banner h1
+{
+    font-size: 4.5em;
+    width: 70%;
+    text-align: center;
+}
+
+
+
+.kengash
+{
+    width: 80%;
+    height: auto;
+    background: #fff;
+    transform: translateY(-130px);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 40px 20px; 
+}
+
+
+.kengash h1
+{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.tasdiqlayman
+{
+    margin: 20px 0 20px auto;
+    width: 400px;
+    text-align: center;
+}
+
+.tasdiqlayman h2
+{
+    color: #000;
+}
+
+.kengash div
+{
+    margin-top: 50px;    
+}
+
+
+.kengash p
+{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.kengash p ul li
+{
+    padding: 8px 10px;
+}
+
+table
+{
+    margin: 0 auto;
+    text-align: center; 
+}
+
+tbody
+{
+    text-align: left;
+}
+td
+{
+    padding: 4px 7px;
+}
+
+tbody td
+{
+    font-weight: 400;
+}
+
+thead td
+{
+    font-weight: 800;
+}
+
+.center
+{
+    text-align: center;
+}
+
+
+.kengash_footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.kengash_footer p
+{
+    font-weight: 800;
+    font-size: 1.3em;
+}

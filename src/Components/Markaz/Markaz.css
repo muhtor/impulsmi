@@ -1,10 +1,10 @@
-.struktura_wrapper
+.markaz_wrapper
 {
     width: 100%;
 }
 
 
-.str_banner
+.markaz_banner
 {
     width: 100%;
     height: 80vh;
@@ -18,7 +18,7 @@
     color: blue;
 }
 
-.str_banner p
+.markaz_banner p
 {
     padding: 10px 15px;
     background: #00000059;
@@ -28,7 +28,7 @@
     margin-bottom: 10px;
 }
 
-.str_banner p a
+.markaz_banner p a
 {
     color: #fff;
     border-right: 1px solid #fff;
@@ -37,7 +37,7 @@
 }
 
 
-.str_banner h1
+.markaz_banner h1
 {
     font-size: 2.5em;
     width: 70%;
@@ -47,29 +47,29 @@
 
 
 
-.struktura
+.markaz
 {
     width: 70%;
     background: #fff;
     transform: translateY(-100px);
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 10px;
 }
 
-.struktura div
+.markaz div
 {
     margin-bottom: 40px;
 }
 
 
-.struktura div h3
+.markaz div h3
 {
     transform: translateX(30px);
     position: relative;
 }
 
-.struktura div h3::before
+.markaz div h3::before
 {
     position: absolute;
     content: "";
@@ -82,7 +82,7 @@
     transform: translateY(-50%);
 }
 
-.struktura div p
+.markaz div p
 {
     font-weight: 300 !important;
     color: #000000;

@@ -6,15 +6,33 @@ import Img3 from '../../imgs/3.jpg';
 import Img4 from '../../imgs/4.jpg';
 import Img5 from '../../imgs/5.jpg';
 
-import bizhaqimizdaImg from '../../imgs/bizhaqimizda img1.jpg';
+
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
 import logoImg from '../../imgs/new logo.png';
 import impuls_img from '../../imgs/impuls.jpg';
+import { FaBookMedical } from 'react-icons/fa'
+import { IoMdPaper } from 'react-icons/io'
+import { RiDraftLine } from 'react-icons/ri'
+import { IoLanguage } from 'react-icons/io5'
 
 
+
+
+import imgbg from '../../imgs/impuls.jpg'
+
+
+import bino1 from '../../imgs/bino imgs/1.jpg'
+import bino2 from '../../imgs/bino imgs/2.jpg'
+import bino3 from '../../imgs/bino imgs/3.jpg'
+import bino4 from '../../imgs/bino imgs/4.jpg'
+import bino5 from '../../imgs/bino imgs/5.jpg'
+import bino6 from '../../imgs/bino imgs/6.jpg'
+import bino7 from '../../imgs/bino imgs/7.jpg'
+import bino8 from '../../imgs/bino imgs/8.jpg'
+import bino9 from '../../imgs/bino imgs/9.jpg'
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -81,14 +99,6 @@ function BoshSahifa() {
     }
 
 
-    function accordion(e) {
-        document.querySelectorAll('.accordion')
-        .forEach(el => el.classList.remove('active'));
-        if (e.target.tagName === 'H1') {
-            e.target.parentElement.parentElement.classList.add("active");
-        }
-        e.target.parentElement.classList.add('active');
-    }
 
   
 
@@ -98,23 +108,18 @@ function BoshSahifa() {
 
         <header id="boshSahifa">
           <div className="img imgs-0 active">
-            <h1>{t("img_h1_1")}</h1>
             <img src={Img1} alt=""></img>
           </div>
           <div className="img imgs-1">
-            <h1>{t("img_h1_2")}</h1>
             <img src={Img2} alt=""></img>
           </div>
           <div className="img imgs-2">
-            <h1>{t("img_h1_3")}</h1>
             <img src={Img3} alt=""></img>
           </div>
           <div className="img imgs-2">
-            <h1>{t("img_h1_4")}</h1>
             <img src={Img4} alt=""></img>
           </div>
           <div className="img imgs-2">
-            <h1>{t("img_h1_5")}</h1>
             <img src={Img5} alt=""></img>
           </div>
         </header>
@@ -132,7 +137,7 @@ function BoshSahifa() {
               {t("biz_haqimizda")}
             </h1>
             <h3 className="reveal-text" custom={0} variants={TextAnimation}>
-            IMPULS TIBBIYOT INSTITUTI
+              {t("biz_haqimzida_h1")}
             </h3>
             <p custom={1} variants={TextAnimation} className="reveal-text">
               {t("biz_haqimizda_p-1")} <br /> <br />
@@ -177,6 +182,30 @@ function BoshSahifa() {
           </div>
         </div> */}
 
+        <div className="avzalliklar">
+          <div>
+            <FaBookMedical />
+            <h4>USMLE dasturi</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repellat!</p>
+          </div>
+          <div>
+            <IoMdPaper />
+            <h4>Gibrid ta'lim</h4>
+            <p>Umumiy video bloklar mavjudligi ya'ni faqatgina ma'ruzaga asoslangan ta'lim emas</p>
+          </div>
+          <div>
+            <RiDraftLine />
+            <h4>Erkin ta'lim</h4>
+            <p>Forma erkinligi, darsda ishtirok etolmagan fanini qayta topshirish yo'qligi</p>
+          </div>
+          <div>
+            <IoLanguage />
+            <h4>Ingiliz tili</h4>
+            <p>Chuqurlashtirilgan ingliz tili kurslari (IELTS)</p>
+          </div>
+        </div>
+
+
         <div className="usmle">
           <div className="usmle_box">
             <h1>{t("about_usmle")}</h1>
@@ -187,14 +216,12 @@ function BoshSahifa() {
           </div>
         </div>
 
+
+
         <div className="impuls">
+
           <div
-            className="impuls-box"
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ amount: 0.2 }}
-            transition={{ duration: 0.8 }}
-          >
+            className="impuls-box">
             <div className="img-impuls-box">
               <div className="img-logo">
                 <img src={logoImg} alt="" />
@@ -206,12 +233,7 @@ function BoshSahifa() {
           </div>
           
           <div
-            className="impuls-box"
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ amount: 0.2 }}
-            transition={{ duration: 0.8 }}
-          >
+            className="impuls-box">
             <div className="img-impuls-box">
               <div className="img-logo">
                 <img src={logoImg} alt="" />
@@ -224,10 +246,6 @@ function BoshSahifa() {
 
           <div
             className="impuls-box"
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ amount: 0.2 }}
-            transition={{ duration: 0.8 }}
           >
             <div className="img-impuls-box">
               <div className="img-logo">
@@ -238,133 +256,62 @@ function BoshSahifa() {
             <h1>{t("impuls_box_h1_3")}</h1>
             <p>{t("impuls_box_p_3")}</p>
           </div>
+
         </div>
 
-        <div className="accordion-section">
-          <h1
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ amount: 0.2 }}
-            transition={{ duration: 0.8 }}
-            className="first"
-          >
-            {t("ko'p_beriladighan_savollar")}
-          </h1>
-          <div className="accordion-box">
-            <div
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ amount: 0.2 }}
-              transition={{ duration: 0.8 }}
-              className="left-menu"
-            >
-              <p>{t("accordion_section_p")}</p>
-            </div>
-            <div
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ amount: 0.2 }}
-              transition={{ duration: 0.8 }}
-              className="right-menu"
-              onClick={accordion}
-            >
-              <div className="accord-box">
-                <div className="accordion active">
-                  <div className="savol-div">
-                    <h1>{t("savol_1")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
+        
+
+        <div className="bino_wrapper">
+
+                <div className="bino">
+
+                    <div className="bino_box">
+                        <div>
+                            <img src={imgbg} alt="" />
+                        </div>
+                        <div>
+                            <h1>Title</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!</p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
+                                </p>
+                        </div>
                     </div>
-                  </div>
-                  <div className="preview ">
-                    <p>{t("javob_1")}</p>
-                  </div>
-                </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_2")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
+
+                    <div className="bino_malumot">
+                        <h1>Title</h1>
+                        <h3>Paragraf ipsum, dolor sit amet consectet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci error quaerat expedita magnam totam, molestiae velit delectus voluptatibus reprehenderit quam dolorem libero quos repellendus suscipit consequuntur ad cupiditate provident.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
+                        </p>
                     </div>
-                  </div>
-                  <div className="preview">
-                    <p>{t("javob_2")}</p>
-                  </div>
-                </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_3")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
+
+                    <div className="bino_imgs">
+                        <div><img src={bino1} alt="" /></div>
+                        <div><img src={bino2} alt="" /></div>
+                        <div><img src={bino3} alt="" /></div>
+                        <div><img src={bino4} alt="" /></div>
+                        <div><img src={bino5} alt="" /></div>
+                        <div><img src={bino6} alt="" /></div>
+                        <div><img src={bino7} alt="" /></div>
+                        <div><img src={bino8} alt="" /></div>
+                        <div><img src={bino9} alt="" /></div>
                     </div>
-                  </div>
-                  <div className="preview">
-                    <p>{t("javob_3")}</p>
-                  </div>
+
                 </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_4")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="preview">
-                    <p>{t("javob_4")}</p>
-                  </div>
-                </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_5")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="preview">
-                    <p>
-                      {t("javob_5")}
-                      <br />
-                      <span>{t("javob_5_span_1")}</span>
-                      <br />
-                      <span>{t("javob_5_span_2")}</span>
-                      <br />
-                      {t("javob_5_span_3")}
-                    </p>
-                  </div>
-                </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_6")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="preview">
-                    <p>{t("javob_6")}</p>
-                  </div>
-                </div>
-                <div className="accordion">
-                  <div className="savol-div">
-                    <h1>{t("savol_7")}</h1>
-                    <div className="plus">
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="preview">
-                    <p>{t("javob_7")}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+           </div>
+
+
+
+
       </>
     );
 }

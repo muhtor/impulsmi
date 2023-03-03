@@ -30,33 +30,33 @@ function Footer() {
         <div className="footer_boxs">
             <div className='footer_logo_div'>
               <img src={navbar_brand} alt="" />
-              <h3>Impuls Tibbiyot Instituti</h3>
+              <h3>{t("name_univer")}</h3>
             </div>
-            <p>Biz bilan ilmning yuqori cho‘qqilarini egallang va malakali shifokorga aylaning</p>
+            <p>{t("footer_p")}</p>
             <div className="litsenziya">
               <img src={lit1} alt="" />
               <img src={lit2} alt="" />
             </div>
-            <p>Litsenziya L-4409568, 09.11.2022y.</p>
+            <p>{t("fopter_litsenziya")}</p>
           </div>
 
           <div className="footer_boxs">
-            <h2>Biz haqimizda</h2>
-            <a href="#">Institut haqida</a>
-            <a href="#">Struktura</a>
-            <a href="#">Yangiliklar</a>
-            <a href="#">Rekvizitlar</a>
-            <a href="#">Yotoqxona</a>
-            <a href="#">Institut nizomi</a>
+            <h2>{t("biz_haqimizda")}</h2>
+            <a href="#">{t("usmle")}</a>
+            <a href="#">{t("o'quv_bino")}</a>
+            <a href="#">{t("imi_nizom")}</a>
+            <a href="#">{t("tuzilma")}</a>
+            <a href="#">{t("rektorat")}</a>
+            <a href="#">{t("kutibxona")}</a>
           </div>
           
           <div className="footer_boxs">
-            <h2>Fakultetlar</h2>
-            <a href="#">Davolash ishi fakulteti</a>
+            <h2>{t("fakultetlar")}</h2>
+            <a href="#">{t("davolash_ishi_fakulteti")}</a>
           </div>
           
           <div className="footer_boxs aloqa">
-              <h2>Aloqa</h2>
+              <h2>{t("aloqa")}</h2>
               <a target="_blank" href='https://goo.gl/maps/QEviBtDeDuxLpc148'>
                 <RiBuilding2Fill />
                 {t("navtop_location")}
@@ -74,7 +74,7 @@ function Footer() {
 
               <a target="_blank" href="https://t.me/IMI_qabul">
                 <BsChatText />
-                imi_support
+                {t("imi_support")}
                 </a>
               <div>
               <a target="_blank" href="https://t.me/impulsmi_uz">

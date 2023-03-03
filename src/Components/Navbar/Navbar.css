@@ -11,7 +11,7 @@
     top: 0;
     transform: translateX(-50%);
     width: 100%;
-    background: rgba(0, 0, 0, 0.384);
+    background: rgba(230, 221, 221, 0.281);
 }
 
 .navbar.active {
@@ -22,7 +22,7 @@
     transform: translateX(-50%);
     z-index: 2;
     z-index: 1000;
-    background: rgba(28, 28, 31, 0.39);
+    background: rgba(63, 59, 59, 0.39);
     /* background: rgba(0, 0, 250, 0.479); */
     /* background: var(--gb-color); */
     padding: 8px 10px 10px 10px !important;
@@ -253,21 +253,7 @@
     animation: news 4s alternate infinite;
     color: #fff;
 }
-.faq::before
-{
-    content: "Tez kunda";
-    position: absolute;
-    padding: 2px 4px;
-    font-size: 8px;
-    background: rgb(5, 238, 168);
-    color: blue;
-    right: -40%;
-    transform: translateX(-50%);
-    top: -6px;
-    border-radius: 3px;
-    animation: news 4s alternate infinite;
-    color: #fff;
-}
+
 
 .yangi{
     position: relative;

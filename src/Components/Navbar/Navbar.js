@@ -36,7 +36,6 @@ const languages = [
 
 
 
-
 function Navbar() {
 
   const { t } = useTranslation();
@@ -58,6 +57,8 @@ function Navbar() {
         document.documentElement.scrollTop = 0;
     }
 
+
+    
 
 
     function ul_menu(e){
@@ -113,7 +114,7 @@ function Navbar() {
     }
 
     useEffect(() => {
-      document.querySelectorAll(".lng-uz").forEach(el => el.classList.add('active'));
+      document.querySelectorAll(".lng-en").forEach(el => el.classList.add('active'));
     }, []);
 
     function changeLng(e) {
@@ -149,7 +150,7 @@ function Navbar() {
             <span className='nav_top_spans'>
               <a target="_blank" href="https://t.me/IMI_qabul">
                 <BsChatText />
-                imi_support
+                {t("imi_support")}
                 </a>
             </span>
 
@@ -201,8 +202,8 @@ function Navbar() {
               <Link onClick={upBtnF} to="/">
                 <img src={navbar_brand} alt="" />
                 <div>
-                  <p>IMPULS</p>
-                  <p>TIBBIYOT INSTITUTI</p>
+                  <p>{t("impuls")}</p>
+                  <p>{t("impuls_2")}</p>
                 </div>
               </Link>
               <div
@@ -216,36 +217,40 @@ function Navbar() {
             </div>
 
             <ul className={nav ? "navigation active" : "navigation"}>
-              <li className='imi' onClick={(e) => visible_menu(e)}>
+            <li>
+              <Link onClick={ul_menu} to="/bizhaqimizda">{t("biz_haqimizda")}</Link>
+              </li>
+              {/* <li className='imi' onClick={(e) => visible_menu(e)}>
                 <Link>
                   {t("bosh_sahifa")}
                   <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_1 ul_menu">
-                  {/* <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">IMI haqida</Link></li> */}
+                  <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">{t("biz_haqimizda")}</Link></li>
                   <li><Link onClick={ul_menu} to="/">IMI haqida</Link></li>
-                  <li><Link to="/" onClick={ul_menu}>Struktura</Link></li>
-                  <li><a onClick={ul_menu} to="/">O'quv binosi</a></li>
-                  <li><a onClick={ul_menu} to="/">Yotoqxona</a></li>
+                  <li><Link to="/struktura" onClick={ul_menu}>Struktura</Link></li>
+                  <li><Link onClick={ul_menu} to="/bino">{t("o'quv_bino")}</Link></li>
+                  <li><Link onClick={ul_menu} to="/">Yotoqxona</Link></li>
                 </div>
-              </li>
+              </li> */}
+
               <li className="tuzilma" onClick={(e) => visible_menu(e)}>
                 <Link>
-                  Tuzilma
+                {t("tuzilma")}
                   <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_2 ul_menu">
-                  <li><a onClick={ul_menu} to="/">Institut nizomi</a></li>
-                  <li><a onClick={ul_menu} to="/">Rektorat</a></li>
-                  <li><a onClick={ul_menu} to="/">Institut kengashi</a></li>
-                  <li><a onClick={ul_menu} to="/">Rekvizitlar</a></li>
-                  <li><a onClick={ul_menu} to="/">Tuzilma</a></li>
-                  <li><a onClick={ul_menu} to="/">Fakultetlar</a></li>
-                  {/* <li><Link onClick={ul_menu} to="/markaz">Markaz va Bo'limlar</Link></li> */}
-                  <li><Link onClick={ul_menu} to="/">Markaz va Bo'limlar</Link></li>
+                  <li><Link onClick={ul_menu} to="/nizom">{t("imi_nizom")}</Link></li>
+                  <li><Link onClick={ul_menu} to="/rektorat">{t("rektorat")}</Link></li>
+                  {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
+                  {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
+                  {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
+                  {/* <li><Link onClick={ul_menu} to="/">Fakultetlar</Link></li> */}
+                  {/* <li><Link onClick={ul_menu} to="/markaz">{t("markaz_bo'lim")}</Link></li> */}
+                  {/* <li><Link onClick={ul_menu} to="/">Markaz va Bo'limlar</Link></li> */}
                 </div>
               </li>
-              <li className='talabalar' onClick={(e) => visible_menu(e)}>
+              {/* <li className='talabalar' onClick={(e) => visible_menu(e)}>
                 <Link>
                   Talabalar
                   <IoIosArrowDown />
@@ -256,15 +261,18 @@ function Navbar() {
                   <li><a onClick={ul_menu} href="#">Dars jadvali</a></li>
                   <li><a onClick={ul_menu} href="#">Online ta'lim</a></li>
                 </div>
+              </li> */}
+              <li>
+              <Link onClick={ul_menu} to="/rektorat">{t("rektorat")}</Link>
               </li>
               <li>
-                <Link>
-                  Yangiliklar
+                <Link onClick={changePages} to="/kutubxona">
+                {t("kutibxona")}
                 </Link>
               </li>
               <li>
-                <Link onClick={changePages} to="/aloqa">
-                  Kutubxona
+                <Link className='faq' onClick={changePages} to="/faq">
+                  {t("FAQ")}
                 </Link>
               </li>
               <li>
@@ -272,16 +280,11 @@ function Navbar() {
                   {t("aloqa")}
                 </Link>
               </li>
-              <li>
-                <Link className='faq' onClick={changePages} to="/">
-                  {t("FAQ")}
-                </Link>
-              </li>
-              <li>
+              {/* <li>
                 <Link onClick={changePages} to="/" className='ariza_btn'>
                   {t("ariza_qoldirish")}
                 </Link>
-              </li>
+              </li> */}
               <li className='nav_lng' onClick={chnangeLanguages}>
                 <span className="lng-box">
                     {languages.map((lng) => (
@@ -305,6 +308,6 @@ function Navbar() {
         </div>
       </>
     );
-}
+  }
 
 export default Navbar;

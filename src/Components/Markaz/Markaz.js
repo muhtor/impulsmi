@@ -6,14 +6,14 @@ import {Link} from 'react-router-dom';
 function Markaz() {
     return(
         <>
-            <div className="struktura_wrapper">
-                <div className="str_banner">
+            <div className="markaz_wrapper">
+                <div className="markaz_banner">
                     <div>
                         <p><Link to="/">BOSH SAHIFA</Link> ITT VA BV</p>
                     </div>
                     <h1>INSTITUT TASHKILIY TUZILISHI VA BO‘LINMALARNING VAZIFALARI</h1>
                 </div>
-                <div className="struktura">
+                <div className="markaz">
                     <div>
                         <h3>Huquqiy taʼminot bo‘limi</h3>
                         <p>Universitetda qonun ustuvorligi va qonuniylikni taʼminlash, normativ-huquqiy hujjatlar bilan taʼminlash, tayyorlanayotgan hujjatlarning qonunchilikka muvofiqligi ustidan huquqiy nazoratni o‘rnatish hamda shartnomaviy-huquqiy va talabnoma-daʼvo ishlarini yuritish</p>

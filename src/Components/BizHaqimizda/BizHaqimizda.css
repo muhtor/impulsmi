@@ -38,11 +38,12 @@
 {
     z-index: 1;
     color:  var(--fff);
+    text-transform: uppercase;
 }
 
 .banner h1
 {
-    font-size: 4.5em;
+    font-size: 4em;
 }
 
 .banner h2

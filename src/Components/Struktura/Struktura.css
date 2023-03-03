@@ -1,0 +1,63 @@
+
+.struktura_banner
+{
+    width: 100%;
+    height: 80vh;
+    background: url(../../imgs/impuls.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 250, 250);
+}
+
+.struktura_banner p
+{
+    padding: 10px 15px;
+    background: #c0baba59;
+    backdrop-filter: blur(20xp);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.struktura_banner p a
+{
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+    font-size: .9em;
+}
+
+
+.struktura_banner h1
+{
+    font-size: 4.5em;
+    width: 70%;
+    text-align: center;
+}
+
+
+.struktura-img
+{
+    width: 80%;
+    height: 100vh;
+    /* background: #fff; */
+    background: #ffffff75;
+    margin: 0 auto;
+    transform: translateY(-150px);
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    box-shadow: 0 0 10px #ffffff83;
+}
+
+.struktura-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
