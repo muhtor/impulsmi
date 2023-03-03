@@ -29,7 +29,7 @@ function Rektorat() {
                          <h1>{t("rektor")}</h1>
                         <div className="retkorat_box">
                             <div className="rektorat-img">
-                                <img src={rektor_img} alt="" />
+                                <img src={rektor_img} alt="85" />
                             </div>
                             <div className="rektor_info">
                                 <h3>{t("rektor-name")}</h3>
