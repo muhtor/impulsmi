@@ -69,32 +69,43 @@ function Navbar() {
 
 
     function visible_menu(e) {
-      let ul_menu_1 = document.querySelector('.ul_menu_1')
+      // let ul_menu_1 = document.querySelector('.ul_menu_1')
       let ul_menu_2 = document.querySelector('.ul_menu_2')
-      let ul_menu_3 = document.querySelector('.ul_menu_3')
-      if (e.target.parentElement.className === 'imi') {
-        ul_menu_1.className === 'ul_menu_1 active' ?
-        ul_menu_1.className = "ul_menu_1" : 
-        ul_menu_1.className ="ul_menu_1 active";
-        ul_menu_2.classList.remove('active');
-        ul_menu_3.classList.remove('active');
-      } else if(e.target.parentElement.className === 'tuzilma'){
+      // let ul_menu_3 = document.querySelector('.ul_menu_3')
+      // if (e.target.parentElement.className === 'imi') {
+      //   ul_menu_1.className === 'ul_menu_1 active' ?
+      //   ul_menu_1.className = "ul_menu_1" : 
+      //   ul_menu_1.className ="ul_menu_1 active";
+      //   ul_menu_2.classList.remove('active');
+      //   ul_menu_3.classList.remove('active');
+      // } else if(e.target.parentElement.className === 'tuzilma'){
+      //   ul_menu_2.className === 'ul_menu_2 active' ?
+      //   ul_menu_2.className = "ul_menu_2" : 
+      //   ul_menu_2.className ="ul_menu_2 active";
+      //   ul_menu_1.classList.remove('active');
+      //   ul_menu_3.classList.remove('active');
+      // } else if(e.target.parentElement.className === 'talabalar'){
+      //   ul_menu_3.className === 'ul_menu_3 active' ?
+      //   ul_menu_3.className = "ul_menu_3" : 
+      //   ul_menu_3.className ="ul_menu_3 active";
+      //   ul_menu_1.classList.remove('active');
+      //   ul_menu_2.classList.remove('active');
+      // } else{
+      //   ul_menu_1.classList.remove('active');
+      //   ul_menu_2.classList.remove('active');
+      //   ul_menu_3.classList.remove('active');
+      // }
+      
+      if(e.target.parentElement.className === 'tuzilma'){
         ul_menu_2.className === 'ul_menu_2 active' ?
-        ul_menu_2.className = "ul_menu_2" : 
+        ul_menu_2.className = "ul_menu_2" :
         ul_menu_2.className ="ul_menu_2 active";
-        ul_menu_1.classList.remove('active');
-        ul_menu_3.classList.remove('active');
-      } else if(e.target.parentElement.className === 'talabalar'){
-        ul_menu_3.className === 'ul_menu_3 active' ?
-        ul_menu_3.className = "ul_menu_3" : 
-        ul_menu_3.className ="ul_menu_3 active";
-        ul_menu_1.classList.remove('active');
-        ul_menu_2.classList.remove('active');
       } else{
-        ul_menu_1.classList.remove('active');
         ul_menu_2.classList.remove('active');
-        ul_menu_3.classList.remove('active');
       }
+
+
+
     }
 
 
