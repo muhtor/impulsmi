@@ -111,6 +111,11 @@
     display: none;
 }
 
+.desktop-nizom
+{
+    display: none;
+}
+
 
 
 
@@ -146,6 +151,10 @@
         margin: 10px 0;
     }
     
+    .desktop-nizom
+    {
+        display: block;
+    }
 
 }
 
