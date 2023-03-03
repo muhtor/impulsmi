@@ -7,10 +7,10 @@ import './Navbar.css'
 
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
-// import { RiBuilding2Fill } from 'react-icons/ri';
+import { RiBuilding2Fill } from 'react-icons/ri';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
-// import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
 
 import navbar_brand from '../../imgs/navbar-brand.png'
@@ -146,7 +146,7 @@ function Navbar() {
 
           <div className={navbarClass ? "nav-top-info active" : "nav-top-info"}>
             
-            {/* <span className='nav_top_spans'>
+            <span className='nav_top_spans'>
               <a target="_blank" href="https://t.me/impulsmi_uz">
                 <BsTelegram />
                 </a>
@@ -163,7 +163,7 @@ function Navbar() {
                 <BsChatText />
                 {t("imi_support")}
                 </a>
-            </span> */}
+            </span>
 
             <span className='nav_top_spans'>
               <a href="Tel:+998555105015">
@@ -180,10 +180,10 @@ function Navbar() {
             </span>
 
             <span className='nav_top_spans'>
-              {/* <a target="_blank" href='https://goo.gl/maps/QEviBtDeDuxLpc148'> */}
-                {/* <RiBuilding2Fill /> */}
-                {/* {t("navtop_location")} */}
-                {/* </a> */}
+              <a target="_blank" href='https://goo.gl/maps/QEviBtDeDuxLpc148'>
+                <RiBuilding2Fill />
+                {t("navtop_location")}
+                </a>
             </span>
 
             <span className='lngs' onClick={chnangeLanguages}>
