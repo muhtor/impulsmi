@@ -43,11 +43,12 @@ function Footer() {
           <div className="footer_boxs">
             <h2>{t("biz_haqimizda")}</h2>
             <a href="#">{t("usmle")}</a>
-            <a href="#">{t("o'quv_bino")}</a>
+            {/* <a href="#">{t("o'quv_bino")}</a> */}
             <a href="#">{t("imi_nizom")}</a>
-            <a href="#">{t("tuzilma")}</a>
+            {/* <a href="#">{t("tuzilma")}</a> */}
             <a href="#">{t("rektorat")}</a>
             <a href="#">{t("kutibxona")}</a>
+            <a href="#">FAQ</a>
           </div>
           
           <div className="footer_boxs">

@@ -26,9 +26,9 @@ function Faq() {
 
             <div className="bino_banner">
                     <div>
-                    <p><Link to="/">BOSH SAHIFA</Link>FAQ</p>
+                    <p><Link to="/">{t("bosh_sahifa")}</Link>FAQ</p>
                 </div>
-                <h1>Ko'p beriladigan savollar</h1>
+                <h1>{t("ko'p_beriladighan_savollar")}</h1>
             </div>
 
             <div className="savollar">

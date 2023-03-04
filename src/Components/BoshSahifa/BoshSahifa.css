@@ -153,7 +153,7 @@ header .img {
 .avzalliklar svg
 {
     font-size: 3em;
-    color: blue;
+    color: var(--gb-color);
 }
 
 .avzalliklar h4
