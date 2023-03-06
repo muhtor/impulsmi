@@ -28,8 +28,8 @@ function Nizom(){
                             <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="desktop-nizom" >{t("nizom")}</a>
                         </div>
                             <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="nizom_text">{t("nizom")}</a>
-                            <a href="#" className="view_icon"><BsArrowUpRightSquareFill /></a>
-                            <a href="#" className="view_btn">{t("nizom-btn")}</a>
+                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="view_btn">{t("nizom-btn")}</a>
+                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="view_icon"><BsArrowUpRightSquareFill /></a>
                     </div>
                 </div>
             </div>
