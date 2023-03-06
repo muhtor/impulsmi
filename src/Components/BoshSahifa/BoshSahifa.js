@@ -153,55 +153,28 @@ function BoshSahifa() {
             <img src={impuls_img} alt="" />
           </div>
         </div>
-
-        {/* <div className="avzalliklar">
-          <div>
-            <BsPatchCheck />
-            <h2>USMLE</h2>
-            <p>USMLE dasturi asosida faoliyat olib boramiz</p>
-          </div>
-          <div>
-            <BsPatchCheck />
-            <h2>Gibrid ta`lim</h2>
-            <p>Gibrit ta'lim - an'anaviy darslar va videoroliklar</p>
-          </div>
-          <div>
-            <BsPatchCheck />
-            <h2>Ta`lim barchaga</h2>
-            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
-          </div>
-          <div>
-            <BsPatchCheck />
-            <h2>Ta`lim barchaga</h2>
-            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
-          </div>
-          <div>
-            <BsPatchCheck />
-            <h2>Ta`lim barchaga</h2>
-            <p>Qobiliyatli va iqtidorli yoshlarni aniqlash, qo`llab-quvvatlash va grantlar taqdim etish</p>
-          </div>
-        </div> */}
+       
 
         <div className="avzalliklar">
           <div>
             <FaBookMedical />
-            <h4>USMLE dasturi</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repellat!</p>
+            <h4>{t("avzallik_1_1")}</h4>
+            <p>{t("avzallik_1_2")}</p>
           </div>
           <div>
             <IoMdPaper />
-            <h4>Gibrid ta'lim</h4>
-            <p>Umumiy video bloklar mavjudligi ya'ni faqatgina ma'ruzaga asoslangan ta'lim emas</p>
+            <h4>{t("avzallik_2_1")}</h4>
+            <p>{t("avzallik_2_2")}</p>
           </div>
           <div>
             <RiDraftLine />
-            <h4>Erkin ta'lim</h4>
-            <p>Forma erkinligi, darsda ishtirok etolmagan fanini qayta topshirish yo'qligi</p>
+            <h4>{t("avzallik_3_1")}</h4>
+            <p>{t("avzallik_3_2")}</p>
           </div>
           <div>
             <IoLanguage />
-            <h4>Ingiliz tili</h4>
-            <p>Chuqurlashtirilgan ingliz tili kurslari (IELTS)</p>
+            <h4>{t("avzallik_4_1")}</h4>
+            <p>{t("avzallik_4_2")}</p>
           </div>
         </div>
 

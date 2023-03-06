@@ -172,7 +172,18 @@
 
   "nizom":"IMPULS TIBBIYOT INSTITUTI NIZOMI",
   "nizom-btn":"Ko'rish",
-  "nizom_page_text":"Nizom"
+  "nizom_page_text":"Nizom",
+
+  
+
+  "avzallik_1_1":"USMLE dasturi",
+  "avzallik_1_2":"Butun dunyo tibbiyot muassasalari tan oladigan o'quv tizimi. ",
+  "avzallik_2_1":"Gibrid ta'lim",
+  "avzallik_2_2":"Umumiy video bloklar mavjudligi ya'ni faqatgina ma'ruzaga asoslangan ta'lim emas",
+  "avzallik_3_1":"Erkin ta'lim",
+  "avzallik_3_2":"Forma erkinligi, darsda ishtirok etolmagan fanini qayta topshirish yo'qligi",
+  "avzallik_4_1":"Ingiliz tili",
+  "avzallik_4_2":"Chuqurlashtirilgan ingliz tili kurslari (IELTS)"
 
 }
 
