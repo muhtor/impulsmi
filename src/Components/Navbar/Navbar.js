@@ -253,6 +253,7 @@ function Navbar() {
                 <div className="ul_menu_2 ul_menu">
                   <li><Link to="/nizom">{t("imi_nizom")}</Link></li>
                   <li><Link to="/rektorat">{t("rektorat")}</Link></li>
+                  <li><Link to="/teachers">{t("teachers")}</Link></li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
@@ -274,11 +275,17 @@ function Navbar() {
                 </div>
               </li> */}
               <li>
+              <Link to="/yotoqxona">{t("Talabalar_turar_joyi")}</Link>
+              </li>
+              <li>
+              <Link to="/kutubxona">{t("kutibxona")}</Link>
+              </li>
+              <li>
               <Link to="/rektorat">{t("rektorat")}</Link>
               </li>
               <li>
-                <Link onClick={changePages} to="/kutubxona">
-                {t("kutibxona")}
+                <Link onClick={changePages} to="/el_kutubxona">
+                {t("el_kutibxona")}
                 </Link>
               </li>
               <li>

@@ -5,6 +5,7 @@
   "bosh_sahifa": "IMI haqida",
   "usmle": "USMLE",
   "biz_haqimizda": "Biz Haqimizda",
+  "el_kutibxona": "Elektron Kutubxona",
   "kutibxona": "Kutubxona",
   "aloqa": "Aloqa",
   "ariza_qoldirish": "Ariza qoldirish",
@@ -19,6 +20,7 @@
   "kengash": "Institut kengashi",
   "markaz_bo'lim": "Markaz va bo'limlar",
   "bosh_sahifa": "BOSH SAHIFA",
+  "teachers": "O'qituvchilarimiz",
 
 
 
@@ -183,7 +185,69 @@
   "avzallik_3_1":"Erkin ta'lim",
   "avzallik_3_2":"Forma erkinligi, darsda ishtirok etolmagan fanini qayta topshirish yo'qligi",
   "avzallik_4_1":"Ingiliz tili",
-  "avzallik_4_2":"Chuqurlashtirilgan ingliz tili kurslari (IELTS)"
+  "avzallik_4_2":"Chuqurlashtirilgan ingliz tili kurslari (IELTS)",
+  "Talabalar_turar_joyi":"Talabalar turar joyi",
+
+
+  "yt_info_column_1_txt_1":"Institutda minglab o'rinli katta talabalar turar joyi, jumladan, ikki, uch va to'rtta yotoq xonalari mavjud. Turar joy institutdan piyoda 15 daqiqa, avtobusda 5 daqiqa, bundan tashqari mahalliy taksi xizmatlari ancha arzon. Institut barcha xorijlik va ichki (O‘zbekistonning boshqa viloyatlaridan tahsil olayotganlar uchun) talabalarni o‘z xohishiga ko‘ra xona bilan ta’minlashi mumkin.",
+  "student":"TALABALAR",
+  "ACCOMMODATION":"TURARA JOYI",
+  "yt_info_column_1_txt_2":"Chet ellik talabalar o'qish davrida qaerda qolishlarini tanlashlari mumkin. Shuningdek, ular mehmonxonalar, yotoqxonalar va mahalliy uylar, ijaraga beriladigan kvartiralarni tanlashlari mumkin. Eng arzoni yiliga 700 dan 1 000 dollargacha turadigan talabalar turar joyidir.",
+  "yt_info_column_1_txt_3":"Talabalar uchun barcha qulayliklar yaratilgan: oshxona, hammom, kutubxona, kompyuter bilan jihozlangan. Bundan tashqari, institutda bepul basseyn, sport zali, tennis, futbol maydonchasi va stol tennisi mavjud. Ko'ngilochar maqsadlarda talabalarning o'zlari kuzatishi mumkin bo'lgan radio mavjud.",
+  "rooms":"300 XONA",
+
+  "Karimov_Muxammadali": "Karimov Muxammadali Abduxoliqovich",
+  "Karimov_Muxammadali_info": "31-iyul 1983-yil Namangan viloyati, Kosonsoy tumanida ishchilar oilasida tugʻilgan. 1991-yil Kososnsoy tumanidagi S.Ayniy nomli 36 oʻrta maktabga kirgan.",
+  "mh": "Mehnat faoliyati",
+  "Karimov_Muxammadali-p_1": "1999 yil Kososnsoy tumanidagi Z.M.Bobur nomidagi 30 internat maktabni 9 sinfiga qabul qilingan.",
+  "Karimov_Muxammadali-p_2": "2002 yili Andijon davlat tibbiyot instituti “Davolash ishi” fakultetiga davlat granti asosida 1 kursga qabul qilingan.",
+  "Karimov_Muxammadali-p_3": "2009-2012 y.- Andijon davlat tibbiyot instituti “Onkologiya” mutaxassisligi boʻyicha magistraturani tamomlagan.",
+  "Karimov_Muxammadali-p_4": "2012-2018 y. - Andijon davlat tibbiyot institutining “Onkologiya va tibbiy radiologiya” kafedrasi assistenti boʻlib ishlagan.",
+  "Karimov_Muxammadali-p_5": "2018 – 2021 y.y. - Andijon davlat tibbiyot institutining “Onkologiya” mutaxassisligi tayanch doktoranti. ",
+  "Karimov_Muxammadali-p_6": "2021 y 21-sentyabr kuni Samarqand davlat tibbiyot universiteti huzuridagi ilmiy kengashda “Bolalarda ogʻiz boʻshligʻi gemangiomalarini turli diapazondagi IQ-lazerlar bilan kompleks davolashning solishtirma samadorligi” mavzusida PhD himoya qildi.",
+  
+  "Sapiyev_Tursunpolot": "Sapiyev Tursunpolot Sobitovich",
+  "Sapiyev_Tursunpolot_info": "17-avgust 1975-yil Namangan viloyati, Chortoq tumanida tugʻilgan.",
+  "Sapiyev_Tursunpolot_mh": "Mehnat faoliyati",
+  "Sapiyev_Tursunpolot-p_1": "1992-1993 yy. - Namangan sanoat-texnologiya instituti talabasi",
+  "Sapiyev_Tursunpolot-p_2": "1993-1997 yy. - Namangan davlat universiteti talabasi",
+  "Sapiyev_Tursunpolot-p_3": "1997-1998 yy. - Namangan davlat universiteti umumiy “Kimyo” kafedrasi stajyor tadqiqotchisi",
+  "Sapiyev_Tursunpolot-p_4": "1998-2001 yy. - Namangan davlat universiteti aspiranti",
+  "Sapiyev_Tursunpolot-p_5": "2001-2006 yy. - Namangan davlat universiteti umumiy “Kimyo” kafedrasi oʻqituvchisi",
+  "Sapiyev_Tursunpolot-p_6": "2006-2007 yy. - Namangan davlat universiteti umumiy “Kimyo” kafedrasi katta oʻqituvchi",
+  "Sapiyev_Tursunpolot-p_7": "2007-2008 yy. - Namangan davlat universiteti umumiy “Kimyo” kafedrasi mudiri",
+  "Sapiyev_Tursunpolot-p_8": "2009-2011 yy. - Oʻzbekiston respublikasi fanlar akademiyasi  Polimerlar kimyosi va fizikasi instituti  doktoranti",
+  "Sapiyev_Tursunpolot-p_9": "2012-2013 yy. - Namangan davlat universitetining “Kimyo” kafedrasi katta oʻqituvchisi ",
+  "Sapiyev_Tursunpolot-p_10": "2013 -2013 yy. - Namangan davlat universitetining tabiiy fanlar va geografiya fakulteti dekani vazifasini bajaruvchi",
+  "Sapiyev_Tursunpolot-p_11": "2017 - 2020 yy. - Namangan davlat universitetining “Kimyo” kafedrasi  dotsenti v.b. bajaruvchi",
+  "Sapiyev_Tursunpolot-p_12": "2020 - 2020 yy. - Namangan davlat universitetining “Kimyo” kafedrasi  dotsenti",
+  "Sapiyev_Tursunpolot-p_13": "2020 -2022 yy.  - Namangan davlat universitetining “Organik kimyo” kafedrasi  mudiri",
+  "Sapiyev_Tursunpolot-p_14": "2022 x.v - Namangan davlat universitetining “Organik kimyo” kafedrasi  dotsenti",
+
+  
+  "Nodirov_Alisher": "Nodirov Alisher Avazovich",
+  "Nodirov_Alisher_info": "18-iyul 1986-yil Namangan viloyati, Chust tumanida tugʻilgan.",
+  "Nodirov_Alisher_mh": "Mehnat faoliyati",
+  "Nodirov_Alisher-p_1": "2004-2010 yy. - Namangan davlat universiteti talabasi",
+  "Nodirov_Alisher-p_2": "2010-2012 yy. - Namangan davlat universiteti kimyo kafedrasi oʻqituvchisi",
+  "Nodirov_Alisher-p_3": "2012 й. - 2019 yy. - Namangan muhandislik-pedagogika instituti (2017-yildan Namangan muhandislik-qurilish instituti) akademik litseyining kimyo fani oʻqituvchisi",
+  "Nodirov_Alisher-p_4": "2019 y . - Namangan davlat universiteti kimyo kafedrasi oʻqituvchisi",
+  "Nodirov_Alisher-p_5": "2020 y . - Namangan davlat universiteti noorganik kimyo kafedrasi oʻqituvchisi",
+  "Nodirov_Alisher-p_5": "2021 y - Namangan davlat universiteti tayanch doktorant",
+
+
+  "kutubxona_info_text_p_1": "Impulse Medical Institute katta kutubxonaga ega bo'lib, u har kuni o'n olti soat davomida talabalarga xizmat qiladi, shu jumladan dam olish kunlari va bank bayramlari. Yigirma tildan iborat minglab kitoblar mavjud.",
+  "kutubxona_info_text_p_2": "Impulse Medical Institute katta kutubxonaga ega bo'lib, u har kuni o'n olti soat davomida talabalarga xizmat qiladi, shu jumladan dam olish kunlari va bank bayramlari. Yigirma tildan iborat minglab kitoblar mavjud.",
+  "kutubxona_info_text_p_3": "Kitoblarning aksariyati tibbiy bo'lsa-da, jahon adabiyoti kitoblari, tibbiyot va ilm-fanga oid dunyoda tan olingan jurnallar mavjud. O'zbek tilini boshidanoq o'rganishga qiziquvchilar uchun xorijlik talabalar uchun bepul ona tili kurslari o'tkaziladi.",
+
+  "kutubxona_info_text_p_4": "Kitoblarning aksariyati tibbiy bo'lsa-da, jahon adabiyoti kitoblari, tibbiyot va ilm-fanga oid dunyoda tan olingan jurnallar mavjud. O'zbek tilini boshidanoq o'rganishga qiziquvchilar uchun xorijlik talabalar uchun bepul ona tili kurslari o'tkaziladi.",
+  "Librarian": "Kutubxonachi",
+  "Shoira_Do'lasheva": "Shoira Do'lasheva",
+  "Contact_details": "Aloqa",
+  "for_more": "Qo'shimcha ma'lumot olish uchun bizning veb-saytimizga tashrif buyuring"
+
+  
+
 
 }
 

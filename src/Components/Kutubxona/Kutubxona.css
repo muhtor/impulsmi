@@ -1,0 +1,170 @@
+
+.kutubxona
+{
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    transform: translateY(-150px);
+    border-radius: 5px;
+}
+
+.library_img
+{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.library_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+.kutubxona_info
+{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.kutubxona_logo
+{
+    width: 35%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.kutubxona_logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.kutubxona_info_text
+{
+    width: 65%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+
+
+
+
+.kutubxona_contact
+{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact_div,
+.contact_div_img
+{
+    height: 60vh;
+    width: 50%;
+}
+
+.contact_div
+{
+    padding: 20px;
+}
+
+.contact_div h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+
+.contact_div_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact_div div
+{
+    margin: 20px 0;
+}
+
+
+
+@media (max-width: 870px) {
+    .kutubxona
+    {
+        width: 97%;
+        padding: 5px;
+    }
+
+    .library_img
+    {
+        padding: 5px;
+    }
+
+    .kutubxona_contact
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 735px) {
+    .kutubxona_info
+    {
+        height: auto;
+        flex-direction: column;
+    }
+        
+    .kutubxona_logo,
+    .kutubxona_info_text
+    {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .kutubxona_contact
+    {
+        flex-direction: column;
+    }
+
+    .contact_div
+    {
+        width: 100%;
+        height: auto;
+    }
+    .contact_div_img
+    {
+        width: 100%;
+    }
+    .bino_banner h1
+    {
+        font-size: 2.5em !important;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .kutubxona_info_text
+    {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

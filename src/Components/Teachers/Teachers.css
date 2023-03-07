@@ -1,0 +1,77 @@
+.teachers
+{
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    transform: translateY(-150px);
+    height: auto;
+    border-radius: 6px;
+}
+
+
+
+.teacher
+{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.teacher img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.teacher p
+{
+    width: 50%;
+    margin: 20px auto; 
+}
+
+.teacher_mh
+{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.teacher_mh h1
+{
+    text-align: center;
+}
+
+.teacher_mh p 
+{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+
+    .teachers
+    {
+        width: 97%;
+    }
+
+
+    
+    .teacher p
+    {
+        width: 100%;
+        margin: 20px auto; 
+    }
+    
+
+}
+
+

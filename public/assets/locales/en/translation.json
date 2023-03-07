@@ -6,6 +6,7 @@
   "bosh_sahifa": "About IMI",
   "usmle": "USMLE",
   "biz_haqimizda": "About us",
+  "el_kutibxona": "Electronic Library",
   "kutibxona": "Library",
   "aloqa": "Contact",
   "ariza_qoldirish": "Submit an application",
@@ -16,10 +17,11 @@
   "o'quv_bino": "Learning Campus",
   "imi_nizom": "Charter of the institute",
   "rektorat": "Rectory",
-  "rektor": "Headmaster",
+  "rektor": "Rector",
   "kengash": "Council of the institute",
   "markaz_bo'lim": "Center and departments",
   "bosh_sahifa": "HOME PAGE",
+  "teachers": "Teachers",
 
   
 
@@ -187,7 +189,66 @@
   "avzallik_3_1":"Free education",
   "avzallik_3_2":"Freedom of form, no re-submission of the subject of failure",
   "avzallik_4_1":"English",
-  "avzallik_4_2":"Advanced English Language Courses (IELTS) "
+  "avzallik_4_2":"Advanced English Language Courses (IELTS) ",
+  "Talabalar_turar_joyi":"Student Accommodation",
+
+
+  "yt_info_column_1_txt_1":"Institute has a big student accommodation with the capacity of thousands beds, including two, three and four bedrooms. The accommodation is 15 minutes walk far from the Institute, 5 minutes by bus, in addition local taxi services are much cheaper. The institute can provide all overseas and internal(for those who are studying from other regions of Uzbekistan)students with a room based on their desire.",
+  "student":"STUDENT",
+  "ACCOMMODATION":"ACCOMMODATION",
+  "yt_info_column_1_txt_2":"Overseas students can choose where they stay during their study period. They can choose also hotels, hostels and local houses, apartments to rent. The most affordable one is student accommodation which costs between 700 USD and 1,000 USD per year.",
+  "yt_info_column_1_txt_3":"There are all facilities provided for students: canteen, bathroom, library with enough PC. Apart from that, the institute provides free swimming pool, gym, tennis, football pitch and ping pong. For entertainment purposes, there is radio which can be monitored by students themselves.",
+  "rooms":"300 ROOMS",
+
+
+  "Karimov_Muxammadali": "Karimov Muhammadali Abdukholikovich",
+  "Karimov_Muxammadali_info": "Born on July 31, 1983 in a family of workers in the Kosonsoy district of the Namangan region. In 1991, he entered secondary school No. 36 named after S. Ainia, Kososnsky district.",
+  "mh": "Labor activity",
+  "Karimov_Muxammadali-p_1": "In 1999, he was admitted to the 9th grade of the 30th boarding school named after Z.M. Bobur, Kososnsky district.",
+  "Karimov_Muxammadali-p_2": "In 2002, he was admitted to the faculty of 'Treatment' of the Andijan State Medical Institute for the 1st year on the basis of a state grant.",
+  "Karimov_Muxammadali-p_3": "2009-2012 - Graduated from Andijan State Medical Institute with a master's degree in 'Oncology'  .",
+  "Karimov_Muxammadali-p_4": "2012-2018 - Worked as an assistant at the 'Oncology and Medical Radiology' department of the Andijan State Medical Institute.",
+  "Karimov_Muxammadali-p_5": "2018 - 2021 - Doctoral student of Andijan State Medical Institute, 'Oncology' specialty.",
+  "Karimov_Muxammadali-p_6": "On September 21, 2021, he submitted his candidate's dissertation to the academic council of the Samarkand State Medical University on the topic 'Comparative effectiveness of complex treatment of hemangioma of the prostate and detection of IK-laser of different ranges'.",
+
+  "Sapiyev_Tursunpolot": "Sapiev Tursunpolot Sobytovich",
+  "Sapiyev_Tursunpolot_info": "Born on August 17, 1975 in Chartokskom district, Namangan region.",
+  "Sapiyev_Tursunpolot-p_1": "1992-1993 - Student of the Namangan Industrial and Technological Institute",
+  "Sapiyev_Tursunpolot-p_2": "1993-1997 - Student of Namangan State University",
+  "Sapiyev_Tursunpolot-p_3": "1997-1998 - Intern-researcher of the Department of General 'Chemistry' of Namangan State University",
+  "Sapiyev_Tursunpolot-p_4": "1998-2001 - Postgraduate student of Namangan State University",
+  "Sapiyev_Tursunpolot-p_5": "2001-2006 - Lecturer at the Department of General 'Chemistry' of Namangan State University",
+  "Sapiyev_Tursunpolot-p_6": "2006-2007 - Senior Lecturer of the Department of General 'Chemistry' of Namangan State University",
+  "Sapiyev_Tursunpolot-p_7": "2007-2008 - Head of the Department of General 'Chemistry' Namangan State University",
+  "Sapiyev_Tursunpolot-p_8": "2009-2011 - Doctoral student of the Institute of Chemistry and Physics of Polymers of the Academy of Sciences of the Republic of Uzbekistan",
+  "Sapiyev_Tursunpolot-p_9": "2012-2013 - Senior lecturer of the department 'Chemistry' of Namangan State University",
+  "Sapiyev_Tursunpolot-p_10": "2013-2013 - Acting Dean of the Faculty of Natural Sciences and Geography of Namangan State University",
+  "Sapiyev_Tursunpolot-p_11": "2017 - 2020 - Associate Professor of the Department of Chemistry, Namangan State University v.b. executor",
+  "Sapiyev_Tursunpolot-p_12": "2020 - 2020 - Associate Professor of the Department of Chemistry, Namangan State University",
+  "Sapiyev_Tursunpolot-p_13": "2020-2022 - Head of the Department of 'Organic Chemistry' Namangan State University",
+  "Sapiyev_Tursunpolot-p_14": "2022 - Associate Professor of the Department of Organic Chemistry, Namangan State University",
+
+  "Nodirov_Alisher": "Nodirov Alisher Avazovich",
+  "Nodirov_Alisher_info": "Born on July 18, 1986 in Chust district of Namangan region.",
+  "Nodirov_Alisher-p_1": "2004-2010 - Student of Namangan State University",
+  "Nodirov_Alisher-p_2": "2010-2012 - Lecturer at the Department of Chemistry, Namangan State University",
+  "Nodirov_Alisher-p_3": "2012 - 2019 - Chemistry teacher at the Namangan Engineering and Pedagogical Institute (since 2017 Namangan Engineering and Construction Institute) of the Academic Lyceum",
+  "Nodirov_Alisher-p_4": "2019 - Lecturer at the Department of Chemistry, Namangan State University",
+  "Nodirov_Alisher-p_5": "2020 - Lecturer at the Department of Inorganic Chemistry, Namangan State University",
+  "Nodirov_Alisher-p_5": "2021 - basic doctoral student at Namangan State University",
+
+  "kutubxona_info_text_p_1": "Impulse Medical Institute has a large library that serves students for sixteen hours every single day including weekends and bank holidays. There are more than thousands books that consist of twenty languages.",
+  "kutubxona_info_text_p_2": "Impulse Medical Institute has a large library that serves students for sixteen hours every single day including weekends and bank holidays. There are more than thousands books that consist of twenty languages.",
+  "kutubxona_info_text_p_3": "While most of the books are medical, there are also world literature books, world recognized magazines about medicine and science. For those who are interested in learning Uzbek language from very beginning, free native language courses are held for overseas students.",
+
+  "kutubxona_info_text_p_4": "While most of the books are medical, there are also world literature books, world recognized magazines about medicine and science. For those who are interested in learning Uzbek language from very beginning, free native language courses are held for overseas students.",
+  "Librarian": "Librarian",
+  "Shoira_Do'lasheva": "Shoira Do'lasheva",
+  "Contact_details": "Contact details",
+  "for_more": "For more information visit our website"
+
+
+  
 
 
 
