@@ -661,6 +661,10 @@ header .img {
 
 @media (max-width: 780px) {
   
+    .savollar
+    {
+        width: 97%;
+    }
 
     .img h1
     {

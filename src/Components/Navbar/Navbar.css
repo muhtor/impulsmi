@@ -276,33 +276,6 @@
 }
 
 
-@keyframes news {
-    0%{
-        background: rgb(154, 3, 214);
-    }
-    20%
-    {
-        background: rgb(228, 8, 8);
-    }
-    30%
-    {
-        background: rgb(230, 11, 182);
-    }
-    40%
-    {
-        background: rgb(253, 106, 21);
-    }
-    50%
-    {
-        background: rgb(79, 233, 8);
-    }
-    70%
-    {
-        background: rgb(245, 161, 6);
-    }
-}
-
-
 
 
 
