@@ -229,7 +229,7 @@ function Navbar() {
 
             <ul className={nav ? "navigation active" : "navigation"}>
             <li>
-              <Link to="/bizhaqimizda">{t("biz_haqimizda")}</Link>
+              <Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link>
               </li>
               {/* <li className='imi' onClick={(e) => visible_menu(e)}>
                 <Link>
@@ -251,9 +251,9 @@ function Navbar() {
                   <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_2 ul_menu">
-                  <li><Link to="/nizom">{t("imi_nizom")}</Link></li>
-                  <li><Link to="/rektorat">{t("rektorat")}</Link></li>
-                  <li><Link to="/teachers">{t("teachers")}</Link></li>
+                  <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
+                  <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
+                  <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
@@ -275,13 +275,13 @@ function Navbar() {
                 </div>
               </li> */}
               <li>
-              <Link to="/yotoqxona">{t("Talabalar_turar_joyi")}</Link>
+              <Link to="/yotoqxona" onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
               </li>
               <li>
-              <Link to="/kutubxona">{t("kutibxona")}</Link>
+              <Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link>
               </li>
               <li>
-              <Link to="/rektorat">{t("rektorat")}</Link>
+              <Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link>
               </li>
               <li>
                 <Link onClick={changePages} to="/el_kutubxona">

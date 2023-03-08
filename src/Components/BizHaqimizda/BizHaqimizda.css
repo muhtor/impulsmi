@@ -131,7 +131,18 @@
 
 
 
+@media (max-width: 830px) {
+    .banner h1
+    {
+        font-size: 2em;
+        text-align: center;
+    }
 
+    .header
+    {
+        width: 97%;
+    }
+}
 
 
 

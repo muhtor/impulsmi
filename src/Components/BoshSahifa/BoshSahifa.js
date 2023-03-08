@@ -127,9 +127,6 @@ function BoshSahifa() {
 
         <div className="biz-haqimizda reveal section"
           id="bizHaqimizda"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2 }}
         >
           
           <div className="bizhaqimizda-text">
@@ -243,30 +240,18 @@ function BoshSahifa() {
                             <img src={imgbg} alt="" />
                         </div>
                         <div>
-                            <h1>Title</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!</p>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
-                                </p>
+                            <h1>{t("name_univer")}</h1>
+                            <p>{t("bino_box_p_1")}</p> <br />
+                            <h1>{t("bino_box_h1_2")}</h1>
+                            <ul>
+                              <li>{t("bino_box_li_1")}</li>
+                              <li>{t("bino_box_li_2")}</li>
+                              <li>{t("bino_box_li_3")}</li>
+                              <li>{t("bino_box_li_4")}</li>
+                              <li>{t("bino_box_li_5")}</li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div className="bino_malumot">
-                        <h1>Title</h1>
-                        <h3>Paragraf ipsum, dolor sit amet consectet</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci error quaerat expedita magnam totam, molestiae velit delectus voluptatibus reprehenderit quam dolorem libero quos repellendus suscipit consequuntur ad cupiditate provident.
-                        </p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
-                        </p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum minima dolore hic, fugit ex iste similique nihil id voluptatem itaque cumque. Eos optio, inventore sed recusandae laboriosam illo provident doloremque!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo amet obcaecati iusto, autem minus itaque labore ratione corrupti aperiam molestiae distinctio eius, recusandae pariatur est explicabo, necessitatibus ullam placeat.
-                        </p>
-                    </div>
-
                     <div className="bino_imgs">
                         <div><img src={bino1} alt="" /></div>
                         <div><img src={bino2} alt="" /></div>

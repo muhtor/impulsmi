@@ -34,29 +34,17 @@ function Faq() {
             <div className="savollar">
             <div className="accordion-section">
           <h1
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ amount: 0.2 }}
-            transition={{ duration: 0.8 }}
             className="first"
           >
             {t("ko'p_beriladighan_savollar")}
           </h1>
           <div className="accordion-box">
             <div
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ amount: 0.2 }}
-              transition={{ duration: 0.8 }}
               className="left-menu"
             >
               <p>{t("accordion_section_p")}</p>
             </div>
             <div
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ amount: 0.2 }}
-              transition={{ duration: 0.8 }}
               className="right-menu"
               onClick={accordion}
             >

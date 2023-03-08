@@ -441,11 +441,13 @@ header .img {
 .bino_box div:nth-child(2) p
 {
     margin: 10px 0;
+    width: 90%;
+    font-size: 1.2em;
 }
 
 
 
-    .bino_box div img
+.bino_box div img
 {
     width: 80%;
     height: 90%;
@@ -468,6 +470,18 @@ header .img {
     z-index: 1;
 }
 
+
+.bino_box ul
+{
+    padding: 20px;
+}
+
+
+.bino_box ul li
+{
+    list-style: disc;
+    font-size: 1.3em;
+}
 
 
 .bino_malumot

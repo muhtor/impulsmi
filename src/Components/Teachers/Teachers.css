@@ -75,3 +75,17 @@
 }
 
 
+@media (max-width: 600px) {
+
+
+    
+    .teacher p
+    {
+        font-size: .9em;
+    }
+    
+
+}
+
+
+
