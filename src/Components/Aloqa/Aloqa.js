@@ -70,6 +70,7 @@ function Aloqa() {
             opacity: 0,
           }}
         >
+          
           <h1
             initial={{ y: 200, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
