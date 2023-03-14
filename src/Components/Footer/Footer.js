@@ -38,6 +38,9 @@ function Footer() {
               <img src={lit2} alt="" />
             </div>
             <p>{t("fopter_litsenziya")}</p>
+            <p>To download a notarial translation of the institutelicence andcertificate click the link</p>
+            <a target="_blank" href="https://drive.google.com/file/d/1CqPmTI7k321X5kJwZc10LHBIhHNccwFF/view?usp=share_link" className='sertificate_link'>Certificate</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1Cpdm_r6cQIwDFjjEN2PW66PDzUIzPfMe/view?usp=share_link" className='litsenziya_link'>Licence</a>
           </div>
 
           <div className="footer_boxs">
@@ -70,7 +73,7 @@ function Footer() {
 
                 <a href="Tel:+998555105015">
                 <FaPhoneAlt className='phone_icon' />
-                (55) 510 50 15
+                +998 (55) 510 50 15
                 </a>
 
               <a target="_blank" href="https://t.me/IMI_qabul">

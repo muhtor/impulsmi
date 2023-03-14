@@ -168,7 +168,7 @@ function Navbar() {
             <span className='nav_top_spans'>
               <a href="Tel:+998555105015">
                 <FaPhoneAlt className='phone_icon' />
-                (55) 510 50 15
+                +998 (55) 510 50 15
                 </a>
             </span>
 

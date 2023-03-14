@@ -136,6 +136,7 @@ footer
 
 
 
+
     
 
 
@@ -175,3 +176,10 @@ footer
 
 }
 
+
+.litsenziya_link,
+.sertificate_link
+{
+    color: blue  !important;
+    margin: 0 5px;
+}

@@ -22,6 +22,11 @@
   "markaz_bo'lim": "Center and departments",
   "bosh_sahifa": "HOME PAGE",
   "teachers": "Teachers",
+  "litsenziya_link_a": "licence",
+  "sertficate_link_p": "certificate",
+  "litsenziya_link_a_1": "To download a notarial translation of the institute",
+  "litsenziya_link_a_2": "click the link",
+  "and": "and",
 
   
 
@@ -48,14 +53,14 @@
   "savol_1": "Is your diploma recognized in Uzbekistan ?",
   "javob_1": "The diploma of students who graduated from the Medical Institute IMPULSE is recognized not only in Uzbekistan, but throughout the world.",
 
-  "savol_2": "How much is the contract fee ?",
-  "javob_2": "The cost of the contract is 33,000,000 soums (3,000 US dollars), and we also have the option of paying in installments.",
+  "savol_2": "How much is the tuition fee ?",
+  "javob_2": "The cost of the tuition fee is 33,000,000 soums (3,000 US dollars) for local students in Uzbekistan, it may slightly be differtent for international students. and we also have the option of paying in installments.",
 
   "savol_3": "What languages ​​are the lessons in ?",
   "javob_3": "All classes are held in Uzbek or English, depending on the group.",
 
   "savol_4": "Are there scholarships ?",
-  "javob_4": "Since we are a private Institute, IMPULS Medical is self-financed and does not have the ability to provide scholarships to students.",
+  "javob_4": "Since we are a private Institute, IMPULS Medical is self-financed and does not have the ability to provide scholarships to students but there are grants for top 10% students who pass exams successfully .",
 
   "savol_5": "What documents are needed for admission ?",
   "javob_5": "One of the stages of successful admission to IMPULSE Medical is the submission of an application. To do this, you will need to provide the following: -Original school or high school diploma.",
@@ -145,7 +150,7 @@
   "footer_p":"Take the heights of science with us and become a qualified doctor",
   "fopter_litsenziya":"License L-4409568, 11/09/2022.",
   "fakultetlar":"Faculties",
-  "davolash_ishi_fakulteti":"Faculty of treatment",
+  "davolash_ishi_fakulteti":"General Medicine Faculty",
   
   "rektor-name":"Nizomiddinov Shukhratjon Nizomidinovich",
   "rektor_lavozim":"Rector of the Impulse Medical Institute",

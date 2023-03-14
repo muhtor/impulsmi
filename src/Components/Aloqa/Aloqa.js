@@ -58,25 +58,9 @@ function Aloqa() {
 
     return (
       <>
-        <div
-          className="banner-aloqa"
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          exit={{
-            opacity: 0,
-          }}
-        >
+        <div className="banner-aloqa">
           
-          <h1
-            initial={{ y: 200, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ amount: 0.2 }}
-          >
+          <h1>
             {t("aloqa_h1")}
           </h1>
         </div>

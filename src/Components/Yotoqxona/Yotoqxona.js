@@ -19,7 +19,7 @@ function Yotoqxona() {
         <div className="yt_wrapper">
                 <div className="bino_banner">
                     <div>
-                        <p><Link to="/">BOSH SAHIFA</Link> {t("Talabalar_turar_joyi")}</p>
+                        <p><Link to="/">{t("bosh_sahifa")}</Link> {t("Talabalar_turar_joyi")}</p>
                     </div>
                     <h1>{t("Talabalar_turar_joyi")}</h1>
                 </div>

@@ -21,6 +21,11 @@
   "markaz_bo'lim": "Markaz va bo'limlar",
   "bosh_sahifa": "BOSH SAHIFA",
   "teachers": "O'qituvchilarimiz",
+  "litsenziya_link_a": "litsenziyasi",
+  "sertficate_link_p": "sertifikatning",
+  "litsenziya_link_a_1": "Institut ",
+  "litsenziya_link_a_2": "notarial tarjimasini yuklab olish uchun havolani bosing",
+  "and": "va",
 
 
 
@@ -48,13 +53,13 @@
   "javob_1": "IMPULS Medical institutini tamomlagan talabalar diplomi nafaqat O'zbekiston balki butun dunyoda tan olinadi.",
 
   "savol_2": "Shartnoma toʻlovi qancha ?",
-  "javob_2": "Shartnoma toʻlovi 33 000 000 soʻm($3000) tashkil etadi, bundan tashqari bizda boʻlib toʻlash imkoniyati mavjud.",
+  "javob_2": "O‘zbekistondagi mahalliy talabalar uchun o‘qish to‘lovi 33 000 000 so‘mni (3 000 AQSH dollari) tashkil etadi, xorijlik talabalar uchun esa biroz farq qilishi mumkin. va bizda bo'lib-bo'lib to'lash imkoniyati ham mavjud.",
 
   "savol_3": "Mashgʻulotlar qaysi tillarda olib boriladi ?",
   "javob_3": "Barcha mashgʻulotlar guruhga qarab o'zbek yoki ingliz tillarida o'tkaziladi.",
 
   "savol_4": "Stipendiyalar bormi ?",
-  "javob_4": "Biz xususiy universitet bo'lganligimiz sababli, IMPULS Medical oʻz-o'zini moliyalashtiradi va talabalarga  stipendiya to'lash imkoniga ega emas.",
+  "javob_4": "Biz xususiy institut bo'lganimiz sababli, IMPULS Medical o'zini o'zi moliyalashtiradi va talabalarga grand berish imkoniyatiga ega emas, ammo imtihonlarni muvaffaqiyatli topshirgan eng yaxshi 10% talabalar uchun grandlar mavjud.",
 
   "savol_5": "Qabul uchun qanday hujjatlar kerak ?",
   "javob_5": "IMPULS Medical ga muvaffaqiyatli qabul qilinish bosqichlaridan biri hujjat topshirishdir. Buning uchun siz quyidagilarni taqdim etishingiz kerak: —Maktab attestatining asl nusxasi yoki o'rta ta'lim diplomi",
