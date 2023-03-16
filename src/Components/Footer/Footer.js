@@ -38,9 +38,9 @@ function Footer() {
               <img src={lit2} alt="" />
             </div>
             <p>{t("fopter_litsenziya")}</p>
-            <p>To download a notarial translation of the institutelicence andcertificate click the link</p>
-            <a target="_blank" href="https://drive.google.com/file/d/1CqPmTI7k321X5kJwZc10LHBIhHNccwFF/view?usp=share_link" className='sertificate_link'>Certificate</a>
-            <a target="_blank" href="https://drive.google.com/file/d/1Cpdm_r6cQIwDFjjEN2PW66PDzUIzPfMe/view?usp=share_link" className='litsenziya_link'>Licence</a>
+            <p>{t("sertficate_link_p")}</p>
+            <a href="https://drive.google.com/file/d/1CqPmTI7k321X5kJwZc10LHBIhHNccwFF/view?usp=share_link" className='sertificate_link'>{t("litsenziya_link_a_1")}</a>
+            <a href="https://drive.google.com/file/d/1Cpdm_r6cQIwDFjjEN2PW66PDzUIzPfMe/view?usp=share_link" className='litsenziya_link'>{t("litsenziya_link_a_2")}</a>
           </div>
 
           <div className="footer_boxs">

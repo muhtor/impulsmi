@@ -10,8 +10,9 @@ import Struktura from './Struktura/Struktura';
 import Teachers from './Teachers/Teachers';
 import USMLE from './USMLE/USMLE';
 import Yotoqxona from './Yotoqxona/Yotoqxona';
-import EL_Kutibxona from "./EL_Kutibxona/EL_Kutibxona";
+import Elkutibxona from "./Elkutibxona/Elkutibxona";
 import Kutubxona from "./Kutubxona/Kutubxona";
+import Fakultet from './Fakultet/Fakultet';
 import Aloqa from "./Aloqa/Aloqa";
 import Shartnoma from './Shartnoma/Shartnoma';
 import Faq from './Faq/Faq';
@@ -38,9 +39,10 @@ function AnimatedPages() {
             <Route path="/rektorat" element={<Rektorat />} />
             <Route path="/kengash" element={<Kengash />} />
             <Route path="/teachers" element={<Teachers />} />
+            <Route path="/fakultet" element={<Fakultet />} />
             <Route path="/usmle" element={<USMLE />} />
             <Route path="/yotoqxona" element={<Yotoqxona />} />
-            <Route path="/el_kutubxona" element={<EL_Kutibxona />} />
+            <Route path="/el_kutubxona" element={<Elkutibxona />} />
             <Route path="/kutubxona" element={<Kutubxona />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/aloqa" element={<Aloqa />} />

@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 
-function EL_Kutibxona() {
+function Elkutibxona() {
 
 
 
@@ -172,9 +172,9 @@ function EL_Kutibxona() {
                 {
                     pageNumbers.map(number => (
                         <a 
+                        href="#"
                         key={number}
                         onClick={() => paginate(number)}
-                        href="#"
                         className='page-item'
                         >
                             {number}
@@ -190,12 +190,12 @@ function EL_Kutibxona() {
                     </div>
 
                     <div className="book-info-img">
-                        <img className="gl-book-img" src=""></img>
+                        <img className="gl-book-img" src="" alt=''/>
                     </div>
                     <div className="book-infos">
-                        <h3 className="name"></h3>
-                        <p className="avtor"></p>
-                        <p className="year"></p>
+                        <h3 className="name">f</h3>
+                        <p className="avtor">f</p>
+                        <p className="year">f</p>
                         <a target="_blank" className="button" href="#">
                             O'qish
                         </a>
@@ -206,7 +206,7 @@ function EL_Kutibxona() {
     );
 }
 
-export default EL_Kutibxona;
+export default Elkutibxona;
 
 
 

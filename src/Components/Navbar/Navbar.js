@@ -61,11 +61,11 @@ function Navbar() {
     
 
 
-    function ul_menu(e){
-      document.querySelector('.ul_menu_3').classList.remove('active');
-      e.target.parentElement.parentElement.classList.remove('active');
-      upBtnF();
-    }
+    // function ul_menu(e){
+    //   document.querySelector('.ul_menu_3').classList.remove('active');
+    //   e.target.parentElement.parentElement.classList.remove('active');
+    //   upBtnF();
+    // }
 
 
     function visible_menu(e) {

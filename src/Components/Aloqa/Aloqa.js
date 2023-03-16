@@ -43,7 +43,7 @@ function Aloqa() {
       )
       .then(
           (result) => {
-            if (result.text == 'OK') {
+            if (result.text === 'OK') {
               PopupF();
             }
           },

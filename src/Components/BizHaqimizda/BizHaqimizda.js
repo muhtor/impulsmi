@@ -2,7 +2,6 @@ import React from 'react';
 import './BizHaqimizda.css';
 
 
-import { RiHomeLine } from 'react-icons/ri'
 import {Link} from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 

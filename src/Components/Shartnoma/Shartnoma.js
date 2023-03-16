@@ -6,7 +6,7 @@ import {BiLoaderAlt} from 'react-icons/bi'
 import {FiFileText} from 'react-icons/fi'
 import {GrView} from 'react-icons/gr'
 import {HiDownload} from 'react-icons/hi'
-import {GrClose} from 'react-icons/gr'
+// import {GrClose} from 'react-icons/gr'
 
 
 import db from "../Firebase/Firebase";
@@ -33,10 +33,10 @@ function Shartnoma() {
         e.preventDefault();
     }
 
-    function close_file() {
-        document.querySelector('.seriya_input').value = '';
-        document.querySelectorAll('.shartnoma').forEach((el) => el.classList.remove('active'));
-    }
+    // function close_file() {
+    //     document.querySelector('.seriya_input').value = '';
+    //     document.querySelectorAll('.shartnoma').forEach((el) => el.classList.remove('active'));
+    // }
 
     function getting_file() {
         let seriya = document.querySelector('.seriya_input').value.toUpperCase();
@@ -67,11 +67,11 @@ function Shartnoma() {
                         <div className="shartnoma" id={el.seriya} key={i}>
                             <h3>Shartnomangiz topildi</h3>
                             <h3>{el.name} {el.lastname} {el.otchestvo}</h3>
-                            <a href={el.view} target="_blank"><FiFileText className='file_icon' /></a>
+                            <a href={el.view}><FiFileText className='file_icon' /></a>
                             <div className="view_btns">
-                                <a href={el.view} target="_blank"><GrView /></a>
-                                <a href={el.shartnomasi} target="_blank"><HiDownload /></a>
-                                <a href="#" onClick={close_file}><GrClose /></a>
+                                <a href={el.view}><GrView /></a>
+                                <a href={el.shartnomasi}><HiDownload /></a>
+                                {/* <a href="#" onClick={close_file}><GrClose /></a> */}
                             </div>
                         </div>
                     ))
