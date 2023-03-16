@@ -103,27 +103,11 @@ function Elkutibxona() {
 
     return (
         <>
-            <motion.div
-                className="banner-books"
-                initial={{
-                    opacity: 0,
-                }}
-                animate={{
-                    opacity: 1,
-                }}
-                exit={{
-                    opacity: 0,
-                }}
-            >
-                <motion.h1
-                    initial={{ y: 200, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ amount: 0.2 }}
-                >
+            <div className="banner-books">
+                <h1>
                     {t("kutibxona_banner_h1")}
-                </motion.h1>
-            </motion.div>
+                </h1>
+            </div>
 
             <div className="books_box">
                 {/* search books box */}
@@ -139,7 +123,7 @@ function Elkutibxona() {
                 <div className="books">
                     <div className={"adabiy-kitoblar"}>
                         {currentBooks.map((el) => (
-                            <motion.div
+                            <div
                                 initial={{ y: 100, opacity: 0 }}
                                 whileInView={{ y: 0, opacity: 1 }}
                                 viewport={{ amount: 0.2 }}
@@ -159,7 +143,7 @@ function Elkutibxona() {
                                     <p className="target_link">{el.link}</p>
                                     <p className="target_year">{el.year}</p>
                                 </div>
-                            </motion.div>
+                            </div>
                         ))}
                     </div>
 

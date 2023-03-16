@@ -278,6 +278,9 @@ function Navbar() {
               <Link to="/yotoqxona" onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
               </li>
               <li>
+              <Link to="/fakultet" onClick={changePages}>{t("fakultet")}</Link>
+              </li>
+              <li>
               <Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link>
               </li>
               <li>

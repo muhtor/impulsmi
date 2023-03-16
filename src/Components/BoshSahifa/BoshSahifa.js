@@ -5,6 +5,7 @@ import Img2 from '../../imgs/2.jpg';
 import Img3 from '../../imgs/3.jpg';
 import Img4 from '../../imgs/4.jpg';
 import Img5 from '../../imgs/5.jpg';
+import Img6 from '../../imgs/6.jpg';
 
 
 import impuls1Img from '../../imgs/111111.jpg';
@@ -121,6 +122,9 @@ function BoshSahifa() {
           </div>
           <div className="img imgs-2">
             <img src={Img5} alt=""></img>
+          </div>
+          <div className="img imgs-2">
+            <img src={Img6} alt=""></img>
           </div>
         </header>
        

@@ -25,6 +25,7 @@
   "sertficate_link_p": "To download a notarial translation of the institute licence and certificate click the link",
   "litsenziya_link_a_1": "Сертификат",
   "litsenziya_link_a_2": "Лицензия",
+  "fakultet": "Faculties",
 
   
 
@@ -257,9 +258,11 @@
   "bino_box_li_2":"Work and Travel",
   "bino_box_li_3":"Hybrid Study",
   "bino_box_li_4":"Grants for 10% top highest achievers in exams",
-  "bino_box_li_5":"Practice based study"
-  
+  "bino_box_li_5":"Practice based study",
 
+  "fakultet_info_h1":"General Medicine Faculty",
 
+  "fakultet_info_txt_1":"Students are now studying general medicine which involves prevention, diagnosis, and treatment of adult diseases. Currently, students who have enrolled general medicine faculty are being familiarised on an advanced level with the field of medical science, through experimental practice, observation, theoretical and practical knowledge. In addition, students can able to visit once a week to one of the clinics which has been working cooperatively with Impuls Medical Institute and participate general medicine diagnosis and treatments. Plus, live treatment videos will be showing soon so students can watch from Institute itself",
+  "fakultet_info_txt_2":"From September 2023 another three faculties will be open for students. They are Faculty of Dental Practice, Faculty of Pediatrics and Faculty of Pharmaceutical Sciences. Local and overseas students can study full-time only on these faculties as an undergraduate student. As study structure is based on USMLE system, All lessons are held in English language by high qualified teachers and PhDs whose English levels are above B2 at least."
 
 }

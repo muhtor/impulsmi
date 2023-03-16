@@ -24,6 +24,7 @@
   "sertficate_link_p": "Institut litsenziyasi va sertifikatning notarial tarjimasini yuklab olish uchun havolani bosing",
   "litsenziya_link_a_1": "Sertifikat",
   "litsenziya_link_a_2": "Litsenziya",
+  "fakultet": "Fakultet",
 
 
 
@@ -256,7 +257,12 @@
   "bino_box_li_2":"Work and Travel",
   "bino_box_li_3":"Gibrit ta'lim",
   "bino_box_li_4":"Imtihonlarda eng yuqori natijalarga erishganlarning 10% uchun grantlar",
-  "bino_box_li_5":"Amaliyotga asoslangan ta'lim"
+  "bino_box_li_5":"Amaliyotga asoslangan ta'lim",
+
+  "fakultet_info_h1":"Davolah ishi fakulteti",
+
+  "fakultet_info_txt_1":"Talabalar hozirda kattalardagi kasalliklarning oldini olish, tashxislash va davolashni o‘z ichiga olgan umumiy tibbiyot yo‘nalishi bo‘yicha tahsil olmoqda. Ayni paytda tibbiyot fakultetida tahsil olayotgan talabalar ilg‘or bosqichda tibbiyot fanlari sohasi bilan tajriba amaliyoti, kuzatish, nazariy va amaliy bilimlar orqali yaqindan tanishmoqda. Bundan tashqari, talabalar haftada bir marta Impulse tibbiyot instituti bilan hamkorlik qiluvchi klinikalardan biriga tashrif buyurib, umumiy diagnostika va davolashda ishtirok etishlari mumkin. Bundan tashqari, tez orada talabalar uchun Institutning o'zidan tomosha qilishlari uchun davolanishning jonli videolari namoyish etiladi.",
+  "fakultet_info_txt_2":"2023-yil sentabridan yana uchta fakultet talabalar uchun ochiladi. Bular stomatologik amaliyot fakulteti, pediatriya fakulteti va farmatsevtika fanlari fakultetidir. Mahalliy va xalqaro talabalar ushbu bo'limlarda faqat bakalavr talabasi sifatida to'liq vaqtda o'qishlari mumkin. O‘quv tuzilmasi USMLE tizimiga asoslanganligi sababli barcha darslar ingliz tili darajasi B2 dan past bo‘lmagan yuqori malakali o‘qituvchilar va PhDlar tomonidan ingliz tilida olib boriladi."
 
   
 
