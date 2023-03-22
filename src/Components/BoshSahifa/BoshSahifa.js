@@ -159,7 +159,7 @@ function BoshSahifa() {
         <div className="avzalliklar">
           <div>
             <FaBookMedical />
-            <h4>{t("avzallik_1_1")} azz</h4>
+            <h4>{t("avzallik_1_1")}</h4>
             <p>{t("avzallik_1_2")}</p>
           </div>
           <div>
