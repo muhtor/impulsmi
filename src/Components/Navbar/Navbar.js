@@ -297,9 +297,10 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link onClick={changePages} to="/aloqa">
+                {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
                   {t("aloqa")}
-                </Link>
+                </Link> */}
+                <a target="_blank" href="https://forms.amocrm.ru/rrrrmzl">Aloqa</a>
               </li>
               {/* <li>
                 <Link onClick={changePages} to="/" className='ariza_btn'>

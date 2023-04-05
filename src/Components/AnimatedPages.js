@@ -14,6 +14,7 @@ import Elkutibxona from "./Elkutibxona/Elkutibxona";
 import Kutubxona from "./Kutubxona/Kutubxona";
 import Fakultet from './Fakultet/Fakultet';
 import Aloqa from "./Aloqa/Aloqa";
+import Hujjat from './Hujjat/Hujjat';
 import Shartnoma from './Shartnoma/Shartnoma';
 import Faq from './Faq/Faq';
 
@@ -42,6 +43,7 @@ function AnimatedPages() {
             <Route path="/fakultet" element={<Fakultet />} />
             <Route path="/usmle" element={<USMLE />} />
             <Route path="/yotoqxona" element={<Yotoqxona />} />
+            <Route path="/hujjat" element={<Hujjat />} />
             <Route path="/el_kutubxona" element={<Elkutibxona />} />
             <Route path="/kutubxona" element={<Kutubxona />} />
             <Route path="/faq" element={<Faq />} />
