@@ -163,6 +163,7 @@ footer
 {
     object-fit: contain;
     height: 90%;
+    width: 90%;
     transform: scale(0);
 }
 
