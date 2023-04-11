@@ -5,6 +5,7 @@ import { IoIosArrowUp } from 'react-icons/io';
 import { RiBuilding2Fill } from 'react-icons/ri';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
 
 import lit1 from '../../imgs/lit1.jpg'
@@ -22,6 +23,16 @@ function Footer() {
         document.documentElement.scrollTop = 0
     }
 
+    function view_img_licence(e) {
+      // console.log(e.target.src);
+      document.querySelector('.licence_img').src = e.target.src;
+      document.querySelector('.view_licence_img').classList.add('active');
+    }
+
+    function close_img_licence() {
+      document.querySelector('.view_licence_img').classList.remove('active');
+    }
+
     return (
       <>
         <footer className="reveal">
@@ -33,7 +44,7 @@ function Footer() {
               <h3>{t("name_univer")}</h3>
             </div>
             <p>{t("footer_p")}</p>
-            <div className="litsenziya">
+            <div className="litsenziya" onClick={(e) => view_img_licence(e)}>
               <img src={lit1} alt="" />
               <img src={lit2} alt="" />
             </div>
@@ -99,6 +110,16 @@ function Footer() {
               <IoIosArrowUp />
             </div>
           </div>
+
+        <div 
+          className="view_licence_img" 
+          
+        >
+          <img className='licence_img' src={lit1} alt="" />
+          <AiOutlineCloseCircle onClick={close_img_licence} className='close_btn_footer'/>
+        </div>
+
+
         </footer>
       </>
     );
