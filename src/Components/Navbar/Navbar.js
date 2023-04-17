@@ -175,7 +175,7 @@ function Navbar() {
             <span className='nav_top_spans'>
               <a href='mialto:info@impulsmi.uz'>
                 <MdMarkEmailUnread />
-                impulsedu1@gmail.com
+                info@impulsmi.uz
                 </a>
             </span>
 
