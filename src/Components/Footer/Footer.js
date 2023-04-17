@@ -79,7 +79,7 @@ function Footer() {
 
                 <a href='mialto:info@impulsmi.uz'>
                 <MdMarkEmailUnread />
-                impulsedu1@gmail.com
+                info@impulsmi.uz
                 </a>
 
                 <a href="Tel:+998555105015">
