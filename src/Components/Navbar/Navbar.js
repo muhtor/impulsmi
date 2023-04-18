@@ -302,12 +302,12 @@ function Navbar() {
                 </Link> */}
                 <a target="_blank" href="https://forms.amocrm.ru/rrrrmzl">Aloqa</a>
               </li>
-              <li>
+              {/* <li> */}
                 {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
                   {t("aloqa")}
                 </Link> */}
-                <a target="_blank" href="https://forms.gle/CUZjePJwmRfhNxgH8">Hujjat topshirish</a>
-              </li>
+                {/* <a target="_blank" href="https://forms.gle/CUZjePJwmRfhNxgH8">Hujjat topshirish</a> */}
+              {/* </li> */}
               {/* <li>
                 <Link onClick={changePages} to="/" className='ariza_btn'>
                   {t("ariza_qoldirish")}

@@ -25,15 +25,15 @@ import { IoLanguage } from 'react-icons/io5'
 import imgbg from '../../imgs/impuls.jpg'
 
 
-import bino1 from '../../imgs/bino imgs/1.jpg'
-import bino2 from '../../imgs/bino imgs/2.jpg'
-import bino3 from '../../imgs/bino imgs/3.jpg'
-import bino4 from '../../imgs/bino imgs/4.jpg'
-import bino5 from '../../imgs/bino imgs/5.jpg'
-import bino6 from '../../imgs/bino imgs/6.jpg'
-import bino7 from '../../imgs/bino imgs/7.jpg'
-import bino8 from '../../imgs/bino imgs/8.jpg'
-import bino9 from '../../imgs/bino imgs/9.jpg'
+import bino1 from '../../imgs/pakistam imgs/1.jpg'
+import bino2 from '../../imgs/pakistam imgs/2.jpg'
+import bino3 from '../../imgs/pakistam imgs/3.jpg'
+import bino4 from '../../imgs/pakistam imgs/4.jpg'
+import bino5 from '../../imgs/pakistam imgs/5.jpg'
+import bino6 from '../../imgs/pakistam imgs/6.jpg'
+import bino7 from '../../imgs/pakistam imgs/7.jpg'
+import bino8 from '../../imgs/pakistam imgs/8.jpg'
+import bino9 from '../../imgs/pakistam imgs/9.jpg'
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -236,14 +236,13 @@ function BoshSahifa() {
         
 
         <div className="bino_wrapper">
-
                 <div className="bino">
-
                     <div className="bino_box">
                         <div>
                             <img src={imgbg} alt="" />
                         </div>
                         <div>
+                          
                             <h1>{t("name_univer")}</h1>
                             <p>{t("bino_box_p_1")}</p> <br />
                             <h1>{t("bino_box_h1_2")}</h1>
@@ -256,6 +255,8 @@ function BoshSahifa() {
                             </ul>
                         </div>
                     </div>
+                    <h1 className='india_hamkor'>{t("india_hamkor_footer_h1")}</h1>
+
                     <div className="bino_imgs">
                         <div><img src={bino1} alt="" /></div>
                         <div><img src={bino2} alt="" /></div>
@@ -266,6 +267,12 @@ function BoshSahifa() {
                         <div><img src={bino7} alt="" /></div>
                         <div><img src={bino8} alt="" /></div>
                         <div><img src={bino9} alt="" /></div>
+                    </div>
+
+                    <div className="india_hamkor_footer">
+                      <p>{t("india_hamkor_footer_p_1")}</p>
+                      <p>{t("india_hamkor_footer_p_2")}</p>
+                      <p>{t("india_hamkor_footer_p_3")}</p>
                     </div>
 
                 </div>
