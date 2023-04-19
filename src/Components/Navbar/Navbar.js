@@ -254,6 +254,7 @@ function Navbar() {
                   <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                   <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
                   <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
+                  <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
@@ -281,12 +282,6 @@ function Navbar() {
               <Link to="/fakultet" onClick={changePages}>{t("fakultet")}</Link>
               </li>
               <li>
-              <Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link>
-              </li>
-              <li>
-              <Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link>
-              </li>
-              <li>
                 <Link onClick={changePages} to="/el_kutubxona">
                 {t("el_kutibxona")}
                 </Link>
@@ -300,14 +295,14 @@ function Navbar() {
                 {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
                   {t("aloqa")}
                 </Link> */}
-                <a target="_blank" href="https://forms.amocrm.ru/rrrrmzl">Aloqa</a>
+                <a target="_blank" href="https://forms.amocrm.ru/rrrrmzl">{t("aloqa")}</a>
               </li>
-              {/* <li> */}
+              <li>
                 {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
                   {t("aloqa")}
                 </Link> */}
-                {/* <a target="_blank" href="https://forms.gle/CUZjePJwmRfhNxgH8">Hujjat topshirish</a> */}
-              {/* </li> */}
+                <a target="_blank" href="https://forms.gle/CUZjePJwmRfhNxgH8">{t("hujjat_topshirish")}</a>
+              </li>
               {/* <li>
                 <Link onClick={changePages} to="/" className='ariza_btn'>
                   {t("ariza_qoldirish")}
