@@ -159,7 +159,7 @@ function Navbar() {
             </span>
 
             <span className='nav_top_spans'>
-              <a target="_blank" href="https://t.me/IMI_qabul">
+              <a target="_blank" href="https://t.me/impuls_medical_institute">
                 <BsChatText />
                 {t("imi_support")}
                 </a>

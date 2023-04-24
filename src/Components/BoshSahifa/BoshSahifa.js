@@ -64,8 +64,6 @@ function BoshSahifa() {
 
 
   const [nav, setNav] = useState(false);
-
-   
     
 
     useEffect(() => {

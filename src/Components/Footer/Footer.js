@@ -87,7 +87,7 @@ function Footer() {
                 +998 (55) 510 50 15
                 </a>
 
-              <a target="_blank" href="https://t.me/IMI_qabul">
+              <a target="_blank" href="https://t.me/impuls_medical_institute">
                 <BsChatText />
                 {t("imi_support")}
                 </a>
