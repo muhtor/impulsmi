@@ -18,6 +18,12 @@ import { FaBookMedical } from 'react-icons/fa'
 import { IoMdPaper } from 'react-icons/io'
 import { RiDraftLine } from 'react-icons/ri'
 import { IoLanguage } from 'react-icons/io5'
+import { BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { FaPhoneAlt } from 'react-icons/fa';
+import {AiOutlineClose} from 'react-icons/ai'
+import {IoIosArrowUp} from 'react-icons/io'
+import { ImLocation } from 'react-icons/im'
+
 
 
 
@@ -64,6 +70,7 @@ function BoshSahifa() {
 
 
   const [nav, setNav] = useState(false);
+  const [minNav, setMinNav] = useState(false);
     
 
     useEffect(() => {
@@ -98,12 +105,38 @@ function BoshSahifa() {
     }
 
 
-
+    function mini_navbar_function() {
+      minNav ? setMinNav(false) : setMinNav(true);
+      console.log('aaa');
+    }
   
 
     return (
       <>
 
+        <div className="mini_navbar">
+          <span onClick={mini_navbar_function}>
+    
+            {
+              minNav ? <AiOutlineClose /> : <IoIosArrowUp />
+            }
+          </span>
+          <a href='https://t.me/impulsmi_uz' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
+            <BsTelegram />
+          </a>
+          <a href='https://www.instagram.com/impuls_mi/' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
+            <BsInstagram />
+          </a>
+          <a href='https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
+            <BsFacebook />
+          </a>
+          <a href='Tel:+998555105015' onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
+            <FaPhoneAlt />
+          </a>
+          <a href='https://goo.gl/maps/yFinqUo4BTYDMGSU7' target='_blank' onClick={mini_navbar_function} className={minNav ? "active" : ''}>
+            <ImLocation />
+          </a>
+        </div>
 
         <header id="boshSahifa">
           <div className="img imgs-0 active">

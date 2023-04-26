@@ -153,7 +153,7 @@ function Navbar() {
               <a target="_blank" href="https://www.instagram.com/impuls_mi/">
                 <BsInstagram />
                 </a>
-              <a target="_blank" href="Thttps://www.facebook.com/profile.php?id=100087750432881">
+              <a target="_blank" href="https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/">
                 <BsFacebook />
                 </a>
             </span>

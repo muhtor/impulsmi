@@ -11,7 +11,7 @@
     top: 0;
     transform: translateX(-50%);
     width: 100%;
-    background: rgba(230, 221, 221, 0.281);
+    background: rgba(161, 165, 173, 0);
 }
 
 .navbar.active {
@@ -48,6 +48,11 @@
 
 .nav-top-info.active {
     width: 99%;
+    height: 0;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: -100%; */
+    transform: translateY(-150px);
 }
 
 .nav-top-info span {
