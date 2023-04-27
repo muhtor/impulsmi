@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { RiBuilding2Fill } from 'react-icons/ri';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
-import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
 
 import navbar_brand from '../../imgs/navbar-brand.png'
@@ -155,6 +155,9 @@ function Navbar() {
                 </a>
               <a target="_blank" href="https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/">
                 <BsFacebook />
+                </a>
+                <a target="_blank" href="https://wa.me/message/GYTRCNFXZX6VI1?src=qr">
+                <BsWhatsapp />
                 </a>
             </span>
 

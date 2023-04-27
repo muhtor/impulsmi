@@ -6,7 +6,7 @@ import { RiBuilding2Fill } from 'react-icons/ri';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
-import { BsChatText, BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp} from 'react-icons/bs';
 
 import lit1 from '../../imgs/lit1.jpg'
 import lit2 from '../../imgs/lit2.jpg'
@@ -86,6 +86,10 @@ function Footer() {
                 <FaPhoneAlt className='phone_icon' />
                 +998 (55) 510 50 15
                 </a>
+                <a href="Tel:+998555105015">
+                <BsWhatsapp className='phone_icon' />
+                +998 (94) 950 76 97
+                </a>
 
               <a target="_blank" href="https://t.me/impuls_medical_institute">
                 <BsChatText />
@@ -98,8 +102,11 @@ function Footer() {
               <a target="_blank" href="https://www.instagram.com/impuls_mi/">
                 <BsInstagram />
                 </a>
-              <a target="_blank" href="Thttps://www.facebook.com/profile.php?id=100087750432881">
+              <a target="_blank" href="https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/">
                 <BsFacebook />
+                </a>
+              <a target="_blank" href="https://wa.me/message/GYTRCNFXZX6VI1?src=qr">
+                <BsWhatsapp />
                 </a>
               </div>
           </div>
