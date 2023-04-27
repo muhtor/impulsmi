@@ -36,10 +36,10 @@ function Aloqa() {
       
       emailjs
       .sendForm(
-          "service_ih5po9c",
-          "template_4j57zcp",
+          "service_nji9jsn",
+          "template_00ukwpv",
           form.current,
-          "uHa25MsI2MHW7-nLQ"
+          "XKsKC_qLxp__WHsvi"
       )
       .then(
           (result) => {
