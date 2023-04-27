@@ -305,17 +305,25 @@ header .img {
 .avzalliklar
 {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     justify-content: space-between;
-    height: 50vh;
+    height: auto;
     padding: 0 40px;
     text-align: center;
 }
 
 .avzalliklar div
 {
-    width: 300px;
+    /* border: 1px solid #eee; */
+    height: 250px;
+    font-size: 1.2em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .avzalliklar svg
@@ -902,8 +910,9 @@ header .img {
 
     .avzalliklar
     {
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
+        grid-template-columns: repeat(1,1fr);
     }
     
     .avzalliklar div{

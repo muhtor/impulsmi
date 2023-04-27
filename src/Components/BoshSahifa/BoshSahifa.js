@@ -13,7 +13,7 @@ import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
 import logoImg from '../../imgs/new logo.png';
-import impuls_img from '../../imgs/impuls.jpg';
+import impuls_img from '../../imgs/imi img.png';
 import { FaBookMedical } from 'react-icons/fa'
 import { IoMdPaper } from 'react-icons/io'
 import { RiDraftLine } from 'react-icons/ri'
@@ -300,11 +300,7 @@ function BoshSahifa() {
                         <div><img src={bino9} alt="" /></div>
                     </div>
 
-                    <div className="india_hamkor_footer">
-                      <p>{t("india_hamkor_footer_p_1")}</p>
-                      <p>{t("india_hamkor_footer_p_2")}</p>
-                      <p>{t("india_hamkor_footer_p_3")}</p>
-                    </div>
+                  
 
                 </div>
         </div>

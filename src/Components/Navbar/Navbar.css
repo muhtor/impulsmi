@@ -16,15 +16,14 @@
 
 .navbar.active {
     position: fixed;
-    width: 99%;
+    width: 99.5%;
     left: 50%;
     top: 5px;
     transform: translateX(-50%);
     z-index: 2;
     z-index: 1000;
-    background: rgba(63, 59, 59, 0.39);
-    /* background: rgba(0, 0, 250, 0.479); */
-    /* background: var(--gb-color); */
+    /* background: rgba(63, 59, 59, 0.39); */
+    background: var(--gb-color);
     padding: 8px 10px 10px 10px !important;
     backdrop-filter: blur(50px);
     border-radius: 10px;
@@ -49,9 +48,6 @@
 .nav-top-info.active {
     width: 99%;
     height: 0;
-    /* visibility: hidden; */
-    /* position: absolute; */
-    /* top: -100%; */
     transform: translateY(-150px);
 }
 
@@ -316,7 +312,7 @@
 .ul_menu_3
 {
     position: absolute;
-    background: rgb(0, 0, 255);
+    background: var(--gb-color);
     padding: 10px 0;
     border-radius: 10px;
     max-height: 0;
