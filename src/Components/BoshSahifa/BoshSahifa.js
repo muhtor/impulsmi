@@ -1,11 +1,12 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import Img1 from '../../imgs/1.jpg';
-import Img2 from '../../imgs/2.jpg';
-import Img3 from '../../imgs/3.jpg';
-import Img4 from '../../imgs/4.jpg';
-import Img5 from '../../imgs/5.jpg';
-import Img6 from '../../imgs/6.jpg';
+import Img1 from '../../imgs/banner imgs/1.jpg';
+import Img2 from '../../imgs/banner imgs/2.jpg';
+import Img3 from '../../imgs/banner imgs/3.jpg';
+import Img4 from '../../imgs/banner imgs/4.jpg';
+import Img5 from '../../imgs/banner imgs/5.jpg';
+import Img6 from '../../imgs/banner imgs/6.jpg';
+import Img7 from '../../imgs/banner imgs/7.jpg';
 
 
 import impuls1Img from '../../imgs/111111.jpg';
@@ -157,6 +158,9 @@ function BoshSahifa() {
           <div className="img imgs-2">
             <img src={Img6} alt=""></img>
           </div>
+          <div className="img imgs-2">
+            <img src={Img7} alt=""></img>
+          </div>
         </header>
        
 
@@ -182,10 +186,9 @@ function BoshSahifa() {
           <div
             className="bizhaqimzida-img"
           >
-            <img src={impuls_img} alt="" />
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/_b7lGFky4_g" title="Impuls Tibbiyot Instituti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
-       
 
         <div className="avzalliklar">
           <div>
@@ -266,7 +269,7 @@ function BoshSahifa() {
 
         
 
-        <div className="bino_wrapper">
+        {/* <div className="bino_wrapper">
                 <div className="bino">
                     <div className="bino_box">
                         <div>
@@ -303,7 +306,7 @@ function BoshSahifa() {
                   
 
                 </div>
-        </div>
+        </div> */}
 
         
         

@@ -22,8 +22,8 @@
     transform: translateX(-50%);
     z-index: 2;
     z-index: 1000;
-    /* background: rgba(63, 59, 59, 0.39); */
-    background: var(--gb-color);
+    background: rgba(63, 59, 59, 0.39);
+    /* background: var(--gb-color); */
     padding: 8px 10px 10px 10px !important;
     backdrop-filter: blur(50px);
     border-radius: 10px;
