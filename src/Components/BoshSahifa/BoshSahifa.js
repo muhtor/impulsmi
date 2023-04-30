@@ -295,6 +295,7 @@ function BoshSahifa() {
                       <p>{t("india_hamkor_footer_p_1")}</p>
                       <p>{t("india_hamkor_footer_p_2")}</p>
                       <p>{t("india_hamkor_footer_p_3")}</p>
+                      <p>{t("india_hamkor_footer_p_3")}</p>
                     </div>
                 </div>
         </div>
