@@ -9,7 +9,6 @@ import Img6 from '../../imgs/banner imgs/6.jpg';
 
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
-import { YMaps, Map } from "react-yandex-maps";
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -225,12 +224,6 @@ function BoshSahifa() {
             </Link>
           </div>
         </div>
-{/* 
-        <YMaps>
-          <div>
-            <Map defaultState={{ center: [41.002766, 71.684784], zoom: 9 }} />
-          </div>
-        </YMaps> */}
 
 
         <div className="impuls">
