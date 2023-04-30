@@ -6,8 +6,10 @@ import Img3 from '../../imgs/banner imgs/3.jpg';
 import Img4 from '../../imgs/banner imgs/4.jpg';
 import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
+
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
+import { YMaps, Map } from "react-yandex-maps";
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -223,7 +225,12 @@ function BoshSahifa() {
             </Link>
           </div>
         </div>
-
+{/* 
+        <YMaps>
+          <div>
+            <Map defaultState={{ center: [41.002766, 71.684784], zoom: 9 }} />
+          </div>
+        </YMaps> */}
 
 
         <div className="impuls">
@@ -267,28 +274,10 @@ function BoshSahifa() {
 
         </div>
 
-        
 
-        {/* <div className="bino_wrapper">
+        <div className="bino_wrapper">
                 <div className="bino">
-                    <div className="bino_box">
-                        <div>
-                            <img src={imgbg} alt="" />
-                        </div>
-                        <div>
-                          
-                            <h1>{t("name_univer")}</h1>
-                            <p>{t("bino_box_p_1")}</p> <br />
-                            <h1>{t("bino_box_h1_2")}</h1>
-                            <ul>
-                              <li>{t("bino_box_li_1")}</li>
-                              <li>{t("bino_box_li_2")}</li>
-                              <li>{t("bino_box_li_3")}</li>
-                              <li>{t("bino_box_li_4")}</li>
-                              <li>{t("bino_box_li_5")}</li>
-                            </ul>
-                        </div>
-                    </div>
+                  <br /><br />
                     <h1 className='india_hamkor'>{t("india_hamkor_footer_h1")}</h1>
 
                     <div className="bino_imgs">
@@ -302,13 +291,15 @@ function BoshSahifa() {
                         <div><img src={bino8} alt="" /></div>
                         <div><img src={bino9} alt="" /></div>
                     </div>
-
-                  
-
+                    <div>
+                      <p>{t("india_hamkor_footer_p_1")}</p>
+                      <p>{t("india_hamkor_footer_p_2")}</p>
+                      <p>{t("india_hamkor_footer_p_3")}</p>
+                    </div>
                 </div>
-        </div> */}
+        </div>
 
-        
+          
         
 
 
