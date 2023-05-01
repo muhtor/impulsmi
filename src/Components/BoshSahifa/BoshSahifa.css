@@ -716,16 +716,22 @@ header .img {
 }
 
 
+.li_links
+{
+    padding: 5px 0;
+}
 
+.li_links a
+{   
+    padding-right: 10px;
+    font-size: 1.5em;
+    color: var(--gb-color);
+}
 
-
-
-
-
-
-
-
-
+.li_links a:first-child
+{
+    font-size: 1.4em;
+}
 
 
 

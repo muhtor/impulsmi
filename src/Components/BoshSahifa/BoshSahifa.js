@@ -6,7 +6,6 @@ import Img3 from '../../imgs/banner imgs/3.jpg';
 import Img4 from '../../imgs/banner imgs/4.jpg';
 import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
-
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
 
@@ -22,10 +21,11 @@ import { RiDraftLine } from 'react-icons/ri'
 import { IoLanguage } from 'react-icons/io5'
 import { BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineClose, AiFillYoutube} from 'react-icons/ai'
 import {IoIosArrowUp} from 'react-icons/io'
 import { ImLocation } from 'react-icons/im'
-
+import { CgWebsite } from 'react-icons/cg'
+import { MdMarkEmailUnread } from 'react-icons/md';
 
 
 
@@ -111,6 +111,8 @@ function BoshSahifa() {
       minNav ? setMinNav(false) : setMinNav(true);
       console.log('aaa');
     }
+
+  
   
 
     return (
@@ -226,6 +228,7 @@ function BoshSahifa() {
         </div>
 
 
+
         <div className="impuls">
 
           <div
@@ -285,14 +288,15 @@ function BoshSahifa() {
                         <div><img src={bino9} alt="" /></div>
                     </div>
                     <div>
-                      <p>{t("india_hamkor_footer_p_1")}</p>
-                      <p>{t("india_hamkor_footer_p_2")}</p>
-                      <p>{t("india_hamkor_footer_p_3")}</p>
+                     <ul>
+                      <li>{t("india_hamkor_footer_p_1")}</li>
+                      <li>{t("india_hamkor_footer_p_2")}</li>
+                      <li>{t("india_hamkor_footer_p_3")}</li>
+                     </ul>
                     </div>
                 </div>
         </div>
 
-          
         
 
 
