@@ -109,4 +109,15 @@
     {
         width: 100%;
     }
+
+    .close_btnn
+    {
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        font-size: 2em;
+        cursor: pointer;
+        color: #fff;
+    }
+
 }
