@@ -332,6 +332,7 @@
 
 
 
+
 .lng-box
 {
     position: relative;
@@ -517,9 +518,11 @@
     .ul_menu_2 li a,
     .ul_menu_3 li a
     {
-        padding: 0 10px !important;
+        padding:  10px !important;
         margin: 0;
     }
+
+        
 
 
 

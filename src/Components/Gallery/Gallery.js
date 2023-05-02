@@ -63,37 +63,38 @@ function Gallery() {
         </div>
         <div className="gallery" on>
            <div className="col col_1">
-                <img src={i_1} alt="" onClick={(el) => add_class_preview(el)} />
-                <img src={i_18} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_3} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_6} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_9} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_1} alt="" onClick={(el) => add_class_preview(el)} />
                 <img src={i_22} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_23} alt=""onClick={(el) => add_class_preview(el)}/>
+                <img src={i_5} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_4} alt="" onClick={(el) => add_class_preview(el)}/>
+
+
            </div>
            <div className="col col_2">
-                <img src={i_7} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_21} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_11} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_17} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_8} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_9} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_10} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_24} alt="" onClick={(el) => add_class_preview(el)}/>
            </div>
            <div className="col col_3">
-                <img src={i_11} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_12} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_2} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_12} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_13} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_14} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_15} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_6} alt="" onClick={(el) => add_class_preview(el)}/>
            </div>
            <div className="col col_4">
-                <img src={i_5} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_16} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_19} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_4} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_20} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_21} alt="" onClick={(el) => add_class_preview(el)}/>
-         
+                <img src={i_23} alt=""onClick={(el) => add_class_preview(el)}/>
+                <img src={i_7} alt="" onClick={(el) => add_class_preview(el)}/>
+                <img src={i_18} alt="" onClick={(el) => add_class_preview(el)}/>         
            </div>
         </div>
     </div>
