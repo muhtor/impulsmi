@@ -7,6 +7,7 @@ import Nizom from './Nizom/Nizom';
 import Kengash from './Kengash/Kengash';
 import Rektorat from './Rektorat/Rektorat';
 import Struktura from './Struktura/Struktura';
+import Gallery from './Gallery/Gallery';
 import Teachers from './Teachers/Teachers';
 import USMLE from './USMLE/USMLE';
 import Yotoqxona from './Yotoqxona/Yotoqxona';
@@ -43,6 +44,7 @@ function AnimatedPages() {
             <Route path="/fakultet" element={<Fakultet />} />
             <Route path="/usmle" element={<USMLE />} />
             <Route path="/yotoqxona" element={<Yotoqxona />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/hujjat" element={<Hujjat />} />
             <Route path="/el_kutubxona" element={<Elkutibxona />} />
             <Route path="/kutubxona" element={<Kutubxona />} />

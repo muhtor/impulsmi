@@ -258,6 +258,7 @@ function Navbar() {
                   <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
                   <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                   <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
+                  <li><Link to="/gallery" onClick={changePages}>Gallery</Link></li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
