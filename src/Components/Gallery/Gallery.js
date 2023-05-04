@@ -2,7 +2,7 @@ import React from 'react'
 import './Gallery.css'
 import { useState } from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
-// gallery imgs
+
 import i_2 from '../../imgs/gallery images/2.jpg'
 import i_3 from '../../imgs/gallery images/3.jpg'
 import i_4 from '../../imgs/gallery images/4.jpg'
