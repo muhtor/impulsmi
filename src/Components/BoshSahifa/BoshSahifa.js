@@ -12,7 +12,7 @@ import Img7 from '../../imgs/banner imgs/7.jpg';
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
-import bino1 from '../../imgs/gallery images /1.jpg'
+import bino1 from '../../imgs/gallery images/1.jpg'
 
 import logoImg from '../../imgs/new logo.png';
 import { FaBookMedical } from 'react-icons/fa'
