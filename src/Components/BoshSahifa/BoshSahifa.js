@@ -14,23 +14,19 @@ import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
 import logoImg from '../../imgs/new logo.png';
-import impuls_img from '../../imgs/imi img.png';
 import { FaBookMedical } from 'react-icons/fa'
 import { IoMdPaper } from 'react-icons/io'
 import { RiDraftLine } from 'react-icons/ri'
 import { IoLanguage } from 'react-icons/io5'
 import { BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
-import {AiOutlineClose, AiFillYoutube} from 'react-icons/ai'
+import {AiOutlineClose, AiFillYoutube, AiOutlineGlobal} from 'react-icons/ai'
 import {IoIosArrowUp} from 'react-icons/io'
 import { ImLocation } from 'react-icons/im'
-import { CgWebsite } from 'react-icons/cg'
-import { MdMarkEmailUnread } from 'react-icons/md';
 
 
 
 
-import imgbg from '../../imgs/impuls.jpg'
 
 
 import bino1 from '../../imgs/pakistam imgs/1.jpg'
@@ -288,11 +284,52 @@ function BoshSahifa() {
                         <div><img src={bino9} alt="" /></div>
                     </div>
                     <div>
-                     <ul>
+                     {/* <ul>
                       <li>{t("india_hamkor_footer_p_1")}</li>
                       <li>{t("india_hamkor_footer_p_2")}</li>
                       <li>{t("india_hamkor_footer_p_3")}</li>
+                     </ul> */}
+                     <div>
+                     <ul>
+                      <li>  1) {t("india_hamkor_footer_p_1")}</li>
+                      <li>{t("india_hamkor_footer_p_2")}</li>
+                      <li>{t("india_hamkor_footer_p_3")}</li>
                      </ul>
+                    </div>
+                    <div> <br />
+                     <ul>
+                    
+                      <li>2) {t("india_hamkor_footer_h1_2")}</li>
+                      <li>{t("india_hamkor_footer_p_1_2")}</li>
+                      <li>{t("india_hamkor_footer_p_2_2")}</li>
+                      <li>{t("india_hamkor_footer_p_3_4")}</li>
+                      <li>{t("india_hamkor_footer_p_3_5")}</li>
+                      <li>{t("india_hamkor_footer_p_3_6")}</li>
+                      <li className='li_links'>
+                        <a href="http://www.mbbsmayomd.com"><AiOutlineGlobal /></a>
+                        <a href="http://httwww.youtube.com/channel/ps://UCs5cRzJpjsPFolnDHNQDHkQ"><AiFillYoutube /></a>
+                        <a href="https://www.facebook.com/mayomdukraine/"><BsFacebook /></a>
+                      </li>
+                      <br />
+                      <li>{t("india_hamkor_footer_p_3_7")}</li>
+                      <li>{t("india_hamkor_footer_p_3_8")}</li>
+                      <li>{t("india_hamkor_footer_p_3_9")}</li>
+                      <li>{t("india_hamkor_footer_p_3_10")}</li>
+                      <li>{t("india_hamkor_footer_p_3_11")}</li>
+                      <li className='li_links'>
+                        <a href="http://www.mahaveereducation.com"><AiOutlineGlobal /></a>
+                        <a href="https://youtube.com/@Mahaveer-education"><AiFillYoutube /></a>
+                        <a href="https://instagram.com/mahaveereducation?igshid=YmMyMTA2M2Y="><BsInstagram /></a>
+                      </li>
+                      <br />
+                      <li>{t("india_hamkor_footer_p_3_12")}</li>
+                      <li>{t("india_hamkor_footer_p_3_13")}</li>
+                      <li>{t("india_hamkor_footer_p_3_14")}</li>
+                      <li>{t("india_hamkor_footer_p_3_15")}</li>
+                      <li>{t("india_hamkor_footer_p_3_16")}</li>
+                      <li>{t("india_hamkor_footer_p_3_17")}</li>
+                     </ul>
+                    </div>
                     </div>
                 </div>
         </div>
