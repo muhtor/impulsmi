@@ -3,7 +3,6 @@ import './Gallery.css'
 import { useState } from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 // gallery imgs
-import i_1 from '../../imgs/gallery images/1.jpg'
 import i_2 from '../../imgs/gallery images/2.jpg'
 import i_3 from '../../imgs/gallery images/3.jpg'
 import i_4 from '../../imgs/gallery images/4.jpg'
@@ -65,7 +64,6 @@ function Gallery() {
            <div className="col col_1">
                 <img src={i_3} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_9} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_1} alt="" onClick={(el) => add_class_preview(el)} />
                 <img src={i_22} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_5} alt="" onClick={(el) => add_class_preview(el)}/>
                 <img src={i_4} alt="" onClick={(el) => add_class_preview(el)}/>
