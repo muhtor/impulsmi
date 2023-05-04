@@ -316,6 +316,7 @@ function BoshSahifa() {
                       <li>{t("india_hamkor_footer_p_3_9")}</li>
                       <li>{t("india_hamkor_footer_p_3_10")}</li>
                       <li>{t("india_hamkor_footer_p_3_11")}</li>
+                      <li>{t("india_hamkor_footer_p_3_11")}</li>
                       <li className='li_links'>
                         <a href="http://www.mahaveereducation.com"><AiOutlineGlobal /></a>
                         <a href="https://youtube.com/@Mahaveer-education"><AiFillYoutube /></a>
