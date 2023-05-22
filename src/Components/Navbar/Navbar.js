@@ -43,7 +43,7 @@ function Navbar() {
     const [nav, setNav] = useState(false);
     const [navbarClass, setNavbarClass] = useState(false);
     const [lng, setLng] = useState(false);
-    const [status, setStatus] = useState(false);
+    const [status, setStatus] = useState(true);
 
     function changeClass() {
         nav ? setNav(false) : setNav(true);
