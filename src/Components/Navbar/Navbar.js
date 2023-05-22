@@ -8,7 +8,7 @@ import './Navbar.css'
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { RiBuilding2Fill } from 'react-icons/ri';
-import { FaPhoneAlt } from 'react-icons/fa';
+import { FaPhoneAlt , FaUserCircle,FaUserTie, FaUserGraduate} from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -43,6 +43,7 @@ function Navbar() {
     const [nav, setNav] = useState(false);
     const [navbarClass, setNavbarClass] = useState(false);
     const [lng, setLng] = useState(false);
+    const [status, setStatus] = useState(false);
 
     function changeClass() {
         nav ? setNav(false) : setNav(true);
@@ -57,6 +58,10 @@ function Navbar() {
         document.documentElement.scrollTop = 0;
     }
 
+
+    function open_close_platform() {
+      status ? setStatus(false) :setStatus(true);
+    }
 
     
 
@@ -259,6 +264,12 @@ function Navbar() {
                   <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                   <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                   <li><Link to="/gallery" onClick={changePages}>Gallery</Link></li>
+                  <li>
+              <Link to="/yotoqxona" onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
+              </li>
+                  <li>
+              <Link to="/fakultet" onClick={changePages}>{t("fakultet")}</Link>
+              </li>
                   {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
                   {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
@@ -279,21 +290,23 @@ function Navbar() {
                   <li><a onClick={ul_menu} href="#">Online ta'lim</a></li>
                 </div>
               </li> */}
-              <li>
-              <Link to="/yotoqxona" onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
-              </li>
-              <li>
-              <Link to="/fakultet" onClick={changePages}>{t("fakultet")}</Link>
-              </li>
+              
+              
               <li>
                 <Link onClick={changePages} to="/el_kutubxona">
                 {t("el_kutibxona")}
                 </Link>
               </li>
+            
               <li>
                 <Link className='faq' onClick={changePages} to="/faq">
                   {t("FAQ")}
                 </Link>
+              </li>
+              <li>
+                <a className='faq' onClick={changePages} href="http://student.backoffice.uz">
+                  {t("FAQ")}
+                </a>
               </li>
               <li>
                 {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
@@ -312,6 +325,18 @@ function Navbar() {
                   {t("ariza_qoldirish")}
                 </Link>
               </li> */}
+                <li className="user_link">
+                <Link onClick={()=> {
+                  changePages()
+                  open_close_platform()
+                }} >
+                  <FaUserCircle />
+                </Link>
+                <div className={status ? "platform_links" : "platform_links active"}>
+                   <a href="http://student.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
+                   <a href="http://mentor.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
+                  </div>
+              </li>
               <li className='nav_lng' onClick={chnangeLanguages}>
                 <span className="lng-box">
                     {languages.map((lng) => (

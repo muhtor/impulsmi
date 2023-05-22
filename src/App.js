@@ -6,9 +6,6 @@ import AnimatedPages from "./Components/AnimatedPages";
 
 
 function App() {
-
-
-
   return (
     <>
       <BrowserRouter>

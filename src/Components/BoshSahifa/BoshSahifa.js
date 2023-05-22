@@ -29,6 +29,8 @@ import { ImLocation } from 'react-icons/im'
 
 
 
+
+
 import bino1 from '../../imgs/pakistam imgs/1.jpg'
 import bino2 from '../../imgs/pakistam imgs/2.jpg'
 import bino3 from '../../imgs/pakistam imgs/3.jpg'
