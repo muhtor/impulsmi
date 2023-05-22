@@ -225,14 +225,28 @@ function Navbar() {
                   <p>{t("impuls_2")}</p>
                 </div>
               </Link>
-              <div
-                className={nav ? "menu active" : "menu"}
-                onClick={changeClass}
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+                  <div className='user_menu'>
+                      <li className="user_link" id='responsive_platform_links'>
+                    <Link onClick={()=> {
+                      open_close_platform()
+                    }} >
+                      <FaUserCircle />
+                    </Link>
+                    <div  className={status ? "platform_links" : "platform_links active"}>
+                      <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
+                      <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
+                      </div>
+                  </li>
+                    <div
+                      className={nav ? "menu active" : "menu"}
+                      onClick={changeClass}
+                    >
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+              
             </div>
 
             <ul className={nav ? "navigation active" : "navigation"}>
@@ -304,11 +318,6 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a className='faq' onClick={changePages} href="http://student.backoffice.uz">
-                  {t("FAQ")}
-                </a>
-              </li>
-              <li>
                 {/* <Link onClick={changePages} to="https://forms.amocrm.ru/rrrrmzl">
                   {t("aloqa")}
                 </Link> */}
@@ -333,8 +342,8 @@ function Navbar() {
                   <FaUserCircle />
                 </Link>
                 <div className={status ? "platform_links" : "platform_links active"}>
-                   <a href="http://student.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
-                   <a href="http://mentor.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
+                   <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
+                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
                   </div>
               </li>
               <li className='nav_lng' onClick={chnangeLanguages}>
