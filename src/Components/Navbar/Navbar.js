@@ -8,7 +8,7 @@ import './Navbar.css'
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { RiBuilding2Fill } from 'react-icons/ri';
-import { FaPhoneAlt , FaUserCircle,FaUserTie, FaUserGraduate} from 'react-icons/fa';
+import { FaPhoneAlt , FaUserCircle,FaUserTie, FaUserGraduate, FaRegUser} from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -230,7 +230,8 @@ function Navbar() {
                     <Link onClick={()=> {
                       open_close_platform()
                     }} >
-                      <FaUserCircle />
+                      {/* <FaRegUser /> */}
+                      Kirish
                     </Link>
                     <div  className={status ? "platform_links" : "platform_links active"}>
                       <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
@@ -334,12 +335,13 @@ function Navbar() {
                   {t("ariza_qoldirish")}
                 </Link>
               </li> */}
-                <li className="user_link">
+                <li className="user_link desktop_user_link">
                 <Link onClick={()=> {
                   changePages()
                   open_close_platform()
                 }} >
-                  <FaUserCircle />
+                  {/* <FaRegUser /> */}
+                  Kirish
                 </Link>
                 <div className={status ? "platform_links" : "platform_links active"}>
                    <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
