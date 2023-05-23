@@ -23,7 +23,7 @@ function Elkutibxona() {
 
     const [bookdata, setBookData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postPerPage] = useState(40);
+    const [postPerPage] = useState(810);
 
     useEffect(() => {
         const fetchBooks = () => {
@@ -31,7 +31,6 @@ function Elkutibxona() {
                 setBookData(snapshot.docs.map((doc) => doc.data()));
             });
         };
-
         fetchBooks();
     }, []);
 

@@ -230,12 +230,12 @@ function Navbar() {
                     <Link onClick={()=> {
                       open_close_platform()
                     }} >
-                      {/* <FaRegUser /> */}
-                      Kirish
+       
+                      {t("Login_portal")}
                     </Link>
                     <div  className={status ? "platform_links" : "platform_links active"}>
-                      <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
-                      <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
+                    <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />  {t("Mentor")}</a>
+                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />  {t("Student")}</a>
                       </div>
                   </li>
                     <div
@@ -341,11 +341,11 @@ function Navbar() {
                   open_close_platform()
                 }} >
                   {/* <FaRegUser /> */}
-                  Kirish
+                  {t("Login_portal")}
                 </Link>
                 <div className={status ? "platform_links" : "platform_links active"}>
-                   <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />Mentor</a>
-                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />Student</a>
+                   <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />  {t("Mentor")}</a>
+                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />  {t("Student")}</a>
                   </div>
               </li>
               <li className='nav_lng' onClick={chnangeLanguages}>

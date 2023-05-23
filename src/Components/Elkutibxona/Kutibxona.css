@@ -75,6 +75,7 @@
     width: 100%;
     height: auto;
     display: grid;
+    /* grid-template-columns: repeat(1,1fr); */
     grid-template-columns: repeat(auto-fill, minmax(250px ,1fr));
     gap: 20px;
     padding: 20px;
@@ -114,6 +115,20 @@
     object-fit: contain;
 }
 
+/* 
+ .book
+ {
+    display: flex;
+    height: 10vh;
+    overflow: hidden;
+    border: 1px solid #000;
+    align-items: center;
+ }
+
+ .book-img img
+ {
+    display: none;
+ } */
 
 .book-popup
 {

@@ -291,17 +291,11 @@ function BoshSahifa() {
                       <li>{t("india_hamkor_footer_p_2")}</li>
                       <li>{t("india_hamkor_footer_p_3")}</li>
                      </ul> */}
-                     <div>
-                     <ul>
-                      <li>  1) {t("india_hamkor_footer_p_1")}</li>
-                      <li>{t("india_hamkor_footer_p_2")}</li>
-                      <li>{t("india_hamkor_footer_p_3")}</li>
-                     </ul>
-                    </div>
-                    <div> <br />
+                    
+                    <div> 
                      <ul>
                     
-                      <li>2) {t("india_hamkor_footer_h1_2")}</li>
+                      <li>1) {t("india_hamkor_footer_h1_2")}</li>
                       <li>{t("india_hamkor_footer_p_1_2")}</li>
                       <li>{t("india_hamkor_footer_p_2_2")}</li>
                       <li>{t("india_hamkor_footer_p_3_4")}</li>
@@ -331,7 +325,22 @@ function BoshSahifa() {
                       <li>{t("india_hamkor_footer_p_3_15")}</li>
                       <li>{t("india_hamkor_footer_p_3_16")}</li>
                       <li>{t("india_hamkor_footer_p_3_17")}</li>
+                      <br />
+                      <li>KERALA & TAMILNADU</li>
+                      <li>Trias Resources Private Limited</li>
+                      <li>Address: Capital Heights, Opp: RSP Office, PMG-Plamood Rd, Pattom Post,Thiruvananthapuram, Kerala, India- 695004</li>
+                      <li>Director: Capt. Rajesh Daniel</li>
+                      <li>Email address: rajesh3135@gmail.com</li>
+                      <li>Phone number: +91 9495152066, +91 8281223135 </li>
+                      <li className='li_links'><a href="http://www.triasresources.com"><AiOutlineGlobal /></a></li>
                      </ul>
+                    </div> <br />
+                    <div>
+                      <ul>
+                        <li>2) {t("india_hamkor_footer_p_1")}</li>
+                        <li>{t("india_hamkor_footer_p_2")}</li>
+                        <li>{t("india_hamkor_footer_p_3")}</li>
+                      </ul> 
                     </div>
                     </div>
                 </div>

@@ -60,7 +60,7 @@
   "javob_3": "All classes are held in Uzbek or English, depending on the group.",
 
   "savol_4": "Are there scholarships ?",
-  "javob_4": "Since we are a private Institute, IMPULS Medical is self-financed and does not have the ability to provide scholarships to students but there are grants for top 10% students who pass exams successfully .",
+  "javob_4": "The institute provides 100% scholarships for students who get USMLE step one exam. In addition, top 10% of students who get the highest results in exams the institute gives full scholarship for that year.",
 
   "savol_5": "What documents are needed for admission ?",
   "javob_5": "One of the stages of successful admission to IMPULSE Medical is the submission of an application. To do this, you will need to provide the following: -Original school or high school diploma.",
@@ -288,7 +288,10 @@
   "india_hamkor_footer_p_3_14":"Contact: +91 9790195505",
   "india_hamkor_footer_p_3_15":"Bihar Branch",
   "india_hamkor_footer_p_3_16":"Dr.Danish Kamal",
-  "india_hamkor_footer_p_3_17":"Contact: +91 7250001163"
+  "india_hamkor_footer_p_3_17":"Contact: +91 7250001163",
+  "Login_portal":"Login to portal",
+  "Mentor":"Mentor",
+  "Student":"Student"
 
 
 
