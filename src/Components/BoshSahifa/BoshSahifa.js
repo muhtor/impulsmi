@@ -273,7 +273,7 @@ function BoshSahifa() {
                 <div className="bino">
                   <br /><br />
                     <h1 className='india_hamkor'>{t("india_hamkor_footer_h1")}</h1>
-
+                    <center>{t('india_hamkor_footer_p')}</center>
                     <div className="bino_imgs">
                         <div><img src={bino1} alt="" /></div>
                         <div><img src={bino2} alt="" /></div>
