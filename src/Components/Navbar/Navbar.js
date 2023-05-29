@@ -8,12 +8,12 @@ import './Navbar.css'
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { RiBuilding2Fill } from 'react-icons/ri';
-import { FaPhoneAlt , FaUserCircle,FaUserTie, FaUserGraduate, FaRegUser} from 'react-icons/fa';
+import { FaPhoneAlt , FaUserCircle, FaUserTie, FaUserGraduate, FaRegUser} from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IoIosArrowDown } from 'react-icons/io';
 
-import navbar_brand from '../../imgs/navbar-brand.png'
+import navbar_brand from '../../imgs/navbar-brand.png';
 
 
 const languages = [

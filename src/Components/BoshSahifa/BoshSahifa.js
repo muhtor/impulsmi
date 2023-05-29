@@ -15,6 +15,7 @@ import abd from '../../imgs/abd.jpg'
 import KERALA_TAMILNADU from '../../imgs/partners/tudyabr.png'
 import NORTH_INDIA from '../../imgs/partners/mayo md.png'
 import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
+import Medicoking_PvtLtd from '../../imgs/partners/Medicoking Pvt. Ltd.jpg'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -382,6 +383,23 @@ function BoshSahifa() {
                         <a href="https://studyabroadmbbs.org/"><AiOutlineGlobal /></a>
                         <a href="https://instagram.com/studyabroadmbbs9"><BsInstagram /></a>
                         <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
+                      </li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={Medicoking_PvtLtd} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>Medicoking Pvt. Ltd.</h1>
+                        <p>Office- Panipat,Karnal, Rohtak,Noida</p>
+                        <p>More Querry - 9812000822/8059066000</p>
+                        <p>Instagram - infomedicoking</p>
+                        <li className='li_links'>
+                        <a href="https://medicoking.com/"><AiOutlineGlobal /></a>
+                        <a href="https://instagram.com/infomedicoking?igshid=MzNlNGNkZWQ4Mg=="><BsInstagram /></a>
+                        <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
+                        <a href="https://www.youtube.com/@medicoking6707"><AiFillYoutube /></a>
                       </li>
                    </div>
                 </div>
