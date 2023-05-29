@@ -14,6 +14,7 @@ import abd from '../../imgs/abd.jpg'
 
 import KERALA_TAMILNADU from '../../imgs/partners/tudyabr.png'
 import NORTH_INDIA from '../../imgs/partners/mayo md.png'
+import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -346,7 +347,7 @@ function BoshSahifa() {
                 </div>
                 <div className="worker">
                    <div className="worker_img">
-                    <img src={bino3} alt="" />
+                    <img src={Kerala_Tamilnadu} alt="" />
                    </div>
                    <div className="worker_info">
                       <h1>KERALA & TAMILNADU</h1>
