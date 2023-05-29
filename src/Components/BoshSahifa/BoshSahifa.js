@@ -8,6 +8,12 @@ import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
+import dt from '../../imgs/dt.jpg'
+import aa from '../../imgs/aaa.png'
+import abd from '../../imgs/abd.jpg'
+
+import KERALA_TAMILNADU from '../../imgs/partners/tudyabr.png'
+import NORTH_INDIA from '../../imgs/partners/mayo md.png'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -268,12 +274,14 @@ function BoshSahifa() {
 
         </div>
 
+ 
 
         <div className="bino_wrapper">
                 <div className="bino">
                   <br /><br />
                     <h1 className='india_hamkor'>{t("india_hamkor_footer_h1")}</h1>
                     <center>{t('india_hamkor_footer_p')}</center>
+                    <center>{t('india_hamkor_footer_p_w')}</center>
                     <div className="bino_imgs">
                         <div><img src={bino1} alt="" /></div>
                         <div><img src={bino2} alt="" /></div>
@@ -285,64 +293,99 @@ function BoshSahifa() {
                         <div><img src={bino8} alt="" /></div>
                         <div><img src={bino9} alt="" /></div>
                     </div>
-                    <div>
-                     {/* <ul>
-                      <li>{t("india_hamkor_footer_p_1")}</li>
-                      <li>{t("india_hamkor_footer_p_2")}</li>
-                      <li>{t("india_hamkor_footer_p_3")}</li>
-                     </ul> */}
-                    
-                    <div> 
-                     <ul>
-                    
-                      <li>1) {t("india_hamkor_footer_h1_2")}</li>
-                      <li>{t("india_hamkor_footer_p_1_2")}</li>
-                      <li>{t("india_hamkor_footer_p_2_2")}</li>
-                      <li>{t("india_hamkor_footer_p_3_4")}</li>
-                      <li>{t("india_hamkor_footer_p_3_5")}</li>
-                      <li>{t("india_hamkor_footer_p_3_6")}</li>
+                    <div className="team">
+            <div className='team_box'>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={NORTH_INDIA} alt="" />
+                   </div>
+                   <div className="worker_info">
+                      <h1>{t("india_hamkor_footer_h1_2")}</h1>
+                      <p>{t("india_hamkor_footer_p_1_2")}</p>
+                      <p>{t("india_hamkor_footer_p_2_2")}</p>
+                      <p>{t("india_hamkor_footer_p_3_4")}</p>
+                      <p>{t("india_hamkor_footer_p_3_5")}</p>
+                      <p>{t("india_hamkor_footer_p_3_6")}</p>
                       <li className='li_links'>
                         <a href="http://www.mbbsmayomd.com"><AiOutlineGlobal /></a>
                         <a href="http://httwww.youtube.com/channel/ps://UCs5cRzJpjsPFolnDHNQDHkQ"><AiFillYoutube /></a>
                         <a href="https://www.facebook.com/mayomdukraine/"><BsFacebook /></a>
                       </li>
-                      <br />
-                      <li>{t("india_hamkor_footer_p_3_7")}</li>
-                      <li>{t("india_hamkor_footer_p_3_8")}</li>
-                      <li>{t("india_hamkor_footer_p_3_9")}</li>
-                      <li>{t("india_hamkor_footer_p_3_10")}</li>
-                      <li>{t("india_hamkor_footer_p_3_11")}</li>
-                      <li>{t("india_hamkor_footer_p_3_11")}</li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={bino1} alt="" />
+                   </div>
+                   <div className="worker_info">
+                      <h1>{t("india_hamkor_footer_p_3_7")}</h1>
+                      <p>{t("india_hamkor_footer_p_3_8")}</p>
+                      <p>{t("india_hamkor_footer_p_3_9")}</p>
+                      <p>{t("india_hamkor_footer_p_3_10")}</p>
+                      <p>{t("india_hamkor_footer_p_3_11")}</p>
+                      <p>{t("india_hamkor_footer_p_3_11")}</p>
                       <li className='li_links'>
                         <a href="http://www.mahaveereducation.com"><AiOutlineGlobal /></a>
                         <a href="https://youtube.com/@Mahaveer-education"><AiFillYoutube /></a>
                         <a href="https://instagram.com/mahaveereducation?igshid=YmMyMTA2M2Y="><BsInstagram /></a>
                       </li>
-                      <br />
-                      <li>{t("india_hamkor_footer_p_3_12")}</li>
-                      <li>{t("india_hamkor_footer_p_3_13")}</li>
-                      <li>{t("india_hamkor_footer_p_3_14")}</li>
-                      <li>{t("india_hamkor_footer_p_3_15")}</li>
-                      <li>{t("india_hamkor_footer_p_3_16")}</li>
-                      <li>{t("india_hamkor_footer_p_3_17")}</li>
-                      <br />
-                      <li>KERALA & TAMILNADU</li>
-                      <li>Trias Resources Private Limited</li>
-                      <li>Address: Capital Heights, Opp: RSP Office, PMG-Plamood Rd, Pattom Post,Thiruvananthapuram, Kerala, India- 695004</li>
-                      <li>Director: Capt. Rajesh Daniel</li>
-                      <li>Email address: rajesh3135@gmail.com</li>
-                      <li>Phone number: +91 9495152066, +91 8281223135 </li>
-                      <li className='li_links'><a href="http://www.triasresources.com"><AiOutlineGlobal /></a></li>
-                     </ul>
-                    </div> <br />
-                    <div>
-                      <ul>
-                        <li>2) {t("india_hamkor_footer_p_1")}</li>
-                        <li>{t("india_hamkor_footer_p_2")}</li>
-                        <li>{t("india_hamkor_footer_p_3")}</li>
-                      </ul> 
-                    </div>
-                    </div>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={bino2} alt="" />
+                   </div>
+                   <div className="worker_info">
+                      <h1>{t("india_hamkor_footer_p_3_12")}</h1>
+                      <p>{t("india_hamkor_footer_p_3_13")}</p>
+                      <p>{t("india_hamkor_footer_p_3_14")}</p>
+                      <p>{t("india_hamkor_footer_p_3_15")}</p>
+                      <p>{t("india_hamkor_footer_p_3_16")}</p>
+                      <p>{t("india_hamkor_footer_p_3_17")}</p>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={bino3} alt="" />
+                   </div>
+                   <div className="worker_info">
+                      <h1>KERALA & TAMILNADU</h1>
+                      <p>Trias Resources Private Limited</p>
+                      <p>Address: Capital Heights, Opp: RSP Office, PMG-Plamood Rd, Pattom Post,Thiruvananthapuram, Kerala, India- 695004</p>
+                      <p>Director: Capt. Rajesh Daniel</p>
+                      <p>Email address: rajesh3135@gmail.com</p>
+                      <p>Phone number: +91 9495152066, +91 8281223135 </p>
+                      <p className='li_links'><a href="http://www.triasresources.com"><AiOutlineGlobal /></a></p>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={bino7} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>{t("india_hamkor_footer_p_1")}</h1>
+                        <p>{t("india_hamkor_footer_p_2")}</p>
+                        <p>{t("india_hamkor_footer_p_3")}</p>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={KERALA_TAMILNADU} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>STUDY ABROAD MBBS</h1>
+                        <p>Office - Lucknow I Vaishali I Delhi </p>
+                        <p>E-mail - studyabroadmbbs3@gmail.com</p>
+                        <p>WhatsApp +91-9455239318</p>
+                        <li className='li_links'>
+                        <a href="https://studyabroadmbbs.org/"><AiOutlineGlobal /></a>
+                        <a href="https://instagram.com/studyabroadmbbs9"><BsInstagram /></a>
+                        <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
+                      </li>
+                   </div>
+                </div>
+            </div>
+        </div>
                 </div>
         </div>
 
