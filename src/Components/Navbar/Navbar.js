@@ -226,18 +226,7 @@ function Navbar() {
                 </div>
               </Link>
                   <div className='user_menu'>
-                      <li className="user_link" id='responsive_platform_links'>
-                    <Link onClick={()=> {
-                      open_close_platform()
-                    }} >
-       
-                      {t("Login_portal")}
-                    </Link>
-                    <div  className={status ? "platform_links" : "platform_links active"}>
-                    <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />  {t("Mentor")}</a>
-                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />  {t("Student")}</a>
-                      </div>
-                  </li>
+                      
                     <div
                       className={nav ? "menu active" : "menu"}
                       onClick={changeClass}
@@ -337,7 +326,6 @@ function Navbar() {
               </li> */}
                 <li className="user_link desktop_user_link">
                 <Link onClick={()=> {
-                  changePages()
                   open_close_platform()
                 }} >
                   {/* <FaRegUser /> */}

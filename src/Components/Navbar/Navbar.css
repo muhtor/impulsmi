@@ -522,7 +522,8 @@
 
     .navigation.active
     {
-        top:0;
+        top: 0;
+        border-radius: 0;
     }
 
 
@@ -629,15 +630,31 @@
 @media (max-width: 780px) {
     .desktop_user_link
     {
-        display: none;
+        display: block;
     }
 
     .user_link
     {
         margin-right: 13px;
         font-size: 1em;
-        padding: 7px 15px;
+        /* padding: 7px 15px; */
+        background: transparent;
     }
+
+    .user_link a
+    {
+        padding: 0;
+        border: 2px solid #fff;
+        font-size: .8em;
+        padding: 0 20px !important;
+        border-radius: 50px !important;
+    }
+
+    .user_link .platform_links a
+    {
+        border-radius: 0 !important;
+    }
+
     .nav-top-info
     {
         flex-direction: column;
@@ -662,7 +679,10 @@
         border-left: none;
     }
     
-
+    .platform_links.active
+    {
+        padding: 10px;
+    }
    
     .nav .menu span
     {
