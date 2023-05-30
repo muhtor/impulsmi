@@ -370,7 +370,7 @@ function BoshSahifa() {
                         <p>{t("india_hamkor_footer_p_3")}</p>
                    </div>
                 </div>
-                <div className="worker">
+                {/* <div className="worker">
                    <div className="worker_img">
                     <img src={KERALA_TAMILNADU} alt="" />
                    </div>
@@ -385,7 +385,7 @@ function BoshSahifa() {
                         <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
                       </li>
                    </div>
-                </div>
+                </div> */}
                 <div className="worker">
                    <div className="worker_img">
                     <img src={Medicoking_PvtLtd} alt="" />
