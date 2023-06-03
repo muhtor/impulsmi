@@ -396,7 +396,8 @@ function BoshSahifa() {
                         <h1>Medical Academy</h1>
                         <p>Director: Peeyoosh Saini</p>
                         <p>GF 32, Kirti Sikhar Building District Centre, Janakpuri, New Delhi - 110058</p>
-                        <p>Phone number: +91-9582474764</p>
+                        <p>Phone number: +919582474764, +998942579763 </p>
+                        <p>+917045535113, +919582474664 </p>
                         <p>Email address: pbsmedicalacademy@gmail.com</p>
                         <li className='li_links'>
                         <a href="http://www.pbsmedicalacademy.in"><AiOutlineGlobal /></a>
