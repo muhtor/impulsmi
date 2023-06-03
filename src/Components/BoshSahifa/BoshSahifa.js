@@ -12,7 +12,7 @@ import dt from '../../imgs/dt.jpg'
 import aa from '../../imgs/aaa.png'
 import abd from '../../imgs/abd.jpg'
 
-import KERALA_TAMILNADU from '../../imgs/partners/tudyabr.png'
+import Peeyoosh_Saini from '../../imgs/partners/Peeyoosh_Saini.png'
 import NORTH_INDIA from '../../imgs/partners/mayo md.png'
 import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
 import Medicoking_PvtLtd from '../../imgs/partners/Medicoking Pvt. Ltd.jpg'
@@ -370,22 +370,7 @@ function BoshSahifa() {
                         <p>{t("india_hamkor_footer_p_3")}</p>
                    </div>
                 </div>
-                {/* <div className="worker">
-                   <div className="worker_img">
-                    <img src={KERALA_TAMILNADU} alt="" />
-                   </div>
-                   <div className="worker_info">
-                        <h1>STUDY ABROAD MBBS</h1>
-                        <p>Office - Lucknow I Vaishali I Delhi </p>
-                        <p>E-mail - studyabroadmbbs3@gmail.com</p>
-                        <p>WhatsApp +91-9455239318</p>
-                        <li className='li_links'>
-                        <a href="https://studyabroadmbbs.org/"><AiOutlineGlobal /></a>
-                        <a href="https://instagram.com/studyabroadmbbs9"><BsInstagram /></a>
-                        <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
-                      </li>
-                   </div>
-                </div> */}
+                {/*  */}
                 <div className="worker">
                    <div className="worker_img">
                     <img src={Medicoking_PvtLtd} alt="" />
@@ -400,6 +385,21 @@ function BoshSahifa() {
                         <a href="https://instagram.com/infomedicoking?igshid=MzNlNGNkZWQ4Mg=="><BsInstagram /></a>
                         <a href="https://www.facebook.com/Studyabroadmbbs9"><BsFacebook /></a>
                         <a href="https://www.youtube.com/@medicoking6707"><AiFillYoutube /></a>
+                      </li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={Peeyoosh_Saini} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>Medical Academy</h1>
+                        <p>Director: Peeyoosh Saini</p>
+                        <p>GF 32, Kirti Sikhar Building District Centre, Janakpuri, New Delhi - 110058</p>
+                        <p>Phone number: +91-9582474764</p>
+                        <p>Email address: pbsmedicalacademy@gmail.com</p>
+                        <li className='li_links'>
+                        <a href="http://www.pbsmedicalacademy.in"><AiOutlineGlobal /></a>
                       </li>
                    </div>
                 </div>
