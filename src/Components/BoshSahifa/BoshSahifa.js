@@ -16,6 +16,7 @@ import Peeyoosh_Saini from '../../imgs/partners/Peeyoosh_Saini.png'
 import NORTH_INDIA from '../../imgs/partners/mayo md.png'
 import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
 import Medicoking_PvtLtd from '../../imgs/partners/Medicoking Pvt. Ltd.jpg'
+import UNIVERSITY_FLY_GLOBAL from '../../imgs/partners/UNIVERSITY FLY GLOBAL.png'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -401,6 +402,20 @@ function BoshSahifa() {
                         <p>Email address: pbsmedicalacademy@gmail.com</p>
                         <li className='li_links'>
                         <a href="http://www.pbsmedicalacademy.in"><AiOutlineGlobal /></a>
+                      </li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={UNIVERSITY_FLY_GLOBAL} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>University Fly Global Education Consultant Pvt Ltd</h1>
+                        <p>Plot No. 8, 1st Floor, Vipin Garden, Metro Pillar 801, Dwarka Mor New Delhi 110059</p>
+                        <p>Phone number: +917903149721 </p>
+                        <p>Email address: universityfly@gmail.com</p>
+                        <li className='li_links'>
+                        <a href="http://www.universityfly.com"><AiOutlineGlobal /></a>
                       </li>
                    </div>
                 </div>
