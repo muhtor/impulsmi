@@ -8,15 +8,15 @@ import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
-import dt from '../../imgs/dt.jpg'
-import aa from '../../imgs/aaa.png'
-import abd from '../../imgs/abd.jpg'
+
 
 import Peeyoosh_Saini from '../../imgs/partners/Peeyoosh_Saini.png'
 import NORTH_INDIA from '../../imgs/partners/mayo md.png'
 import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
 import Medicoking_PvtLtd from '../../imgs/partners/Medicoking Pvt. Ltd.jpg'
 import UNIVERSITY_FLY_GLOBAL from '../../imgs/partners/UNIVERSITY FLY GLOBAL.png'
+import Med_World from '../../imgs/partners/Med_World.png'
+import Doctors_Query from '../../imgs/partners/Doctors_Query.png'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
@@ -416,6 +416,37 @@ function BoshSahifa() {
                         <p>Email address: universityfly@gmail.com</p>
                         <li className='li_links'>
                         <a href="http://www.universityfly.com"><AiOutlineGlobal /></a>
+                      </li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={Med_World} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>Med World Educations India Private Limited</h1>
+                        <p>No. 12/705, Avaneeshwaram, RSPO Thalavoor, Kollam, Kerala, India </p>
+                        <p>Contact: +91 8547139340, +34 670901398 </p>
+                        <p>Email address: medworld313@gmail.com</p>
+                        <li className='li_links'>
+                        <a href="http://www.medworld.co.in"><AiOutlineGlobal /></a>
+                      </li>
+                   </div>
+                </div>
+                <div className="worker">
+                   <div className="worker_img">
+                    <img src={Doctors_Query} alt="" />
+                   </div>
+                   <div className="worker_info">
+                        <h1>Doctors Query Private Limited </h1>
+                        <p>Director: Dr Sudhir Mittan </p>
+                        <p>Address: SCO 207, 2nd Floor, Town Center Sector 39, TDI city, Panipat, Haryana 132103</p>
+                        <p>Contact: +918059440003, +919817634007 </p>
+                        <p>Email address: medworld313@gmail.com</p>
+                        <li className='li_links'>
+                        <a href="http://www.doctorsquery.com"><AiOutlineGlobal /></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=b1x8pj520z55&utm_content=3uf6bfn"><BsInstagram /></a>
+                        <a href="https://youtube.com/@DoctorsQuery"><AiFillYoutube /></a>
                       </li>
                    </div>
                 </div>
