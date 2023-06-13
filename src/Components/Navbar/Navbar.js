@@ -264,7 +264,7 @@ function Navbar() {
                 </Link>
                 <div className="ul_menu_2 ul_menu">
                   <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
-                  <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
+                  {/* <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li> */}
                   <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                   <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                   <li><Link to="/gallery" onClick={changePages}>Gallery</Link></li>
