@@ -46,9 +46,6 @@ import bino3 from '../../imgs/pakistam imgs/3.jpg'
 import bino4 from '../../imgs/pakistam imgs/4.jpg'
 import bino5 from '../../imgs/pakistam imgs/5.jpg'
 import bino6 from '../../imgs/pakistam imgs/6.jpg'
-import bino7 from '../../imgs/pakistam imgs/7.jpg'
-import bino8 from '../../imgs/pakistam imgs/8.jpg'
-import bino9 from '../../imgs/pakistam imgs/9.jpg'
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -292,9 +289,6 @@ function BoshSahifa() {
                         <div><img src={bino4} alt="" /></div>
                         <div><img src={bino5} alt="" /></div>
                         <div><img src={bino6} alt="" /></div>
-                        <div><img src={bino7} alt="" /></div>
-                        <div><img src={bino8} alt="" /></div>
-                        <div><img src={bino9} alt="" /></div>
                     </div>
                     <div className="team">
             <div className='team_box'>
@@ -363,7 +357,7 @@ function BoshSahifa() {
                 </div>
                 <div className="worker">
                    <div className="worker_img">
-                    <img src={bino7} alt="" />
+                    <img src={bino5} alt="" />
                    </div>
                    <div className="worker_info">
                         <h1>{t("india_hamkor_footer_p_1")}</h1>
