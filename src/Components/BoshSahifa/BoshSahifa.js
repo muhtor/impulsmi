@@ -436,7 +436,7 @@ function BoshSahifa() {
                         <p>Director: Dr Sudhir Mittan </p>
                         <p>Address: SCO 207, 2nd Floor, Town Center Sector 39, TDI city, Panipat, Haryana 132103</p>
                         <p>Contact: +918059440003, +919817634007 </p>
-                        <p>Email address: medworld313@gmail.com</p>
+                        <p>Email address: info@doctorsquery.com</p>
                         <li className='li_links'>
                         <a href="http://www.doctorsquery.com"><AiOutlineGlobal /></a>
                         <a href="https://www.instagram.com/invites/contact/?i=b1x8pj520z55&utm_content=3uf6bfn"><BsInstagram /></a>

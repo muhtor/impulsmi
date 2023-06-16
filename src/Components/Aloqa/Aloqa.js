@@ -71,8 +71,8 @@ function Aloqa() {
             <p>{t("left-menu_p")}</p>
             <ul>
               <li>{t("manzil")}</li>
-              <li>{t("pochta")}</li>
-              <li>{t("telefon")}</li>
+              <li>info@impulsmi.uz</li>
+              <li>+998 (55) 510 50 15</li>
             </ul>
           </div>
           <form ref={form} onSubmit={sendEmail}>
