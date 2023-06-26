@@ -86,10 +86,10 @@ function Footer() {
                 <FaPhoneAlt className='phone_icon' />
                 +998 (55) 510 50 15
                 </a>
-                <a href="Tel:+998949507697">
+                {/* <a href="Tel:+998949507697">
                 <BsWhatsapp className='phone_icon' />
                 +998 (94) 950 76 97
-                </a>
+                </a> */}
 
               <a target="_blank" href="https://t.me/impuls_medical_institute">
                 <BsChatText />
