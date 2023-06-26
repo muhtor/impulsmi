@@ -91,10 +91,10 @@ function Footer() {
                 +998 (94) 950 76 97
                 </a> */}
 
-              <a target="_blank" href="https://t.me/impuls_medical_institute">
+              {/* <a target="_blank" href="https://t.me/impuls_medical_institute">
                 <BsChatText />
                 {t("imi_support")}
-                </a>
+                </a> */}
               <div>
               <a target="_blank" href="https://t.me/impulsmi_uz">
                 <BsTelegram />
@@ -105,9 +105,9 @@ function Footer() {
               <a target="_blank" href="https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/">
                 <BsFacebook />
                 </a>
-              <a target="_blank" href="https://wa.me/message/GYTRCNFXZX6VI1?src=qr">
+              {/* <a target="_blank" href="https://wa.me/message/GYTRCNFXZX6VI1?src=qr">
                 <BsWhatsapp />
-                </a>
+                </a> */}
               </div>
           </div>
         </div>
