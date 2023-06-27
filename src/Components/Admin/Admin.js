@@ -32,11 +32,15 @@ function Admin() {
     <div className='admin_page'>
       <div className="passowrd active">
         <h1>Parolni kiriting</h1>
+        <div className="inputs">
         <input className='input_value' type="text"placeholder='Parolni kiriting' />
-        <button onClick={password}>Add</button>
+        <button onClick={password}>Kirish</button>
+        </div>
       </div>
       <div className="mytest">
-        <a href="https://drive.google.com/file/d/1RC_LtIN-3u_vV2-l0WduA-yd9zQcOjCu/view?usp=sharing">My tests</a>
+        <a href="https://drive.google.com/drive/folders/1CJozV0ko4-gvctwm9uh7upt5Qvr14Cc9?usp=sharing"
+        target="_blank"
+        >Testni yuklab olsih</a>
       </div>
     </div>
   )
