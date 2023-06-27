@@ -1,4 +1,5 @@
 import React from 'react';
+import Admin from "./Admin/Admin";
 import BoshSahifa from "./BoshSahifa/BoshSahifa";
 import BizHaqimizda from "./BizHaqimizda/BizHaqimizda";
 import Markaz from './Markaz/Markaz';
@@ -33,6 +34,7 @@ function AnimatedPages() {
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<BoshSahifa />} />
+            <Route path="/admin" element={<Admin />} />
             <Route path="/bizhaqimizda" element={<BizHaqimizda />} />
             <Route path="/markaz" element={<Markaz />} />
             <Route path="/bino" element={<Bino />} />

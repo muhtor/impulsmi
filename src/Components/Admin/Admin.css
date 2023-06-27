@@ -1,0 +1,15 @@
+.admin_page
+{
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
