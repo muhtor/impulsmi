@@ -38,6 +38,9 @@ const languages = [
 
 function Navbar() {
 
+
+
+  
   const { t } = useTranslation();
 
     const [nav, setNav] = useState(false);
@@ -65,53 +68,20 @@ function Navbar() {
 
     
 
+    function partners(e) {
+        let partners = document.querySelector('.partners_menu')
 
-    // function ul_menu(e){
-    //   document.querySelector('.ul_menu_3').classList.remove('active');
-    //   e.target.parentElement.parentElement.classList.remove('active');
-    //   upBtnF();
-    // }
-
-
-    function visible_menu(e) {
-      // let ul_menu_1 = document.querySelector('.ul_menu_1')
-      let ul_menu_2 = document.querySelector('.ul_menu_2');
-      // let ul_menu_3 = document.querySelector('.ul_menu_3')
-      // if (e.target.parentElement.className === 'imi') {
-      //   ul_menu_1.className === 'ul_menu_1 active' ?
-      //   ul_menu_1.className = "ul_menu_1" : 
-      //   ul_menu_1.className ="ul_menu_1 active";
-      //   ul_menu_2.classList.remove('active');
-      //   ul_menu_3.classList.remove('active');
-      // } else if(e.target.parentElement.className === 'tuzilma'){
-      //   ul_menu_2.className === 'ul_menu_2 active' ?
-      //   ul_menu_2.className = "ul_menu_2" : 
-      //   ul_menu_2.className ="ul_menu_2 active";
-      //   ul_menu_1.classList.remove('active');
-      //   ul_menu_3.classList.remove('active');
-      // } else if(e.target.parentElement.className === 'talabalar'){
-      //   ul_menu_3.className === 'ul_menu_3 active' ?
-      //   ul_menu_3.className = "ul_menu_3" : 
-      //   ul_menu_3.className ="ul_menu_3 active";
-      //   ul_menu_1.classList.remove('active');
-      //   ul_menu_2.classList.remove('active');
-      // } else{
-      //   ul_menu_1.classList.remove('active');
-      //   ul_menu_2.classList.remove('active');
-      //   ul_menu_3.classList.remove('active');
-      // }
-      
-      if(e.target.parentElement.className === 'tuzilma'){
-        ul_menu_2.className === 'ul_menu_2 active' ?
-        ul_menu_2.className = "ul_menu_2" :
-        ul_menu_2.className ="ul_menu_2 active";
-      } else{
-        ul_menu_2.classList.remove('active');
-      }
+    
 
 
 
+        if (e.target.className === 'partners') {
+            partners.className === 'partners_menu' ? partners.className = 'partners_menu active' : partners.className = 'partners_menu' 
+        } else{
+          partners.className = 'partners_menu';
+        }
     }
+
 
 
 
@@ -243,59 +213,37 @@ function Navbar() {
             <li>
               <Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link>
               </li>
-              {/* <li className='imi' onClick={(e) => visible_menu(e)}>
-                <Link>
-                  {t("bosh_sahifa")}
-                  <IoIosArrowDown />
-                </Link>
-                <div className="ul_menu_1 ul_menu">
-                  <li><Link onClick={ul_menu} to="/bizhaqimizda" href="#">{t("biz_haqimizda")}</Link></li>
-                  <li><Link onClick={ul_menu} to="/">IMI haqida</Link></li>
-                  <li><Link to="/struktura" onClick={ul_menu}>Struktura</Link></li>
-                  <li><Link onClick={ul_menu} to="/bino">{t("o'quv_bino")}</Link></li>
-                  <li><Link onClick={ul_menu} to="/">Yotoqxona</Link></li>
-                </div>
-              </li> */}
-
-              <li className="tuzilma" onClick={(e) => visible_menu(e)}>
-                <Link>
+              <li className="tuzilma">
+                <Link className='tuzilma'>
                 {t("tuzilma")}
-                  <IoIosArrowDown />
                 </Link>
                 <div className="ul_menu_2 ul_menu">
                   <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
-                  {/* <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li> */}
                   <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                   <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
-                  <li><Link to="/gallery" onClick={changePages}>Gallery</Link></li>
+
                   <li>
-              <Link to="/yotoqxona" onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
+                    <a href='#' className='partners' onClick={(e) => partners(e)}>Indian parters</a>
+
+                    <ul className='partners_menu'>
+                      <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
+                      <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
+                      <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
+                    </ul>
+                    
+
+                    </li>
+                  <li><Link to="/gallery" className='add' onClick={changePages}>Gallery</Link></li>
+                  <li>
+              <Link to="/yotoqxona" className='add' onClick={changePages}>{t("Talabalar_turar_joyi")}</Link>
               </li>
                   <li>
               <Link to="/fakultet" onClick={changePages}>{t("fakultet")}</Link>
               </li>
-                  {/* <li><Link onClick={ul_menu} to="/kengash">{t("kengash")}</Link></li> */}
-                  {/* <li><Link onClick={ul_menu} to="/">Rekvizitlar</Link></li> */}
-                  {/* <li><Link onClick={ul_menu} to="/">Tuzilma</Link></li> */}
-                  {/* <li><Link onClick={ul_menu} to="/">Fakultetlar</Link></li> */}
-                  {/* <li><Link onClick={ul_menu} to="/markaz">{t("markaz_bo'lim")}</Link></li> */}
-                  {/* <li><Link onClick={ul_menu} to="/">Markaz va Bo'limlar</Link></li> */}
                 </div>
               </li>
-              {/* <li className='talabalar' onClick={(e) => visible_menu(e)}>
-                <Link>
-                  Talabalar
-                  <IoIosArrowDown />
-                </Link>
-                <div className="ul_menu_3 ul_menu">
-                  <li><a href="#" onClick={ul_menu}>EVEREST TEAM</a></li>
-                  <li><a onClick={ul_menu} href="#">Iqtidorli talabalar</a></li>
-                  <li><a onClick={ul_menu} href="#">Dars jadvali</a></li>
-                  <li><a onClick={ul_menu} href="#">Online ta'lim</a></li>
-                </div>
-              </li> */}
               
-              
+
               <li>
                 <Link onClick={changePages} to="/el_kutubxona">
                 {t("el_kutibxona")}
