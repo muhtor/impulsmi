@@ -6,7 +6,9 @@ function Admin() {
 
 
 
-  function password(value) {
+  function password(e) {
+
+    e.preventDefault();
 
     let password_list = document.querySelector('.passowrd');
     let myteast_list = document.querySelector('.mytest');
@@ -32,10 +34,15 @@ function Admin() {
     <div className='admin_page'>
       <div className="passowrd active">
         <h1>Parolni kiriting</h1>
-        <div className="inputs">
-        <input className='input_value' type="text"placeholder='Parolni kiriting' />
-        <button onClick={password}>Kirish</button>
-        </div>
+        <form>
+
+          <div className="inputs">
+            <input className='input_value' type="password"placeholder='Parolni kiriting' />
+            
+            <input onClick={(e) => password(e)} type="submit" className='btn' value="Kirish" />
+          </div>
+
+        </form>
       </div>
       <div className="mytest">
         <a href="https://drive.google.com/drive/folders/1CJozV0ko4-gvctwm9uh7upt5Qvr14Cc9?usp=sharing"

@@ -13,6 +13,7 @@
     font-size: 2em;
 }
 
+
 .passowrd,
 .mytest
 {
@@ -22,7 +23,6 @@
     left: 0;
     top: 0;
     background: #fff;
-    display: none;
     display: none;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@
 {
     width: 500px;
     border: 1px solid #eee;
-    margin: 20px 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +50,12 @@
 {
     padding: 10px;
     width: 80%;
+    margin: 0 auto;
     border: 0;
     outline: none;
+    padding: 10px;
 }
-.inputs button
+.inputs .btn
 {
     width: 20%;
     border: 0;
