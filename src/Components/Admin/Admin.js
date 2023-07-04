@@ -14,7 +14,7 @@ function Admin() {
     let myteast_list = document.querySelector('.mytest');
     let input_value = document.querySelector('.input_value');
 
-    let password = '0000'
+    let password = '1921680103'
     // console.log(value.target.value);
     if (input_value.value === password) {
       console.log('togri');
