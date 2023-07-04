@@ -204,19 +204,9 @@ function Azizbek() {
 
                             <ul className='sub_menu'>
                                 <li>
-                                    <a href="#">Mayo MD Education Group</a>
-                                    
-                                    <ul>
-                                        <li><Link to="partner_1">NORTH INDIA</Link></li>
-                                        <li><Link to="partner_2">SOUTH INDIA</Link></li>
-                                        <li><Link to="partner_3">TAMILNADU NADU BRANCH</Link></li>
-                                        <li><Link to="partner_4">KERALA & TAMILNADU</Link></li>
-                                        <li><Link to="partner_5">MEDICOKING PVT. LTD.</Link></li>
-                                        <li><Link to="partner_6">MEDICAL ACADEMY</Link></li>
-                                    </ul>
-
+                                    <Link to="/partners">Mayo MD Education Group</Link>
                                 </li>
-                                <li><a onClick={() => console.log('Home 2')} href="#">FIRMA - RAB MEDICO SERVICE</a></li>
+                                <li><Link onClick={() => console.log('Home 2')} to="/partner_2">RAB MEDICO SERVICE</Link></li>
                             </ul>
 
                         </li>
@@ -229,13 +219,25 @@ function Azizbek() {
                 </li>
                 <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-              
-                <li><a href="#">Home</a></li>
+                <li><Link onClick={changePages} to="/el_kutubxona">
+                {t("el_kutibxona")}
+                </Link></li>
+                <li><Link className='faq' onClick={changePages} to="/faq">
+                  {t("FAQ")}
+                </Link></li>
+                <li><Link to="/aloqa">{t("aloqa")}</Link></li>
+                <li className="user_link desktop_user_link">
+                <Link onClick={()=> {
+                  open_close_platform()
+                }} >
+                  {/* <FaRegUser /> */}
+                  {t("Login_portal")}
+                </Link>
+                <div className={status ? "platform_links" : "platform_links active"}>
+                   <a href="http://mentor.backoffice.uz" target="_blank" onClick={open_close_platform}> <FaUserTie />  {t("Mentor")}</a>
+                   <a href="http://student.backoffice.uz"  target="_blank" onClick={open_close_platform}><FaUserGraduate />  {t("Student")}</a>
+                  </div>
+              </li>
             </ul>
         </div>
       </nav>

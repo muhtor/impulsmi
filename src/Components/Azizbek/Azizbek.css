@@ -178,7 +178,7 @@ nav ul li a
     left: 100%;
     top: 0;
     background: #1357d4;
-    width: 200px;
+    width: 270px;
 }
 
 .sub_menu ul li ul
@@ -265,6 +265,39 @@ nav ul li a
     transform: translateY(-17px) rotate(-45deg);
 }
 
+.user_link .platform_links
+{
+    position: absolute;
+    font-size: 1em;
+    background: var(--gb-color);
+    top: 100%;
+    right: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 0;
+    transition: .5s;
+    z-index: 999;
+}
+.user_link .platform_links.active{
+    max-height: 50vh;
+}
+
+.user_link .platform_links a
+{
+    font-size: 18px !important;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 18px;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+.user_link .platform_links a svg
+{
+    margin-right: 4px;
+}
 
 
 
