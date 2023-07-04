@@ -4,7 +4,9 @@ import './Kutibxona.css';
 import db from "../Firebase/Firebase";
 import { onSnapshot, collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { GrClose } from "react-icons/gr";
+import { GrClose, GrList } from "react-icons/gr";
+import { IoGrid } from "react-icons/io5";
+import { CiCircleList } from "react-icons/ci";
 
 
 
@@ -17,6 +19,7 @@ import { useTranslation } from "react-i18next";
 function Elkutibxona() {
 
 
+    const [changed, setChanged] = useState('grid')
 
     const { t } = useTranslation();
 
@@ -113,20 +116,20 @@ function Elkutibxona() {
 
                 <div className="input">
                     <input placeholder='Qidirish...' onInput={search} type="text" />
+                    <div className="grid_list">
+                        <span onClick={() => setChanged('grid')}  className={ changed === 'grid' ? "active" : "" }><IoGrid /> Grid</span>
+                        <span onClick={() => setChanged('list')}  className={ changed === 'list' ? "active" : "" } ><CiCircleList /> List</span>
+                    </div>
                 </div>
 
                 {/* search books box */}
 
                 {/* Books */}
 
-                <div className="books">
-                    <div className={"adabiy-kitoblar"}>
+                <div className={ changed === 'grid' ? "books grid" : "books list" }>
+                    <div className={ changed === 'grid' ? "adabiy-kitoblar grid" : "adabiy-kitoblar list" }>
                         {currentBooks.map((el) => (
                             <div
-                                initial={{ y: 100, opacity: 0 }}
-                                whileInView={{ y: 0, opacity: 1 }}
-                                viewport={{ amount: 0.2 }}
-                                transition={{ duration: 1.5 }}
                                 key={el.id}
                                 id={el.id}
                                 className="book"
