@@ -206,6 +206,7 @@ function Azizbek() {
                                 <li>
                                     <Link to="/partners">Mayo MD Education Group</Link>
                                 </li>
+                                <li><Link onClick={() => console.log('Home 2')} to="/partner_3">GoMBBS Professional Educational Consultancy</Link></li>
                                 <li><Link onClick={() => console.log('Home 2')} to="/partner_2">RAB MEDICO SERVICE</Link></li>
                             </ul>
 

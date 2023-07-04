@@ -98,16 +98,7 @@ function Partner_1() {
                                 <p className='li_links'><a href="http://www.triasresources.com"><AiOutlineGlobal /></a></p>
                             </div>
                           </div>
-                          <div className="worker">
-                            <div className="worker_img">
-                              <img src={bino5} alt="" />
-                            </div>
-                            <div className="worker_info">
-                                  <h1>{t("india_hamkor_footer_p_1")}</h1>
-                                  <p>{t("india_hamkor_footer_p_2")}</p>
-                                  <p>{t("india_hamkor_footer_p_3")}</p>
-                            </div>
-                          </div>
+                          
                           {/*  */}
                           <div className="worker">
                             <div className="worker_img">

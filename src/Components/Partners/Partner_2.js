@@ -1,5 +1,6 @@
 import React from 'react'
-import NORTH_INDIA from '../../imgs/partners/mayo md.png'
+import bino5 from '../../imgs/pakistam imgs/5.jpg'
+import './Partners.css'
 
 import { useTranslation } from "react-i18next";
 import {AiOutlineClose, AiFillYoutube, AiOutlineGlobal} from 'react-icons/ai'
@@ -19,22 +20,14 @@ function Partner_2() {
     <div className='partner_2'>
          <div className="worker">
             <div className="worker_img">
-                <img src={NORTH_INDIA} alt="" />
+              <img src={bino5} alt="" />
             </div>
             <div className="worker_info">
-                <h1>{t("india_hamkor_footer_h1_2")}</h1>
-                <p>{t("india_hamkor_footer_p_1_2")}</p>
-                <p>{t("india_hamkor_footer_p_2_2")}</p>
-                <p>{t("india_hamkor_footer_p_3_4")}</p>
-                <p>{t("india_hamkor_footer_p_3_5")}</p>
-                <p>{t("india_hamkor_footer_p_3_6")}</p>
-                <li className='li_links'>
-                    <a href="http://www.mbbsmayomd.com"><AiOutlineGlobal /></a>
-                    <a href="http://httwww.youtube.com/channel/ps://UCs5cRzJpjsPFolnDHNQDHkQ"><AiFillYoutube /></a>
-                    <a href="https://www.facebook.com/mayomdukraine/"><BsFacebook /></a>
-                </li>
+                  <h1>{t("india_hamkor_footer_p_1")}</h1>
+                  <p>{t("india_hamkor_footer_p_2")}</p>
+                  <p>{t("india_hamkor_footer_p_3")}</p>
             </div>
-            </div>
+          </div>
     </div>
   )
 }
