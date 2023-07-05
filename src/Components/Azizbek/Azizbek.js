@@ -199,7 +199,7 @@ function Azizbek() {
                         <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
-                        <li>
+                        {/* <li>
                             <a href="#">Indian parters</a>
 
                             <ul className='sub_menu'>
@@ -210,7 +210,7 @@ function Azizbek() {
                                 <li><Link onClick={() => console.log('Home 2')} to="/partner_2">RAB MEDICO SERVICE</Link></li>
                             </ul>
 
-                        </li>
+                        </li> */}
                         <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
                         
                         <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
