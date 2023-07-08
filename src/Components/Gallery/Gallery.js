@@ -3,6 +3,12 @@ import './Gallery.css'
 import { useState } from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
+
+import 'lightgallery/css/lightgallery.css'
+import LightGallery from 'lightgallery/react/Lightgallery.es5'
+
+
+import i_1 from '../../imgs/gallery images/1.JPG'
 import i_2 from '../../imgs/gallery images/2.JPG'
 import i_3 from '../../imgs/gallery images/3.JPG'
 import i_4 from '../../imgs/gallery images/4.JPG'
@@ -61,39 +67,38 @@ function Gallery() {
         <h1>Gallery</h1>
         </div>
         <div className="gallery" on>
-           <div className="col col_1">
-                <img src={i_3} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_9} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_22} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_5} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_4} alt="" onClick={(el) => add_class_preview(el)}/>
-
-
-           </div>
-           <div className="col col_2">
-                <img src={i_21} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_11} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_17} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_8} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_10} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_24} alt="" onClick={(el) => add_class_preview(el)}/>
-           </div>
-           <div className="col col_3">
-                <img src={i_2} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_12} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_13} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_14} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_15} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_6} alt="" onClick={(el) => add_class_preview(el)}/>
-           </div>
-           <div className="col col_4">
-                <img src={i_16} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_19} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_20} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_23} alt=""onClick={(el) => add_class_preview(el)}/>
-                <img src={i_7} alt="" onClick={(el) => add_class_preview(el)}/>
-                <img src={i_18} alt="" onClick={(el) => add_class_preview(el)}/>         
-           </div>
+           <LightGallery speed={500} plugins={[]} className="col col_1">
+                <img src={i_3} alt="" />
+                <img src={i_9} alt="" />
+                <img src={i_22} alt="" />
+                <img src={i_5} alt="" />
+                <img src={i_4} alt="" />
+                <img src={i_1} alt="" />
+           </LightGallery>
+           <LightGallery speed={500} plugins={[]} className="col col_2">
+                <img src={i_21} alt="" />
+                <img src={i_11} alt="" />
+                <img src={i_17} alt="" />
+                <img src={i_8} alt="" />
+                <img src={i_10} alt="" />
+                <img src={i_24} alt="" />
+           </LightGallery>
+           <LightGallery speed={500} plugins={[]} className="col col_3">
+                <img src={i_2} alt="" />
+                <img src={i_12} alt="" />
+                <img src={i_13} alt="" />
+                <img src={i_14} alt="" />
+                <img src={i_15} alt="" />
+                <img src={i_6} alt="" />
+           </LightGallery>
+           <LightGallery speed={500} plugins={[]} className="col col_4">
+                <img src={i_16} alt="" />
+                <img src={i_19} alt="" />
+                <img src={i_20} alt="" />
+                <img src={i_23} alt=""/>
+                <img src={i_7} alt="" />
+                <img src={i_18} alt="" />         
+           </LightGallery>
         </div>
     </div>
   )
