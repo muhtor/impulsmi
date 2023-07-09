@@ -199,33 +199,15 @@ function Azizbek() {
                         <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
-                        {/* <li>
-                            <a href="#">Indian parters</a>
-
-                            <ul className='sub_menu'>
-                                <li>
-                                    <Link to="/partners">Mayo MD Education Group</Link>
-                                </li>
-                                <li><Link onClick={() => console.log('Home 2')} to="/partner_3">GoMBBS Professional Educational Consultancy</Link></li>
-                                <li><Link onClick={() => console.log('Home 2')} to="/partner_2">RAB MEDICO SERVICE</Link></li>
-                            </ul>
-
-                        </li> */}
                         <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
-                        
                         <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/gallery" className='add' onClick={changePages}>Gallery</Link></li>
                     </ul>
 
                 </li>
                 <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
-
-                <li><Link onClick={changePages} to="/el_kutubxona">
-                {t("el_kutibxona")}
-                </Link></li>
-                <li><Link className='faq' onClick={changePages} to="/faq">
-                  {t("FAQ")}
-                </Link></li>
+                <li><Link onClick={changePages} to="/el_kutubxona">{t("el_kutibxona")}</Link></li>
+                <li><Link className='faq' onClick={changePages} to="/faq">{t("FAQ")}</Link></li>
                 <li><Link to="/aloqa">{t("aloqa")}</Link></li>
                 <li className="user_link desktop_user_link">
                 <Link onClick={()=> {

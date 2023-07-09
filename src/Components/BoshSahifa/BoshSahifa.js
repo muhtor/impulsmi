@@ -7,45 +7,29 @@ import Img4 from '../../imgs/banner imgs/4.jpg';
 import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
+import Button from '@mui/material/Button';
+import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import CastForEducationIcon from '@mui/icons-material/CastForEducation';
+import TranslateIcon from '@mui/icons-material/Translate';
 
 
+import impuls_img from '../../imgs/imi img.png'
 
-import Peeyoosh_Saini from '../../imgs/partners/Peeyoosh_Saini.png'
-import NORTH_INDIA from '../../imgs/partners/mayo md.png'
-import Kerala_Tamilnadu from '../../imgs/partners/Kerala Tamilnadu.jpg'
-import Medicoking_PvtLtd from '../../imgs/partners/Medicoking Pvt. Ltd.jpg'
-import UNIVERSITY_FLY_GLOBAL from '../../imgs/partners/UNIVERSITY FLY GLOBAL.png'
-import Med_World from '../../imgs/partners/Med_World.png'
-import Doctors_Query from '../../imgs/partners/Doctors_Query.png'
 
 import impuls1Img from '../../imgs/111111.jpg';
 import impuls2Img from '../../imgs/Medical-Students.jpg';
 import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk-900x531.png';
 
+import usmle_img from '../../imgs/usmle_img.jpg'
 import logoImg from '../../imgs/new logo.png';
-import { FaBookMedical } from 'react-icons/fa'
-import { IoMdPaper } from 'react-icons/io'
-import { RiDraftLine } from 'react-icons/ri'
-import { IoLanguage } from 'react-icons/io5'
-import { BsTelegram, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { BsTelegram, BsInstagram, BsFacebook, BsHeartPulseFill } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import {AiOutlineClose, AiFillYoutube, AiOutlineGlobal} from 'react-icons/ai'
 import {IoIosArrowUp} from 'react-icons/io'
 import { ImLocation } from 'react-icons/im'
 
-
-
-
-
-
-
-
-import bino1 from '../../imgs/pakistam imgs/1.jpg'
-import bino2 from '../../imgs/pakistam imgs/2.jpg'
-import bino3 from '../../imgs/pakistam imgs/3.jpg'
-import bino4 from '../../imgs/pakistam imgs/4.jpg'
-import bino5 from '../../imgs/pakistam imgs/5.jpg'
-import bino6 from '../../imgs/pakistam imgs/6.jpg'
+ 
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
@@ -174,60 +158,74 @@ function BoshSahifa() {
         <div className="biz-haqimizda reveal section"
           id="bizHaqimizda"
         >
-          
-          <div className="bizhaqimizda-text">
-            <h1 className="reveal-text" custom={0} variants={TextAnimation}>
-              {t("biz_haqimizda")}
-            </h1>
-            <h3 className="reveal-text" custom={0} variants={TextAnimation}>
-              {t("biz_haqimzida_h1")}
-            </h3>
-            <p custom={1} variants={TextAnimation} className="reveal-text">
-              {t("biz_haqimizda_p-1")} <br /> <br />
-              {t("biz_haqimizda_p-2")} <br /> <br />
-            </p>
-            <Link onClick={upBtnF} to="/bizhaqimizda" className="btn">
-              {t("biz_haqimizda_btn")}
-            </Link>
-          </div>
-          <div
-            className="bizhaqimzida-img"
-          >
-            <iframe width="885" height="498" src="https://www.youtube.com/embed/_b7lGFky4_g" title="Impuls Tibbiyot Instituti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div className="bizhaqimzida">
+              <div className='biz_1 biz_1_box'>
+                <div className="biz_haqimizda_info_card">
+                  <img src={impuls_img} alt="" />
+                  <div className="box-info">
+                    <h1>{t('biz_haqimizda')}</h1> <br />
+                    <p>{t("biz_haqimizda_p-1")}</p> <br />
+                    <Link onClick={upBtnF} to="/bizhaqimizda"><Button className='bg_gradient' variant="contained">{t("biz_haqimizda_btn")}</Button></Link>
+
+                  </div>
+                </div>
+              </div>
+              <div className='biz_1 biz_2_box'>
+                  <div className="avzalliklar_box_">
+                    <div className='avzal_box'>
+                        <div className="icon_avzal bg_gradient">
+                          <MonitorHeartIcon />
+                        </div>
+                        <div>
+                          <h4>{t("avzallik_1_1")}</h4>
+                          <p>{t("avzallik_1_2")}</p>
+                        </div>
+                    </div>
+
+                    <div className='avzal_box'>
+                        <div className="icon_avzal bg_gradient">
+                          <DashboardIcon />
+                        </div>
+                        <div>
+                            <h4>{t("avzallik_2_1")}</h4>
+                            <p>{t("avzallik_2_2")}</p>
+                        </div>
+                    </div>
+                    
+                    <div className='avzal_box'>
+                        <div className="icon_avzal bg_gradient">
+                          <CastForEducationIcon />
+                        </div>
+                        <div>
+                          <h4>{t("avzallik_3_1")}</h4>
+                          <p>{t("avzallik_3_2")}</p>
+                        </div>
+                    </div>
+                    
+                    <div className='avzal_box'>
+                        <div className="icon_avzal bg_gradient">
+                          <TranslateIcon />
+                        </div>
+                        <div>
+                          <h4>{t("avzallik_4_1")}</h4>
+                          <p>{t("avzallik_4_2")}</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
           </div>
         </div>
 
-        <div className="avzalliklar">
-          <div>
-            <FaBookMedical />
-            <h4>{t("avzallik_1_1")}</h4>
-            <p>{t("avzallik_1_2")}</p>
-          </div>
-          <div>
-            <IoMdPaper />
-            <h4>{t("avzallik_2_1")}</h4>
-            <p>{t("avzallik_2_2")}</p>
-          </div>
-          <div>
-            <RiDraftLine />
-            <h4>{t("avzallik_3_1")}</h4>
-            <p>{t("avzallik_3_2")}</p>
-          </div>
-          <div>
-            <IoLanguage />
-            <h4>{t("avzallik_4_1")}</h4>
-            <p>{t("avzallik_4_2")}</p>
-          </div>
-        </div>
+  
 
-
-        <div className="usmle">
+        <div className="usmle bg_gradient">
           <div className="usmle_box">
             <h1>{t("about_usmle")}</h1>
             <h4>{t("about_usmle_text")} </h4>
-            <Link onClick={changePages} className="link_usmle" to="/usmle">
-              {t("about_usmle_btn")}
-            </Link>
+            <Link onClick={upBtnF} to="/usmle"><Button className='bg_gradient' variant="contained">{t("about_usmle_btn")}</Button></Link>
+          </div>
+          <div className="usmle_box_img">
+              <img src={usmle_img} alt="" />
           </div>
         </div>
 

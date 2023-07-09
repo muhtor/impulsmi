@@ -9,7 +9,6 @@ import { IoGrid } from "react-icons/io5";
 import { CiCircleList } from "react-icons/ci";
 
 
-
 import { motion } from "framer-motion";
 
 
@@ -26,7 +25,9 @@ function Elkutibxona() {
 
     const [bookdata, setBookData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postPerPage] = useState(810);
+    const [postPerPage] = useState(50);
+    
+
 
     useEffect(() => {
         const fetchBooks = () => {

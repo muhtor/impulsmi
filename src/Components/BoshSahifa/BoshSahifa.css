@@ -314,7 +314,7 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     position: relative;
     transition: .5s;
     overflow: hidden;
@@ -323,7 +323,7 @@ header {
 
 
 
-
+/* 
 
 header .img::before {
     position: absolute;
@@ -334,7 +334,7 @@ header .img::before {
     top: 0;
     background: rgba(0, 0, 0, 0.349);
     z-index: 99;
-}
+} */
 
 
 
@@ -406,45 +406,41 @@ header .img {
 
 /* header ================================== */
 
-
-
-.avzalliklar
+.avzalliklar_box_
 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    justify-content: space-between;
-    height: auto;
-    padding: 0 40px;
-    text-align: center;
-}
-
-.avzalliklar div
-{
-    /* border: 1px solid #eee; */
-    height: 250px;
-    font-size: 1.2em;
-    padding: 20px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.avzalliklar svg
+.avzal_box
 {
-    font-size: 3em;
-    color: var(--gb-color);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start !important;
+    width: 100%;
 }
 
-.avzalliklar h4
+.icon_avzal
 {
-    margin: 8px 0;
+    min-width: 60px;
+    min-height: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 1.8em;
+    color: #fff;
 }
 
 
-
+.biz_2_box
+{
+    padding-top: 0;
+}
 
 
 
@@ -460,55 +456,57 @@ header .img {
 
 .usmle
 {
-    width: 100%;
-    height: 80vh;
+    width: 90%;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-bottom: 7%;
 }
 
 
 .usmle_box
 {
-    width: 95%;
+    width: 70%;
     height: 90%;
-    border-radius: 10px;
-    background: var(--gb-color);
     color: var(--fff);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
-    text-align: center;
 }
+
+
 
 .usmle_box h4
 {
     font-weight: 400 !important;
     width: 70%;
-    font-size: 1.3em;
     margin: 20px 0;
 }
 .usmle_box h1
 {
-    font-weight: 500 !important;
+    font-weight: 800 !important;
     letter-spacing: 2px;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
-.usmle_box .link_usmle
+
+.usmle_box_img
 {
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: var(--fff);
-    color: var(--gb-color);
-    font-size: 1.2em;
-    padding: 5px 25px;
-    cursor: pointer;
-    font-weight: 500;
-}   
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 50px 100px #eeeeee75;
+}
+.usmle_box_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -516,80 +514,78 @@ header .img {
 /* biz haqimizda ============================= */
 
 .biz-haqimizda {
-    height: auto;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 3%;
     position: relative;
     z-index: 2;
-    overflow: hidden ;
-}
-
-
-
-.bizhaqimizda-text
-{
-    width: 50%;
-    padding: 10px;
-}
-
-.bizhaqimzida-img
-{
-    width: 50%;
-    height: 70vh;
-    border-radius: 10px;
     overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    transform: translateY(-15%);
+    background: rgba(255, 255, 255, 0.677);
+    border-radius: 10px !important;
+    backdrop-filter: saturate(300%) blur(30px) !important;
+    box-shadow: inset 0 0 40px 10px rgba(255, 255, 255, 0.368);
+    -webkit-backdrop-filter: saturate(100%) blur(30px) !important;
+    z-index: 1;
+    display: flex;
 }
-
-.bizhaqimzida-img iframe
+.bizhaqimzida
 {
+    display: flex;
     width: 100%;
     height: 100%;
+}
+
+.biz_1
+{
+    width: 50%;
+    height: 100%;
+}
+
+
+.biz_1_box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biz_haqimizda_info_card
+{
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 100px 0px #46464617;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.biz_haqimizda_info_card img
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+    height: 50%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    transform: translateY(-25px);
     object-fit: cover;
 }
 
-.biz-haqimizda p {
-    font-weight: 500;
-    margin: 10px 0 20px 0;
-    line-height: 25px;
-}
-
-.bizhaqimizda-text h1
+.box-info
 {
-    font-size: 1.4em;
-    font-weight: 500;
-    transform: translateX(40px);
-    position: relative;
-    color: var(--gb-color);
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.bizhaqimizda-text h1:before
-{
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background: var(--gb-color);
-    left: -40px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-
-.bizhaqimizda-text h3{
-    font-size: 2em;
-    font-weight: 900;
-    margin-top: 20px;
-    color: var(--gb-color);
-}
-
-.biz-haqimizda a
-{
-    cursor: pointer;
-    z-index: 2;
-}
 
 
 
@@ -846,24 +842,9 @@ header .img {
 
 
 @media (max-width: 1000px) {
-    .biz-haqimizda
-    {
-        flex-direction: column-reverse;
-        height: auto;
-        padding: 30px 3%;
-    }
 
-    .bizhaqimizda-text
-    {
-        width: 100%;
-    }
 
-    .bizhaqimzida-img
-    {
-        width: 100%;
-        height: 45vh;
-        margin-bottom: 20px;
-    }
+
 
     .accordion-box
     {
@@ -878,6 +859,30 @@ header .img {
     .impuls-box
     {
         height: 70vh;
+    }
+}
+
+@media (max-width: 950px) {
+    .biz-haqimizda
+    {
+        height: auto;
+    }
+
+    .biz_1
+    {
+        width: 100%;
+    }
+
+    .biz_haqimizda_info_card
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .bizhaqimzida
+    {
+        flex-direction: column !important;
+        height: auto;
     }
 }
 
@@ -904,7 +909,31 @@ header .img {
 
 
 
+@media (max-width: 950px) {
+    .usmle
+    {
+        padding: 30px;
+        flex-direction: column;
+    }
 
+    .usmle_box,
+    .usmle_box_img
+    {
+        width: 100%;
+    }
+
+    .usmle_box_img
+    {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .usmle_box h4
+    {
+        width: 100%;
+    }
+
+}
 
 
 
@@ -1027,21 +1056,6 @@ header .img {
 
 
 
-@media (max-width: 780px) {
-
-    .avzalliklar
-    {
-        /* flex-direction: column; */
-        height: auto;
-        grid-template-columns: repeat(1,1fr);
-    }
-    
-    .avzalliklar div{
-        margin: 20px 0;
-    }
-
-}
-
 
 
 
@@ -1051,7 +1065,17 @@ header .img {
 
     header
     {
-        height: 50vh !important;
+        height: 70vh !important;
+    }
+
+    .usmle_box h1
+    {
+        font-size: 1.8em;
+    }
+
+    .usmle_box h4
+    {
+        width: 100%;
     }
 
     .team_box
@@ -1153,51 +1177,7 @@ header .img {
 
 
 
-    .usmle_box h4
-    {
-        font-weight: 400 !important;
-        width: 99%;
-        font-size: 1.2em;
-        margin: 20px 0;
-    }
-
-    .usmle_box h1
-    {
-        font-size: 1.5em;
-        letter-spacing: 0px;
-    }
-
-    .usmle_box
-    {
-        text-align: left;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    .usmle
-    {
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .usmle_box .link_usmle
-    {
-        font-size: 1em;
-        padding: 6px 15px;
-    }
-
-    .bino_imgs
-    {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px 0px;
-        padding: 40px 0px;
-        margin-top: 40px;
-        justify-content: center;
-    }
+    
 
 
 }

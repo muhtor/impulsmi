@@ -19,7 +19,6 @@ import Aloqa from "./Aloqa/Aloqa";
 import Hujjat from './Hujjat/Hujjat';
 import Shartnoma from './Shartnoma/Shartnoma';
 import Faq from './Faq/Faq';
-
 import Partner_1 from './Partners/Partner_1';
 import Partner_2 from './Partners/Partner_2';
 import Partner_3 from './Partners/Partner_3';
@@ -30,6 +29,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 
 import { AnimatePresence } from "framer-motion";
+import Navbar from './Navbar/Navbar';
 
 function AnimatedPages() {
 

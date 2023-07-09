@@ -300,6 +300,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px !important;
+    display: none;
 }
 
 .grid_list span
