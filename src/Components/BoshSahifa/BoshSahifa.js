@@ -1,5 +1,10 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+
+
+
+
+
 import Img1 from '../../imgs/banner imgs/1.jpg';
 import Img2 from '../../imgs/banner imgs/2.jpg';
 import Img3 from '../../imgs/banner imgs/3.jpg';
@@ -38,6 +43,8 @@ import { Link } from 'react-router-dom';
 
 
 import { useTranslation } from "react-i18next";
+
+
 
 
 const TextAnimation = {
@@ -163,10 +170,11 @@ function BoshSahifa() {
           <div className="bizhaqimzida">
               <div className='biz_1 biz_1_box'>
                 <div className="biz_haqimizda_info_card">
-                  <img src={impuls_img} alt="" />
+                  {/* <img src={impuls_img} alt="" /> */}
                   <div className="box-info">
                     <h1>{t('biz_haqimizda')}</h1> <br />
                     <p>{t("biz_haqimizda_p-1")}</p> <br />
+                    <p>{t("biz_haqimizda_p-3")}</p> <br />
                     <Link onClick={upBtnF} className="bg_gradient" to="/bizhaqimizda">{t("biz_haqimizda_btn")}</Link>
                   </div>
                 </div>

@@ -27,6 +27,15 @@ footer
     display: flex;
 }
 
+.footer_boxs .lit_img
+{
+    width: 115px !important;
+    height: 150px !important;
+    overflow: hidden;
+    background: #000;
+    margin-right: 10px;
+}
+
 .footer_boxs .footer_logo_div img
 {
     width: 70px;
@@ -66,13 +75,20 @@ footer
     font-weight: 600;
 }
 
+.litsenziya
+{
+    overflow: hidden;
+    width: 100px !important;
+    height: 100px !important;
+}
 
 .litsenziya img
 {
     width: 90px;
     height: 120px;
     border: 2px solid;
-    margin: 5px 10px 5px 0  ;
+    margin: 5px 10px 5px 0 ;
+    overflow: hidden;
 }
 .footer_boxs a
 {
@@ -85,19 +101,27 @@ footer
 {
     font-size: 1.7em;
     margin-right: 4px; 
-    color: blue;
+    color: rgb(0, 136, 255);
 }
 
 .aloqa a
 {
     display: flex;
-    align-items: flex-start;  
+    align-items: center;  
     margin-top: 20px; 
+}
+
+.aloqa a img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    object-fit: contain;
 }
 
 .footer_boxs h2, h3
 {
-    color: blue;
+    color: rgb(0, 136, 255);
 }
 
 
@@ -137,7 +161,7 @@ footer
 
 
 
-.view_licence_img
+/* .view_licence_img
 {
     position: fixed;
     left: 0;
@@ -152,22 +176,22 @@ footer
     justify-content: center;
     display: none;
     transition: .5s;
-}
+} */
 
-.view_licence_img.active
+/* .view_licence_img.active
 {
     display: flex;
-}
+} */
 
-.view_licence_img img
+/* .view_licence_img img
 {
     object-fit: contain;
     height: 90%;
     width: 90%;
     transform: scale(0);
-}
+} */
 
-.view_licence_img.active img
+/* .view_licence_img.active img
 {
     transform: scale(1);
 }
@@ -175,7 +199,7 @@ footer
 .litsenziya img
 {
     cursor: pointer;
-}
+} */
 
 .close_btn_footer
 {
@@ -229,6 +253,6 @@ footer
 .litsenziya_link,
 .sertificate_link
 {
-    color: blue  !important;
+    color: rgb(73, 163, 241)  !important;
     margin: 0 5px;
 }
