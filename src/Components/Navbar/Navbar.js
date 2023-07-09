@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom';
 
 import navbar_logo from '../../imgs/logotip imgs/white logotip.png'
 
-import Button from '@mui/material/Button';
-import TranslateIcon from '@mui/icons-material/Translate';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { IoLanguage } from 'react-icons/io5'
+import { MdKeyboardArrowDown } from 'react-icons/md'
+
 
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 
 
-import { display } from '@mui/system';
 import { FaUserGraduate, FaUserTie } from 'react-icons/fa'
 
 
@@ -42,9 +41,6 @@ function Navbar() {
   const { t } = useTranslation();
 
   const [nav, setNav] = useState(false);
-  const [navbarClass, setNavbarClass] = useState(false);
-  const [lng, setLng] = useState(false);
-  const [status, setStatus] = useState(true);
   const [user, setUser] = useState(true);
 
 
@@ -88,15 +84,13 @@ function changePages(e) {
   return (
     <>
        <nav>
-            <Button className='navbar_logo'>
-              <Link onClick={upBtnF} to="/">
+              <Link className='navbar_logo' onClick={upBtnF} to="/">
                 <img src={navbar_logo} alt="" />
               </Link>
-            </Button>
             <ul className={nav ? "navigation active" : "navigation"}>
               <li><Link onClick={changePages} to="/">Bosh sahifa</Link></li>
               <li className='dropdown'>
-                  <a href="#">{t("tuzilma")} <KeyboardArrowDownIcon /></a>
+                  <a href="#">{t("tuzilma")} <MdKeyboardArrowDown /></a>
                     <ul className='sub_menu'>
                     <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
@@ -111,7 +105,7 @@ function changePages(e) {
                 <li><Link className='faq' onClick={changePages} to="/faq">{t("FAQ")}</Link></li>
                 <li><Link to="/aloqa">{t("aloqa")}</Link></li>
               <li className='lng'>
-                  <a href="#"><TranslateIcon /></a>
+                  <a href="#"><IoLanguage /></a>
                   <ul className='sub_menu'>
                   {languages.map((lng) => (
                     
@@ -131,7 +125,7 @@ function changePages(e) {
                     ))}
                     </ul>  
                 </li>
-            <Button onClick={changeUserClass} className='login_link' variant="contained">Login</Button>
+            <a href='#' onClick={changeUserClass} className='login_link'>Login</a>
             
             <div className={user ? "login_platform_box" : "login_platform_box active"}>
                 <a target="_blank" href="http://mentor.backoffice.uz"> <FaUserTie /> Mentor</a>

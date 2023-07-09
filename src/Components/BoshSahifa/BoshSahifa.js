@@ -7,11 +7,13 @@ import Img4 from '../../imgs/banner imgs/4.jpg';
 import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
-import Button from '@mui/material/Button';
-import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
-import TranslateIcon from '@mui/icons-material/Translate';
+
+
+
+import { SiCampaignmonitor } from 'react-icons/si';
+import { MdDashboard } from 'react-icons/md';
+import { MdCastForEducation } from 'react-icons/md';
+import { IoLanguage } from 'react-icons/io5';
 
 
 import impuls_img from '../../imgs/imi img.png'
@@ -26,7 +28,7 @@ import logoImg from '../../imgs/new logo.png';
 import { BsTelegram, BsInstagram, BsFacebook, BsHeartPulseFill } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import {AiOutlineClose, AiFillYoutube, AiOutlineGlobal} from 'react-icons/ai'
-import {IoIosArrowUp} from 'react-icons/io'
+import {IoIosArrowUp,} from 'react-icons/io'
 import { ImLocation } from 'react-icons/im'
 
  
@@ -165,8 +167,7 @@ function BoshSahifa() {
                   <div className="box-info">
                     <h1>{t('biz_haqimizda')}</h1> <br />
                     <p>{t("biz_haqimizda_p-1")}</p> <br />
-                    <Link onClick={upBtnF} to="/bizhaqimizda"><Button className='bg_gradient' variant="contained">{t("biz_haqimizda_btn")}</Button></Link>
-
+                    <Link onClick={upBtnF} className="bg_gradient" to="/bizhaqimizda">{t("biz_haqimizda_btn")}</Link>
                   </div>
                 </div>
               </div>
@@ -174,7 +175,7 @@ function BoshSahifa() {
                   <div className="avzalliklar_box_">
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
-                          <MonitorHeartIcon />
+                          <SiCampaignmonitor />
                         </div>
                         <div>
                           <h4>{t("avzallik_1_1")}</h4>
@@ -184,7 +185,7 @@ function BoshSahifa() {
 
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
-                          <DashboardIcon />
+                          <MdDashboard />
                         </div>
                         <div>
                             <h4>{t("avzallik_2_1")}</h4>
@@ -194,7 +195,7 @@ function BoshSahifa() {
                     
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
-                          <CastForEducationIcon />
+                          <MdCastForEducation />
                         </div>
                         <div>
                           <h4>{t("avzallik_3_1")}</h4>
@@ -204,7 +205,7 @@ function BoshSahifa() {
                     
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
-                          <TranslateIcon />
+                          <IoLanguage />
                         </div>
                         <div>
                           <h4>{t("avzallik_4_1")}</h4>
@@ -222,7 +223,7 @@ function BoshSahifa() {
           <div className="usmle_box">
             <h1>{t("about_usmle")}</h1>
             <h4>{t("about_usmle_text")} </h4>
-            <Link onClick={upBtnF} to="/usmle"><Button className='bg_gradient' variant="contained">{t("about_usmle_btn")}</Button></Link>
+            <Link onClick={upBtnF} to="/usmle" className='bg_gradient'>{t("about_usmle_btn")}</Link>
           </div>
           <div className="usmle_box_img">
               <img src={usmle_img} alt="" />

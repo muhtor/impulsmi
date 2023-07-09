@@ -323,19 +323,6 @@ header {
 
 
 
-/* 
-
-header .img::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.349);
-    z-index: 99;
-} */
-
 
 
 
@@ -506,6 +493,12 @@ header .img {
     object-fit: cover;
 }
 
+.usmle_box a
+{
+    color: #fff;
+    padding: 10px 20px;
+}
+
 
 
 
@@ -584,6 +577,12 @@ header .img {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+}
+
+.box-info a
+{
+    padding: 10px;
+    color: #fff;
 }
 
 
