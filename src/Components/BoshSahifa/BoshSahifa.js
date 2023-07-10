@@ -306,7 +306,7 @@ function BoshSahifa() {
               <div speed={500} plugins={[]}  className='gallerureact'>
                 <div className="main_img_box row"><img src={main_img_1} alt="" /></div>
                 <div className="main_img_box row"><img src={main_img_2} alt="" /></div>
-                <div className="main_img_box row"><img src={main_img_3} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_16} alt="" /></div>
                 <div className="main_img_box row"><img src={main_img_4} alt="" /></div>
                 <div className="main_img_box row"><img src={main_img_5} alt="" /></div>
                 <div className="main_img_box row"><img src={main_img_6} alt="" /></div>
