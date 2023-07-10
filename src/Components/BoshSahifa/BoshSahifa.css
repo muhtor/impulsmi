@@ -841,6 +841,78 @@ header .img {
 
 
 
+
+
+
+
+
+
+
+.main_gallery
+{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    padding: 7% 0;
+}
+
+.main_galler_row
+{
+    width: auto;
+    min-height: 330px;
+    overflow: hidden;
+}
+
+.main_img_box
+{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+
+.main_galler_row img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row
+{
+    transform: translateX(-200px);
+}
+
+.gallerureact,
+.child
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1000px) {
 
 

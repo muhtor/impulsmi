@@ -3,6 +3,10 @@ import { useEffect, useState } from 'react';
 
 
 
+import Marquee from "react-fast-marquee";
+import 'lightgallery/css/lightgallery.css'
+import LightGallery from 'lightgallery/react/Lightgallery.es5'
+
 
 
 import Img1 from '../../imgs/banner imgs/1.jpg';
@@ -13,6 +17,23 @@ import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
 
+import main_img_1 from '../../imgs/main gallery imgs/1.jpg'
+import main_img_2 from '../../imgs/main gallery imgs/2.jpg'
+import main_img_3 from '../../imgs/main gallery imgs/3.jpg'
+import main_img_4 from '../../imgs/main gallery imgs/4.jpg'
+import main_img_5 from '../../imgs/main gallery imgs/5.jpg'
+import main_img_6 from '../../imgs/main gallery imgs/6.jpg'
+import main_img_7 from '../../imgs/main gallery imgs/7.jpg'
+import main_img_8 from '../../imgs/main gallery imgs/8.jpg'
+import main_img_9 from '../../imgs/main gallery imgs/9.jpg'
+import main_img_10 from '../../imgs/main gallery imgs/10.jpg'
+import main_img_11 from '../../imgs/main gallery imgs/11.jpg'
+import main_img_12 from '../../imgs/main gallery imgs/12.jpg'
+import main_img_13 from '../../imgs/main gallery imgs/13.JPG'
+import main_img_14 from '../../imgs/main gallery imgs/14.JPG'
+import main_img_15 from '../../imgs/main gallery imgs/15.JPG'
+import main_img_16 from '../../imgs/main gallery imgs/16.JPG'
+
 
 
 import { SiCampaignmonitor } from 'react-icons/si';
@@ -21,7 +42,6 @@ import { MdCastForEducation } from 'react-icons/md';
 import { IoLanguage } from 'react-icons/io5';
 
 
-import impuls_img from '../../imgs/imi img.png'
 
 
 import impuls1Img from '../../imgs/111111.jpg';
@@ -281,7 +301,36 @@ function BoshSahifa() {
 
         </div>
 
- 
+        <div className="main_gallery">
+            <Marquee className="main_galler_row">
+              <div speed={500} plugins={[]}  className='gallerureact'>
+                <div className="main_img_box row"><img src={main_img_1} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_2} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_3} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_4} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_5} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_6} alt="" /></div>
+              </div>
+            </Marquee>
+            <Marquee className="main_galler_row">
+              <div className='gallerureact'>
+                <div className="main_img_box"><img src={main_img_7} alt="" /></div>
+                <div className="main_img_box"><img src={main_img_8} alt="" /></div>
+                <div className="main_img_box"><img src={main_img_9} alt="" /></div>
+                <div className="main_img_box"><img src={main_img_10} alt="" /></div>
+              </div>
+            </Marquee>
+            <Marquee className="main_galler_row">
+              <div className='gallerureact'>
+                <div className="main_img_box row"><img src={main_img_11} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_12} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_13} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_14} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_15} alt="" /></div>
+                <div className="main_img_box row"><img src={main_img_16} alt="" /></div>
+              </div>
+            </Marquee>
+        </div>
 
     
 
