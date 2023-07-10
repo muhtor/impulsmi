@@ -912,7 +912,7 @@ header .img {
 @media (max-width: 950px) {
     .usmle
     {
-        padding: 30px;
+        padding: 0px 5px;
         flex-direction: column;
     }
 
@@ -958,7 +958,7 @@ header .img {
     .impuls-box
     {
         width: 370px;
-        margin: 10px 0;
+        margin: 30px 0;
     }
 
     .bino_box
@@ -1035,7 +1035,24 @@ header .img {
     }
 
 
-  
+    .bizhaqimzida
+    {
+        padding: 0;
+        margin-top: 0;
+        height: auto !important;
+    }
+
+    .biz-haqimizda
+    {
+        width: 97%;
+        padding: 10px;
+    }
+
+    .biz_haqimizda_info_card
+    {
+        height: auto;
+        margin-top: 0;
+    }
 
 
 
@@ -1044,9 +1061,11 @@ header .img {
     {
         font-weight: 400 !important;
         width: 90%;
-        font-size: 1.1em;
+        font-size: 1em;
         margin: 20px 0;
     }
+
+
 
 
 
