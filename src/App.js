@@ -4,7 +4,6 @@ import AnimatedPages from "./Components/AnimatedPages";
 // import Azizbek from "./Components/Azizbek/Azizbek";
 import Navbar from "./Components/Navbar/Navbar";
 
-
 function App() {
   return (
     <>

@@ -51,29 +51,7 @@ function Rektorat() {
                         </div>
                     </div>
 
-                    <div className="rektorat_xodimlari">
-                        <h1>{t("prorektor_lavozim_1")}</h1>
-                        <div className="retkorat_box">
-                            <div className="rektorat-img">
-                                <img src={sadirbek} alt="" />
-                            </div>
-                            <div className="rektor_info">
-                            <h3>{t("prorektor-name")}</h3>
-                                <h4>{t("prorektor_lavozim")}</h4> <br />
-                                <h4>{t("prorektor-qabul_kunlari")}</h4> <br />
-                                <h4>{t("prorektor-tel")}</h4> <br />
-                                <h4>{t("prorektor-email")}</h4> <br />
-                            </div>
-                        </div>
-                        <div className="m_faoliyati">
-                            <h1>{t("rektor_mehnat_faoliyati")}</h1> <br />
-                            <p>{t("pr-mh_1")}</p>
-                            <p>{t("pr-mh_2")}</p>
-                            <p>{t("pr-mh_3")}</p>
-                            <p>{t("pr-mh_4")}</p>
-                            <p>{t("pr-mh_5")}</p>
-                        </div>
-                    </div>
+                  
                 </div>
             </div>
         </>

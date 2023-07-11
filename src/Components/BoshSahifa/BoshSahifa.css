@@ -376,18 +376,31 @@ header .img {
 }
 
 .img.active img {
-    animation: alternate 35s slider_zoom;
+    animation: alternate 15s slider_zoom;
     z-index: -1;
 }
 
-
+/* 
 @keyframes slider_zoom {   
     100%{
         transform: scale(1.7);
     }   
+} */
+
+@keyframes slider_zoom {
+0% {
+    transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
 }
-
-
+100% {
+    transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+            transform-origin: top;
+}
+}
 
 
 
@@ -507,7 +520,7 @@ header .img {
 /* biz haqimizda ============================= */
 
 .biz-haqimizda {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -543,7 +556,7 @@ header .img {
 .biz_1_box
 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -555,7 +568,7 @@ header .img {
 
 .biz_haqimizda_info_card
 {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 600px;
     height: 70vh;
     border-radius: 10px;

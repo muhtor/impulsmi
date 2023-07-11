@@ -1,8 +1,6 @@
 nav
 {
     position: fixed;
-    /* background: rgba(238, 233, 233, 0.377); */
-    /* background: rgba(255, 255, 255, 0.534); */
     background: rgba(188, 185, 185, 0.534);
     left: 50%;
     transform: translateX(-50%);
@@ -14,10 +12,12 @@ nav
     justify-content: space-between;
     padding: 8px 10px;
     border-radius: 15px;
-    /* backdrop-filter: blur(50px); */
+    backdrop-filter: blur(50px);
     backdrop-filter: saturate(300%) blur(30px);
     box-shadow: inset 0 0 40px 10px rgba(255, 255, 255, 0.368);
 }
+
+
 
 
 

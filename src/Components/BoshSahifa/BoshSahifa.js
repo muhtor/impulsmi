@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 
 
 
+
 import Marquee from "react-fast-marquee";
 import 'lightgallery/css/lightgallery.css'
-import LightGallery from 'lightgallery/react/Lightgallery.es5'
 
 
 
@@ -57,12 +57,14 @@ import {IoIosArrowUp,} from 'react-icons/io'
 import { ImLocation } from 'react-icons/im'
 
  
+import { useTranslation } from "react-i18next";
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
-
-import { useTranslation } from "react-i18next";
 
 
 
@@ -83,7 +85,13 @@ const TextAnimation = {
 
 
 
+
+
 function BoshSahifa() {
+
+  
+
+
 
   const { t } = useTranslation();
 
@@ -193,9 +201,9 @@ function BoshSahifa() {
                   {/* <img src={impuls_img} alt="" /> */}
                   <div className="box-info">
                     <h1>{t('biz_haqimizda')}</h1> <br />
-                    <p>{t("biz_haqimizda_p-1")}</p> <br />
-                    <p>{t("biz_haqimizda_p-3")}</p> <br />
-                    <Link onClick={upBtnF} className="bg_gradient" to="/bizhaqimizda">{t("biz_haqimizda_btn")}</Link>
+                    <p data-aos="fade-right" >{t("biz_haqimizda_p-1")}</p> <br />
+                    <p data-aos="fade-right" >{t("biz_haqimizda_p-3")}</p> <br />
+                    <Link data-aos="fade-right" onClick={upBtnF} className="bg_gradient" to="/bizhaqimizda">{t("biz_haqimizda_btn")}</Link>
                   </div>
                 </div>
               </div>
@@ -211,7 +219,7 @@ function BoshSahifa() {
                         </div>
                     </div>
 
-                    <div className='avzal_box'>
+                    <div data-aos="zoom-out" className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
                           <MdDashboard />
                         </div>
@@ -221,7 +229,7 @@ function BoshSahifa() {
                         </div>
                     </div>
                     
-                    <div className='avzal_box'>
+                    <div data-aos="zoom-out" className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
                           <MdCastForEducation />
                         </div>
@@ -231,7 +239,7 @@ function BoshSahifa() {
                         </div>
                     </div>
                     
-                    <div className='avzal_box'>
+                    <div data-aos="zoom-out" className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
                           <IoLanguage />
                         </div>
@@ -249,11 +257,11 @@ function BoshSahifa() {
 
         <div className="usmle bg_gradient">
           <div className="usmle_box">
-            <h1>{t("about_usmle")}</h1>
-            <h4>{t("about_usmle_text")} </h4>
-            <Link onClick={upBtnF} to="/usmle" className='bg_gradient'>{t("about_usmle_btn")}</Link>
+            <h1 data-aos="zoom-out">{t("about_usmle")}</h1>
+            <h4 data-aos="zoom-out">{t("about_usmle_text")} </h4>
+            <Link data-aos="zoom-out" onClick={upBtnF} to="/usmle" className='bg_gradient'>{t("about_usmle_btn")}</Link>
           </div>
-          <div className="usmle_box_img">
+          <div data-aos="zoom-out" className="usmle_box_img">
               <img src={usmle_img} alt="" />
           </div>
         </div>
@@ -262,9 +270,9 @@ function BoshSahifa() {
 
         <div className="impuls">
 
-          <div
+          <div data-aos="fade-up"
             className="impuls-box">
-            <div className="img-impuls-box">
+            <div  className="img-impuls-box">
               <div className="img-logo">
                 <img src={logoImg} alt="" />
               </div>
@@ -274,9 +282,9 @@ function BoshSahifa() {
             <p>{t("impuls_box_p_1")}</p>
           </div>
           
-          <div
+          <div data-aos="fade-up"
             className="impuls-box">
-            <div className="img-impuls-box">
+            <div  className="img-impuls-box">
               <div className="img-logo">
                 <img src={logoImg} alt="" />
               </div>
@@ -286,10 +294,10 @@ function BoshSahifa() {
             <p>{t("impuls_box_p_2")}</p>
           </div>
 
-          <div
+          <div data-aos="fade-up"
             className="impuls-box"
           >
-            <div className="img-impuls-box">
+            <div  className="img-impuls-box">
               <div className="img-logo">
                 <img src={logoImg} alt="" />
               </div>

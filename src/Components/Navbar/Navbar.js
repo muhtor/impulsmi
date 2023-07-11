@@ -38,6 +38,10 @@ const languages = [
 
 function Navbar() {
 
+
+
+
+
   const { t } = useTranslation();
 
   const [nav, setNav] = useState(false);
@@ -94,6 +98,7 @@ function changePages(e) {
                     <ul className='sub_menu'>
                     <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
+                        <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                         <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
                         <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
