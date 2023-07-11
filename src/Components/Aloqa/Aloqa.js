@@ -77,8 +77,8 @@ function Aloqa() {
           </div>
           <form ref={form} onSubmit={sendEmail}>
             <h1>{t("habar")}</h1>
-            <div className="row pt-5 mx-auto">
-              <div className="col-8 form-group mx-auto">
+            <div className="">
+              <div className="col-8 form-group">
                 <input
                   type="text"
                   className="form-control"

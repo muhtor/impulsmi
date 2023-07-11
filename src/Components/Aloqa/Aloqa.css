@@ -108,19 +108,16 @@ form input
     padding: 7px;
     margin: 10px 0;
     transition: .5s;
+    border: 1px solid #2e6ce8;
 }
 
-form input:focus,
-form textarea:focus
-{
-    border: 2px solid var(--gb-color);
-}
+
 
 
 form input::placeholder,
 form textarea::placeholder
 {
-    color: var(--gb-color);
+    color: #2e6ce8;
     font-weight: 500;
 }
 
@@ -133,6 +130,7 @@ form textarea
     padding: 10px;
     outline: none;
     transition: .5s;
+    border: 1px solid #2e6ce8;
 }
 
 .result-popup

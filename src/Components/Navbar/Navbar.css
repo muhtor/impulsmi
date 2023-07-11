@@ -3,7 +3,7 @@ nav
     position: fixed;
     background: rgba(188, 185, 185, 0.534);
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) !important;
     top: 10px;
     width: 80%;
     z-index: 999;
@@ -15,8 +15,19 @@ nav
     backdrop-filter: blur(50px);
     backdrop-filter: saturate(300%) blur(30px);
     box-shadow: inset 0 0 40px 10px rgba(255, 255, 255, 0.368);
+    animation: nav_animation .9s ease-out;
 }
 
+@keyframes nav_animation {
+    0%
+    {
+        top: -20%;
+    }
+    100%
+    {
+        top: 10px;
+    }
+}
 
 
 

@@ -69,18 +69,6 @@ AOS.init();
 
 
 
-const TextAnimation = {
-  hidden: {
-    y: 100,
-    opacity: 0,
-  },
-  visible: (custom) => ({
-    y: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.2 , duration: 0.7},
-  }),
-};
-
 
 
 

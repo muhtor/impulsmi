@@ -14,6 +14,8 @@ import { useTranslation } from 'react-i18next';
 
 import { FaUserGraduate, FaUserTie } from 'react-icons/fa'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const languages = [
   {
