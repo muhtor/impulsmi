@@ -34,7 +34,7 @@ function InternationalFaculty() {
                             </div>
                         </div>
                         <br /><br />
-                        <div className="retkorat_box">
+                        {/* <div className="retkorat_box">
                             <div className="rektorat-img">
                                 <img src={hind} alt="85" />
                             </div>
@@ -46,7 +46,7 @@ function InternationalFaculty() {
                                 <h4>Ph No & Whatsaap No. +918837629089</h4> <br />
                                 <h4>Telegram :- +998 91-774-83-95</h4> <br />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                   
