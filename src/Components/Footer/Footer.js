@@ -47,9 +47,6 @@ function Footer() {
       document.querySelector('.view_licence_img').classList.add('active');
     }
 
-    function close_img_licence() {
-      document.querySelector('.view_licence_img').classList.remove('active');
-    }
 
     return (
       <>
