@@ -1,0 +1,10 @@
+.reverse_grid
+{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.reverse_grid .rektorat-img
+{
+    margin-left: 20px;
+}

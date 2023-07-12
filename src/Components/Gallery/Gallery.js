@@ -66,39 +66,31 @@ function Gallery() {
         <div className="banner">
         <h1>Gallery</h1>
         </div>
-        <div className="gallery" on>
-           <LightGallery speed={500} plugins={[]} className="col col_1">
-                <img src={i_3} alt="" />
-                <img src={i_9} alt="" />
-                <img src={i_22} alt="" />
-                <img src={i_5} alt="" />
-                <img src={i_4} alt="" />
-                <img src={i_1} alt="" />
-           </LightGallery>
-           <LightGallery speed={500} plugins={[]} className="col col_2">
-                <img src={i_21} alt="" />
-                <img src={i_11} alt="" />
-                <img src={i_17} alt="" />
-                <img src={i_8} alt="" />
-                <img src={i_10} alt="" />
-                <img src={i_24} alt="" />
-           </LightGallery>
-           <LightGallery speed={500} plugins={[]} className="col col_3">
-                <img src={i_2} alt="" />
-                <img src={i_12} alt="" />
-                <img src={i_13} alt="" />
-                <img src={i_14} alt="" />
-                <img src={i_15} alt="" />
-                <img src={i_6} alt="" />
-           </LightGallery>
-           <LightGallery speed={500} plugins={[]} className="col col_4">
-                <img src={i_16} alt="" />
-                <img src={i_19} alt="" />
-                <img src={i_20} alt="" />
-                <img src={i_23} alt=""/>
-                <img src={i_7} alt="" />
-                <img src={i_18} alt="" />         
-           </LightGallery>
+        <div className="glr">
+            <img src={i_1} alt="" />
+            <img src={i_2} alt="" />
+            <img src={i_3} alt="" />
+            <img src={i_4} alt="" />
+            <img src={i_5} alt="" />
+            <img src={i_6} alt="" />
+            <img src={i_7} alt="" />
+            <img src={i_8} alt="" />
+            <img src={i_9} alt="" />
+            <img src={i_10} alt="" />
+            <img src={i_11} alt="" />
+            <img src={i_12} alt="" />
+            <img src={i_13} alt="" />
+            <img src={i_14} alt="" />
+            <img src={i_15} alt="" />
+            <img src={i_16} alt="" />
+            <img src={i_17} alt="" />
+            <img src={i_18} alt="" />
+            <img src={i_19} alt="" />
+            <img src={i_20} alt="" />
+            <img src={i_21} alt="" />
+            <img src={i_22} alt="" />
+            <img src={i_23} alt="" />
+            <img src={i_24} alt="" />
         </div>
     </div>
   )

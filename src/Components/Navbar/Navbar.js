@@ -62,6 +62,23 @@ function Navbar() {
     document.querySelectorAll(".lng-en").forEach(el => el.classList.add('active'));
   }, []);
 
+
+    const body = document.body;
+    let lastScroll = 0;
+
+  useEffect(() => {
+    window.addEventListener('scroll', ()=> {
+      const currentScroll = window.pageXOffset
+
+      if (currentScroll <= 0){
+        body.classList.remove("scroll-up");
+      }
+
+      lastScroll = currentScroll; 
+
+    })
+  }, []);
+
   function changeLng(e) {
     document.querySelectorAll('.lng')
     .forEach(el => el.classList.remove('active'));
@@ -101,6 +118,7 @@ function changePages(e) {
                     <li><Link to="/nizom" onClick={changePages}>{t("imi_nizom")}</Link></li>
                         <li><Link to="/teachers" onClick={changePages}>{t("teachers")}</Link></li>
                         <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
+                        <li><Link to="/internationalFaculty" onClick={changePages}>International Faculty</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                         <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
                         <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>

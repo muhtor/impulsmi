@@ -2,7 +2,6 @@ import React from 'react';
 import Admin from "./Admin/Admin";
 import BoshSahifa from "./BoshSahifa/BoshSahifa";
 import BizHaqimizda from "./BizHaqimizda/BizHaqimizda";
-import Markaz from './Markaz/Markaz';
 import Bino from './Bino/Bino';
 import Nizom from './Nizom/Nizom';
 import Kengash from './Kengash/Kengash';
@@ -23,6 +22,7 @@ import Partner_1 from './Partners/Partner_1';
 import Partner_2 from './Partners/Partner_2';
 import Partner_3 from './Partners/Partner_3';
 import Partner_4 from './Partners/Partner_4';
+import InternationalFaculty from './InternationalFaculty/InternationalFaculty';
 
 
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -42,7 +42,6 @@ function AnimatedPages() {
             <Route path="/" element={<BoshSahifa />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/bizhaqimizda" element={<BizHaqimizda />} />
-            <Route path="/markaz" element={<Markaz />} />
             <Route path="/bino" element={<Bino />} />
             <Route path="/nizom" element={<Nizom />} />
             <Route path="/struktura" element={<Struktura />} />
@@ -63,6 +62,7 @@ function AnimatedPages() {
             <Route path="/partner_2" element={<Partner_2 />} />
             <Route path="/partner_3" element={<Partner_3 />} />
             <Route path="/partner_4" element={<Partner_4 />} />
+            <Route path="/internationalFaculty" element={<InternationalFaculty />} />
           </Routes>
         </AnimatePresence>
       </>
