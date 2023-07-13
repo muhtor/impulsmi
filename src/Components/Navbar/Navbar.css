@@ -310,6 +310,7 @@ nav .navigation li:hover > ul
         top: 5px;
         width: 98%;
         padding: 10px 15px;
+        border-radius: 5px;
         /* overflow: hidden; */
     }
 

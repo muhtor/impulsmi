@@ -1104,7 +1104,7 @@ header .img {
 @media (max-width: 870px) {
     header
     {
-        height: 100vh !important;
+        height: 80vh !important;
     }
 
     .impuls
@@ -1168,7 +1168,7 @@ header .img {
 
     header
     {
-        height: 100vh;
+        height: 80vh;
     }
 
     .img h4
@@ -1241,7 +1241,7 @@ header .img {
 
     header
     {
-        height: 100vh !important;
+        height: 90vh !important;
     }
 
     .usmle_box h1
