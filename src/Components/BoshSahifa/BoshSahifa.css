@@ -124,11 +124,7 @@
     display: flex;
 }
 
-/* .mini_navbar a:last-child
-{
-    border-bottom: 0;
-    color: rgb(0, 170, 255);
-} */
+
 
 .mini_navbar div
 {
@@ -314,10 +310,84 @@
 
 header {
     width: 100%;
-    height: 85vh;
-    position: relative;
+    height: 100vh;
     transition: .5s;
     overflow: hidden;
+}
+
+
+.header_box
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header_box::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0127732a;
+}
+
+.header_box .marquee-container 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+.marques
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.img_marquee
+{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    box-shadow: rgba(26, 115, 232, 0.15) 0rem 0.1875rem 0.1875rem 0rem, rgba(26, 115, 232, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(26, 115, 232, 0.842) 0rem 0.0625rem 0.3125rem 0rem !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img_marqueek img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header_box .marquee-container h1
+{
+    margin: 5px 10px 0;
+    font-weight: 900;
+    padding: 0;
+    color: rgb(241, 248, 255);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:1px;
+}
+
+.header_box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -326,6 +396,8 @@ header {
 
 
 
+
+/* 
 header .img {
     position: absolute;
     left: 0;
@@ -335,9 +407,9 @@ header .img {
     visibility: hidden;
     opacity: 0;
     transition: 1s;
-}
+} */
 
-.img.active {
+/* .img.active {
     visibility: visible;
     opacity: 1;
 }
@@ -348,7 +420,7 @@ header .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 
 
@@ -529,8 +601,8 @@ header .img {
     z-index: 2;
     overflow: hidden;
     width: 90%;
-    margin: 0 auto;
-    transform: translateY(-15%);
+    margin: 20px auto;
+    /* transform: translateY(-15%); */
     background: rgba(255, 255, 255, 0.677);
     border-radius: 10px !important;
     backdrop-filter: saturate(300%) blur(30px) !important;
@@ -1096,7 +1168,7 @@ header .img {
 
     header
     {
-        height: 80vh;
+        height: 100vh;
     }
 
     .img h4
@@ -1169,7 +1241,7 @@ header .img {
 
     header
     {
-        height: 70vh !important;
+        height: 100vh !important;
     }
 
     .usmle_box h1

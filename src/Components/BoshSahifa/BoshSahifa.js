@@ -9,13 +9,16 @@ import 'lightgallery/css/lightgallery.css'
 
 
 
-import Img1 from '../../imgs/banner imgs/1.jpg';
+import Img1 from '../../imgs/banner imgs/header img.jpg';
 import Img2 from '../../imgs/banner imgs/2.jpg';
 import Img3 from '../../imgs/banner imgs/3.jpg';
 import Img4 from '../../imgs/banner imgs/4.jpg';
 import Img5 from '../../imgs/banner imgs/5.jpg';
 import Img6 from '../../imgs/banner imgs/6.jpg';
 import Img7 from '../../imgs/banner imgs/7.jpg';
+
+import navbar_logo from '../../imgs/logotip imgs/white logotip.png'
+
 
 import main_img_1 from '../../imgs/main gallery imgs/1.jpg'
 import main_img_2 from '../../imgs/main gallery imgs/2.jpg'
@@ -153,26 +156,34 @@ function BoshSahifa() {
         </div>
 
         <header id="boshSahifa">
-          <div className="img imgs-0 active">
+          <div className='header_box'>
+            <Marquee speed={20} plugins={[]}>
+                <div className="marques">
+                  <h1>IMPULS TIBBIYOT INSTITUTI</h1>
+                  <div className="img_marquee">
+                    <img src={navbar_logo} alt="" />
+                  </div>
+                </div>
+                <div className="marques">
+                  <h1>IMPULS MEDICAL INSTITUTE</h1>
+                  <div className="img_marquee">
+                    <img src={navbar_logo} alt="" />
+                  </div>
+                </div>
+                <div className="marques">
+                  <h1>IMPULS TIBBIYOT INSTITUTI</h1>
+                  <div className="img_marquee">
+                    <img src={navbar_logo} alt="" />
+                  </div>
+                </div>
+                <div className="marques">
+                  <h1>IMPULS MEDICAL INSTITUTE</h1>
+                  <div className="img_marquee">
+                    <img src={navbar_logo} alt="" />
+                  </div>
+                </div>
+            </Marquee>
             <img src={Img1} alt=""></img>
-          </div>
-          <div className="img imgs-1">
-            <img src={Img2} alt=""></img>
-          </div>
-          <div className="img imgs-2">
-            <img src={Img3} alt=""></img>
-          </div>
-          <div className="img imgs-2">
-            <img src={Img4} alt=""></img>
-          </div>
-          <div className="img imgs-2">
-            <img src={Img5} alt=""></img>
-          </div>
-          <div className="img imgs-2">
-            <img src={Img6} alt=""></img>
-          </div>
-          <div className="img imgs-2">
-            <img src={Img7} alt=""></img>
           </div>
         </header>
        
