@@ -38,7 +38,7 @@ function InternationalFaculty() {
                             </div>
                             <div className="rektor_info">
                                 <h3>Nizmiddinov Shuxratjon</h3>
-                                <h4>International Relations Department Speccialist</h4> <br />
+                                <h4>International Relations Department Specialist</h4> <br />
                             </div>
                         </div>
                         <br /><br />
@@ -48,7 +48,7 @@ function InternationalFaculty() {
                             </div>
                             <div className="rektor_info">
                                 <h3>Qutbitdinov Ayubxon</h3>
-                                <h4>International Relations Department Speccialist</h4> <br />
+                                <h4>International Relations Department Specialist</h4> <br />
                             </div>
                         </div>
                     </div>
