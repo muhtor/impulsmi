@@ -3,7 +3,8 @@ import './InternationalFaculty.css';
 import {Link} from 'react-router-dom';
 
 import islom_aka from '../../imgs/internationalFaculty/islom aka.jpg'
-import hind from '../../imgs/internationalFaculty/hind.png'
+import shuxrat_aka from '../../imgs/internationalFaculty/shuxrat aka.jpg'
+import ayubxon_aka from '../../imgs/internationalFaculty/ayubxon aka.jpg'
 
 
 
@@ -28,25 +29,28 @@ function InternationalFaculty() {
                                 <h3>Islomjon Nurmukhammadov</h3>
                                 <h4>International Relations Department Director</h4> <br />
                                 <h4>Reception Days Monday-Saturday 09:00 - 17:00</h4> <br />
-                                <h4>Phone number: +998949507697</h4> <br />
-                                <h4>WhatsApp +998949507697</h4> <br />
-                                <h4>Email: auditor.islam@bk.ru</h4> <br />
                             </div>
                         </div>
                         <br /><br />
-                        {/* <div className="retkorat_box">
+                        <div className="retkorat_box">
                             <div className="rektorat-img">
-                                <img src={hind} alt="85" />
+                                <img src={shuxrat_aka} alt="85" />
                             </div>
                             <div className="rektor_info">
-                                <h3>Dr Jagpreet Singh Kahlon</h3>
-                                <h4>MBBS MD Oncologist and Radiologist with Radiation Medicine PGDCC</h4> <br />
-                                <h4>Registration Number PMC 51101</h4> <br />
-                                <h4>Email:- DRKAHLON84@GMAIL.COM - mayomd123@gmail.com</h4> <br />
-                                <h4>Ph No & Whatsaap No. +918837629089</h4> <br />
-                                <h4>Telegram :- +998 91-774-83-95</h4> <br />
+                                <h3>Nizmiddinov Shuxratjon</h3>
+                                <h4>International Relations Department Speccialist</h4> <br />
                             </div>
-                        </div> */}
+                        </div>
+                        <br /><br />
+                        <div className="retkorat_box">
+                            <div className="rektorat-img">
+                                <img src={ayubxon_aka} alt="85" />
+                            </div>
+                            <div className="rektor_info">
+                                <h3>Qutbitdinov Ayubxon</h3>
+                                <h4>International Relations Department Speccialist</h4> <br />
+                            </div>
+                        </div>
                     </div>
 
                   
