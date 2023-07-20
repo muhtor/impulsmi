@@ -1,20 +1,20 @@
 nav
 {
     position: fixed;
-    background: rgba(188, 185, 185, 0.534);
+    background: rgba(195, 211, 232, 0.684);
     left: 50%;
     transform: translateX(-50%) !important;
     top: 10px;
     width: 80%;
-    z-index: 1;
+    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
     border-radius: 15px;
     backdrop-filter: blur(50px);
-    backdrop-filter: saturate(300%) blur(30px);
-    box-shadow: inset 0 0 40px 10px rgba(255, 255, 255, 0.368);
+    backdrop-filter: saturate(400%) blur(30px);
+    box-shadow: 0 10px 40px 1px rgba(255, 255, 255, 0.382);
     animation: nav_animation .9s ease-out;
 }
 
@@ -305,6 +305,19 @@ nav .navigation li:hover > ul
         display: flex;
         z-index: 999;
     }
+
+    .banner_txt_infos
+    {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .marques
+    {
+        top: 60%;
+    }
+
+    
 
 
     nav

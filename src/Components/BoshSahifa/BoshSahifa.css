@@ -313,14 +313,19 @@ header {
     height: 100vh;
     transition: .5s;
     overflow: hidden;
+    background: url(../../imgs/banner.png);
+    background-size: cover;
+    background-position: center;
 }
 
 
 .header_box
 {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
 }
 
 .header_box::before
@@ -331,14 +336,14 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #0127732a;
+    background: #0127730e;
 }
 
 .header_box .marquee-container 
 {
     position: absolute;
-    bottom: 0;
     left: 0;
+    top: 65%;
     color: #fff;
 }
 
@@ -375,12 +380,15 @@ header {
 
 .header_box .marquee-container h1
 {
-    margin: 5px 10px 0;
+    margin: 5px 20px 0;
     font-weight: 900;
     padding: 0;
+    font-size: 10em;
     color: rgb(241, 248, 255);
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-width: 7px;
+    opacity: .5;
+    z-index: 1;
 }
 
 .header_box img
@@ -390,8 +398,68 @@ header {
     object-fit: cover;
 }
 
+.banner_txt_infos
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    z-index: 99;
+}
 
 
+.banner_txt_infos h1
+{
+    text-transform: uppercase;
+    z-index: 11;
+}
+
+
+.banner_txt_infos a
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: rgb(0, 140, 255); */
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    box-shadow:  rgba(26, 115, 232, 0.15) 0rem 0.1875rem 0.1875rem 0rem, rgba(26, 115, 232, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(26, 115, 232, 0.842) 0rem 0.0625rem 0.3125rem 0rem !important;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    box-shadow: 0 0 50px 4px #fff;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.banner_txt_infos a svg:hover
+{
+    cursor: pointer;
+}
+
+
+
+video
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
 
 
 
@@ -1342,7 +1410,12 @@ header .img {
     {
         font-weight: 500;
     }
+    
 
+    .header_box .marquee-container
+    {
+        bottom: 3%;
+    }
 
 
 

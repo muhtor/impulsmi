@@ -1,23 +1,12 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css';
 
 
 
 import Marquee from "react-fast-marquee";
 import 'lightgallery/css/lightgallery.css'
-
-
-
-import Img1 from '../../imgs/banner imgs/header img.jpg';
-import Img2 from '../../imgs/banner imgs/2.jpg';
-import Img3 from '../../imgs/banner imgs/3.jpg';
-import Img4 from '../../imgs/banner imgs/4.jpg';
-import Img5 from '../../imgs/banner imgs/5.jpg';
-import Img6 from '../../imgs/banner imgs/6.jpg';
-import Img7 from '../../imgs/banner imgs/7.jpg';
-
-import navbar_logo from '../../imgs/logotip imgs/white logotip.png'
 
 
 import main_img_1 from '../../imgs/main gallery imgs/1.jpg'
@@ -43,7 +32,7 @@ import { SiCampaignmonitor } from 'react-icons/si';
 import { MdDashboard } from 'react-icons/md';
 import { MdCastForEducation } from 'react-icons/md';
 import { IoLanguage } from 'react-icons/io5';
-
+import { FaPlay } from 'react-icons/fa';
 
 
 
@@ -88,25 +77,6 @@ function BoshSahifa() {
   const [minNav, setMinNav] = useState(false);
     
 
-    useEffect(() => {
-        let imgs = document.querySelectorAll('.img');
-
-        let currSlide = 0;
-
-        function slider(el) {
-            imgs.forEach(el => el.classList.remove('active'));
-            imgs[el].classList.add('active');
-        }
-
-        setInterval(() => {
-            currSlide++
-            if (currSlide === imgs.length) {
-                currSlide = 0
-            }
-            slider(currSlide);
-        }, 6000);
-    }, []);
-
 
     function upBtnF() {
       document.body.scrollTop = 0;
@@ -122,7 +92,6 @@ function BoshSahifa() {
 
     function mini_navbar_function() {
       minNav ? setMinNav(false) : setMinNav(true);
-      console.log('aaa');
     }
 
   
@@ -156,35 +125,27 @@ function BoshSahifa() {
         </div>
 
         <header id="boshSahifa">
+          <div className="banner_txt_infos">
+            <h1>Impuls Tibbiyot Instituti</h1>
+            <p>{t("biz_haqimizda_p-1")}</p>
+          </div>
           <div className='header_box'>
-            <Marquee speed={20} plugins={[]}>
+            <Marquee speed={30} plugins={[]}>
                 <div className="marques">
                   <h1>IMPULS TIBBIYOT INSTITUTI</h1>
-                  <div className="img_marquee">
-                    <img src={navbar_logo} alt="" />
-                  </div>
+                  {/* <div className="img_marquee"> */}
+                    {/* <img src={navbar_logo} alt="" /> */}
+                  {/* </div> */}
                 </div>
                 <div className="marques">
                   <h1>IMPULS MEDICAL INSTITUTE</h1>
-                  <div className="img_marquee">
-                    <img src={navbar_logo} alt="" />
-                  </div>
-                </div>
-                <div className="marques">
-                  <h1>IMPULS TIBBIYOT INSTITUTI</h1>
-                  <div className="img_marquee">
-                    <img src={navbar_logo} alt="" />
-                  </div>
-                </div>
-                <div className="marques">
-                  <h1>IMPULS MEDICAL INSTITUTE</h1>
-                  <div className="img_marquee">
-                    <img src={navbar_logo} alt="" />
-                  </div>
+                  {/* <div className="img_marquee"> */}
+                    {/* <img src={navbar_logo} alt="" /> */}
+                  {/* </div> */}
                 </div>
             </Marquee>
-            <img src={Img1} alt=""></img>
           </div>
+    
         </header>
        
 
