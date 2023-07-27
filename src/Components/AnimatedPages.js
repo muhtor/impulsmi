@@ -24,6 +24,7 @@ import Partner_3 from './Partners/Partner_3';
 import Partner_4 from './Partners/Partner_4';
 import InternationalFaculty from './InternationalFaculty/InternationalFaculty';
 import File from './File';
+import Recognition from './Recognition/Recognition';
 
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -64,6 +65,7 @@ function AnimatedPages() {
             <Route path="/partner_4" element={<Partner_4 />} />
             <Route path="/internationalFaculty" element={<InternationalFaculty />} />
             <Route path="/file.com" element={<File />} />
+            <Route path="/recognition" element={<Recognition />} />
           </Routes>
         </AnimatePresence>
       </>

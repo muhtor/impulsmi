@@ -1,0 +1,15 @@
+.recognition
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20vh;
+    height: auto;
+}
+
+.recognition img
+{
+    width: 80%;
+    border: 1px solid #eee;
+    margin: 30px auto;
+}
+

@@ -121,7 +121,7 @@ function changePages(e) {
                         <li><Link to="/internationalFaculty" onClick={changePages}>International Faculty</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
                         <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
-                        <li><Link to="/nizom" className='partners_li' onClick={changePages}>{t("imi_nizom")}</Link></li>
+                        <li><Link to="/recognition" className='partners_li' onClick={changePages}>Our Recognition</Link></li>
                         <li><Link to="/gallery" className='add' onClick={changePages}>Gallery</Link></li>
                     </ul>  
               </li>
