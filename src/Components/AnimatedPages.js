@@ -31,6 +31,8 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 import { AnimatePresence } from "framer-motion";
 import Navbar from './Navbar/Navbar';
+import News from './News/News';
+import NewsBigPage from './NewsBigPage/NewsBigPage';
 
 function AnimatedPages() {
 
@@ -66,6 +68,7 @@ function AnimatedPages() {
             <Route path="/internationalFaculty" element={<InternationalFaculty />} />
             <Route path="/file.com" element={<File />} />
             <Route path="/recognition" element={<Recognition />} />
+            <Route path="/news/:id" element={<NewsBigPage />} />
           </Routes>
         </AnimatePresence>
       </>

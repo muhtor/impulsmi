@@ -63,21 +63,6 @@ function Navbar() {
   }, []);
 
 
-    const body = document.body;
-    let lastScroll = 0;
-
-  useEffect(() => {
-    window.addEventListener('scroll', ()=> {
-      const currentScroll = window.pageXOffset
-
-      if (currentScroll <= 0){
-        body.classList.remove("scroll-up");
-      }
-
-      lastScroll = currentScroll; 
-
-    })
-  }, []);
 
   function changeLng(e) {
     document.querySelectorAll('.lng')

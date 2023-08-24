@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 
 
+import News from '../News/News';
 
 import Marquee from "react-fast-marquee";
 import 'lightgallery/css/lightgallery.css'
@@ -31,7 +32,7 @@ import { SiCampaignmonitor } from 'react-icons/si';
 import { MdDashboard } from 'react-icons/md';
 import { MdCastForEducation } from 'react-icons/md';
 import { IoLanguage } from 'react-icons/io5';
-import { FaPlay } from 'react-icons/fa';
+import { HiOutlineClipboardDocument } from 'react-icons/hi2';
 
 
 
@@ -146,6 +147,31 @@ function BoshSahifa() {
           </div>
     
         </header>
+
+        <div className="exam_results">
+          <div className="results_docs">
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1sPPXsNTdCFbE_GvzFJja1T3iRsyPvkWB/view?usp=sharing" target="_blank">12 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1sPPXsNTdCFbE_GvzFJja1T3iRsyPvkWB/view?usp=sharing" target="_blank">13 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1dWOU3_6ycitGGe2YKOzvm1wY8bEIeCCL/view?usp=sharing" target="_blank">15 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1XxeCP_DI_Ifjt9fWin7u2q-tniuKdpoy/view?usp=sharing" target="_blank">17 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/15iOcBIvY8OT4eJc50AmdiJxnk_5BHno9/view?usp=sharing" target="_blank">22 avgust test natijalari</a>
+              </div>
+          </div>
+        </div>
        
 
         <div className="biz-haqimizda reveal section"
@@ -174,6 +200,8 @@ function BoshSahifa() {
                           <p>{t("avzallik_1_2")}</p>
                         </div>
                     </div>
+
+
 
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
@@ -208,6 +236,9 @@ function BoshSahifa() {
               </div>
           </div>
         </div>
+
+
+        <News />
 
   
 

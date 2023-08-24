@@ -1067,6 +1067,56 @@ header .img {
 
 
 
+.exam_results
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.results_docs
+{
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.results_docs div
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.results_docs a
+{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+
+.results_docs a:hover
+{
+    /* color: rgb(12, 0, 242); */
+    text-decoration: underline;
+}
+
+
+.results_docs svg
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
 
 
 
@@ -1079,13 +1129,27 @@ header .img {
 
 
 
+@media (max-width: 1100px) {
+
+    .results_docs
+    {
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+    }
 
 
+}
 
 
 
 
 @media (max-width: 1000px) {
+
 
 
 
@@ -1310,6 +1374,25 @@ header .img {
         margin: 20px 0;
     }
 
+    .exam_results
+    {
+        height: 80vh;
+        margin-top: 0;
+        display: grid;
+        place-items: center;
+    }
+
+
+    .results_docs
+    {
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+    }
 
 
 

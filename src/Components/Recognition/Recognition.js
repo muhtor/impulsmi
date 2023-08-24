@@ -1,13 +1,21 @@
 import React from 'react'
 import './Recognition.css'
 
+import { useEffect } from 'react'
+
 import img_1 from '../../imgs/recognition/1.png'
 import img_2 from '../../imgs/recognition/2.png'
 
 function Recognition() {
+
+
+
+
+
   return (
     <>
        <div className="recognition">
+
             <h1>Recognition</h1>
             <h3>The Impuls Medical Institute is Listed in The World Directory of Medical Schools  of W.H.O- World Health Organization</h3>
             <img src={img_1} alt="" />
