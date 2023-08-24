@@ -1304,6 +1304,11 @@ header .img {
 }
 
 @media (max-width: 780px) {
+
+    .mini_navbar
+    {
+        display: none;
+    }
   
     .savollar
     {
