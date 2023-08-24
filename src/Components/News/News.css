@@ -93,3 +93,16 @@
         margin-bottom: 20px;
     }
 }
+
+
+@media (max-width:500px) {
+    .news_card
+    {
+       padding: 0;
+    }
+
+    .news_card img
+    {
+        height: 37vh;
+    }
+}
