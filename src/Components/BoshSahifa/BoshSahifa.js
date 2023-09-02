@@ -149,6 +149,7 @@ function BoshSahifa() {
         </header>
 
         <div className="exam_results">
+          <h1>Kirish imtihonlari narijalari</h1>
           <div className="results_docs">
               <div>
                 <HiOutlineClipboardDocument className='bg_gradient' />
@@ -169,6 +170,18 @@ function BoshSahifa() {
               <div>
                 <HiOutlineClipboardDocument className='bg_gradient' />
                 <a href="https://drive.google.com/file/d/15iOcBIvY8OT4eJc50AmdiJxnk_5BHno9/view?usp=sharing" target="_blank">22 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1nZLybYB4X_1-aVIzetx7GplRBMoHTBY3/view?usp=sharing" target="_blank">25 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1YRvPs6swGgMYlgYGrzlaxkwOP7TMjolJ/view?usp=sharing" target="_blank">28 avgust test natijalari</a>
+              </div>
+              <div>
+                <HiOutlineClipboardDocument className='bg_gradient' />
+                <a href="https://drive.google.com/file/d/1sHy93vJAf1xP19fLTXfLa7AA-MfiFF-q/view?usp=sharing" target="_blank">30 avgust test natijalari</a>
               </div>
           </div>
         </div>

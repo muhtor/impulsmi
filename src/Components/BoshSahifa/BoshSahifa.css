@@ -1381,10 +1381,11 @@ header .img {
 
     .exam_results
     {
-        height: 80vh;
+        height: auto;
         margin-top: 0;
         display: grid;
         place-items: center;
+        padding: 20px 0px;
     }
 
 
