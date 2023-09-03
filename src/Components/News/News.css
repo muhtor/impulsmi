@@ -2,9 +2,14 @@
 {
     height: auto;
     width: 100%;
-    padding: 20px 5%;
+    padding: 20px 4%;
 }
 
+.news_section h1:first-child
+{
+    text-align: center;
+    font-size: 3em !important;
+}
 
 .news_box
 {
@@ -12,9 +17,9 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     overflow: hidden;
-    padding: 50px 5%;
+    padding: 10px 0%;
 }
 
 
@@ -25,6 +30,19 @@
     height: auto;
     padding: 25px;
     outline: none;
+}
+
+.news_card .title_news
+{
+    /* line-height: 30px; */
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 600;
+}
+
+.title_news:hover
+{
+    text-decoration:underline;
 }
 
 

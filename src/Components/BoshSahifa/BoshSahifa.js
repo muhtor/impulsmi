@@ -43,10 +43,7 @@ import impuls3Img from '../../imgs/Which-Type-of-Investment-Has-the-Highest-Risk
 import usmle_img from '../../imgs/usmle_img.jpg'
 import logoImg from '../../imgs/new logo.png';
 import { BsTelegram, BsInstagram, BsFacebook, BsHeartPulseFill } from 'react-icons/bs';
-import { FaPhoneAlt } from 'react-icons/fa';
-import {AiOutlineClose, AiFillYoutube, AiOutlineGlobal} from 'react-icons/ai'
-import {IoIosArrowUp,} from 'react-icons/io'
-import { ImLocation } from 'react-icons/im'
+import { BiPhoneCall } from 'react-icons/bi'
 
  
 import { useTranslation } from "react-i18next";
@@ -90,9 +87,6 @@ function BoshSahifa() {
     }
 
 
-    function mini_navbar_function() {
-      minNav ? setMinNav(false) : setMinNav(true);
-    }
 
   
   
@@ -100,52 +94,17 @@ function BoshSahifa() {
     return (
       <>
 
-        <div className="mini_navbar">
-          <span onClick={mini_navbar_function}>
-    
-            {
-              minNav ? <AiOutlineClose /> : <IoIosArrowUp />
-            }
-          </span>
-          <a href='https://t.me/impulsmi_uz' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
-            <BsTelegram />
-          </a>
-          <a href='https://www.instagram.com/impuls_mi/' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
-            <BsInstagram />
-          </a>
-          <a href='https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/' target="_blank" onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
-            <BsFacebook />
-          </a>
-          <a href='Tel:+998555105015' onClick={mini_navbar_function}  className={minNav ? "active" : ''}>
-            <FaPhoneAlt />
-          </a>
-          <a href='https://goo.gl/maps/yFinqUo4BTYDMGSU7' target='_blank' onClick={mini_navbar_function} className={minNav ? "active" : ''}>
-            <ImLocation />
-          </a>
-        </div>
+
 
         <header id="boshSahifa">
           <div className="banner_txt_infos">
             <h1>Impuls Tibbiyot Instituti</h1>
             <p>{t("biz_haqimizda_p-1")}</p>
+            <div className='flex'>
+              <a target='blank' href="Tel:+998555105015">Qo'ng'iroq <BiPhoneCall /> </a>
+              <a target='blank' href="https://t.me/impulsmi_uz">Telegram <BsTelegram /></a>
+            </div>
           </div>
-          <div className='header_box'>
-            <Marquee speed={30} plugins={[]}>
-                <div className="marques">
-                  <h1>IMPULS TIBBIYOT INSTITUTI</h1>
-                  {/* <div className="img_marquee"> */}
-                    {/* <img src={navbar_logo} alt="" /> */}
-                  {/* </div> */}
-                </div>
-                <div className="marques">
-                  <h1>IMPULS MEDICAL INSTITUTE</h1>
-                  {/* <div className="img_marquee"> */}
-                    {/* <img src={navbar_logo} alt="" /> */}
-                  {/* </div> */}
-                </div>
-            </Marquee>
-          </div>
-    
         </header>
 
         <div className="exam_results">

@@ -19,12 +19,12 @@ function News() {
   return (
     <>
       <div className="news_section section">
-      
+          <h1>Yangiliklar</h1>
         <div  className="news_box">
           {NewsData.map((el, i) => (
             <div key={i} id={i} className="news_card">
               <img src={el.news_img} alt="" />
-              <h1>{el.news_tite}</h1>
+              <Link onClick={upBtnF} to={`/news/${i}`} className="title_news">{el.news_tite}</Link>
               <p>{el.news_desc}</p>
               <div className="button-date">
                 <Link onClick={upBtnF} to={`/news/${i}`} className="btn">
