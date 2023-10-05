@@ -1,7 +1,6 @@
 import React from 'react';
 import Admin from "./Admin/Admin";
 import BoshSahifa from "./BoshSahifa/BoshSahifa";
-import BizHaqimizda from "./BizHaqimizda/BizHaqimizda";
 import Bino from './Bino/Bino';
 import Nizom from './Nizom/Nizom';
 import Kengash from './Kengash/Kengash';
@@ -26,6 +25,10 @@ import InternationalFaculty from './InternationalFaculty/InternationalFaculty';
 import File from './File';
 import Recognition from './Recognition/Recognition';
 
+
+// -------------------------
+import Main from './Pages/Main/AboutUs';
+
 import { Routes, Route, useLocation } from "react-router-dom";
 
 
@@ -37,6 +40,7 @@ import NewsBigPage from './NewsBigPage/NewsBigPage';
 function AnimatedPages() {
 
     const location = useLocation();
+    
 
     return (
       <>
@@ -44,7 +48,6 @@ function AnimatedPages() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<BoshSahifa />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/bizhaqimizda" element={<BizHaqimizda />} />
             <Route path="/bino" element={<Bino />} />
             <Route path="/nizom" element={<Nizom />} />
             <Route path="/struktura" element={<Struktura />} />
@@ -69,6 +72,7 @@ function AnimatedPages() {
             <Route path="/file.com" element={<File />} />
             <Route path="/recognition" element={<Recognition />} />
             <Route path="/news/:id" element={<NewsBigPage />} />
+            <Route path="/about" element={<Main />} />
           </Routes>
         </AnimatePresence>
       </>

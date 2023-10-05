@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.about_page
+{
+    margin-top: 60px;
+}
+
+.container
+{
+    padding: 20px 10%;
+}
+
+
+
+
+.about_page_inner_div
+{
+    width: 100%;
+}
+
+.about_page_inner_div h1
+{
+    font-size: 3em;
+}
+
+.brend_logo_img
+{
+    height: 100vh;
+}
+
+.about_page_inner_div img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.rektor_info_div
+{
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.rektor_img
+{
+    width: 40%;
+    height: 60vh;
+    margin-right: 20px;
+}
+
+.rektor_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rektor
+{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.rektor h1
+{
+    font-size: 2em;
+}
+
+
+
+.about_page_inner_div h2,
+.rektor h3
+{
+    color: #000;
+}
+
+
+
+.about_text
+{
+    line-height: 35px;
+    font-size: 1.3em;
+}
+
+.about_text p
+{
+    margin-bottom: 20px;
+}
+
+
+
+.institut_tarixi
+{
+    margin: 20px 0;
+}
+
+
+
+.blogs
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+.block p
+{
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+
+.year
+{
+    padding: 20px 0;
+}
+
+.block span
+{
+    background: rgb(26, 115, 232);
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

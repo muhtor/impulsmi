@@ -1,11 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from "@emailjs/browser";
 import './Aloqa.css';
 import { MdDone } from 'react-icons/md';  
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 import { useTranslation } from "react-i18next";
+import { BsFillDiamondFill, BsTelegram, BsInstagram, BsFacebook } from "react-icons/bs";
+import { MdMarkEmailUnread, MdOutlineLocationOn } from 'react-icons/md'
+import { BiPhoneCall } from 'react-icons/bi'
+
 
 function Aloqa() {
 
@@ -56,25 +60,40 @@ function Aloqa() {
     }
 
 
+    const [load, setLoad] = useState(false);
+  
+    useEffect(() => {
+          setTimeout(() => {
+              setLoad(true);
+          }, 2000);
+      }, [])
+  
+
+
     return (
-      <>
-        <div className="banner-aloqa">
-          
-          <h1>
-            {t("aloqa_h1")}
-          </h1>
+      <div className='container'>
+  
+        <div className={!load ? "loader" : "loader active"}>
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+  
+      <div className="pages_link">
+          <Link to="/">Main page</Link>
+          <BsFillDiamondFill />
+          Aloqa
         </div>
 
         <div className="form-div">
-          <div className="left-form-menu">
-            <h1>{t("left_menu_h1")}</h1>
-            <p>{t("left-menu_p")}</p>
-            <ul>
-              <li>{t("manzil")}</li>
-              <li>info@impulsmi.uz</li>
-              <li>+998 (55) 510 50 15</li>
-            </ul>
-          </div>
+
           <form ref={form} onSubmit={sendEmail}>
             <h1>{t("habar")}</h1>
             <div className="">
@@ -132,8 +151,66 @@ function Aloqa() {
               <p className='message-ok'></p>
             <button onClick={PopupF}>Done</button>
           </div>
+          <div className="right-form-menu">
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <BiPhoneCall   />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="Tel:555105015">Telefon raqamimiz</a>
+                    <p>(55) 510 50 15</p>
+                  </div>
+              </div>
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <MdOutlineLocationOn   />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="https://goo.gl/maps/MkaUDEUSLXJhfVYa6">Manzil</a>
+                    <p>Namangan shahar</p>
+                  </div>
+              </div>
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <MdMarkEmailUnread />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="mailto:info@impuslmi.uz">Elektron pochta</a>
+                    <p>info@impulsmi.uz</p>
+                  </div>
+              </div>
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <BsInstagram />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="https://instagram.com/impuls_mi?igshid=MzRlODBiNWFlZA==">Instagram</a>
+                    <p>@impulsmi_uz</p>
+                  </div>
+              </div>
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <BsTelegram />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="https://t.me/impulsmi_uz">Telegram</a>
+                    <p>impulsmi_uz</p>
+                  </div>
+              </div>
+              <div className="link_social">
+                  <div className="icon_aloqa">
+                      <BsFacebook />
+                  </div>
+                  <div className="aloqa_txt">
+                    <a href="https://m.facebook.com/impuls.medical.institute/">Facebook</a>
+                    <p>impulsmi_uz</p>
+                  </div>
+              </div>
+          </div>
+
+
         </div>
-      </>
+      </div>
     );
 }
 

@@ -9,8 +9,6 @@ import { IoGrid } from "react-icons/io5";
 import { CiCircleList } from "react-icons/ci";
 
 
-import { motion } from "framer-motion";
-
 
 import { useTranslation } from "react-i18next";
 
@@ -25,7 +23,7 @@ function Elkutibxona() {
 
     const [bookdata, setBookData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postPerPage] = useState(50);
+    const [postPerPage] = useState(1200);
     
 
 
@@ -103,9 +101,31 @@ function Elkutibxona() {
     }
 
 
+    const [load, setLoad] = useState(false);
+  
+    useEffect(() => {
+          setTimeout(() => {
+              setLoad(true);
+          }, 2000);
+      }, [])
 
     return (
         <>
+
+
+
+        <div className={!load ? "loader" : "loader active"}>
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
             <div className="banner-books">
                 <h1>
                     {t("kutibxona_banner_h1")}

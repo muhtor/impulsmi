@@ -105,12 +105,12 @@ function changePages(e) {
                         <li><Link to="/rektorat" onClick={changePages}>{t("rektorat")}</Link></li>
                         <li><Link to="/internationalFaculty" onClick={changePages}>International Faculty</Link></li>
                         <li><Link to="/kutubxona" onClick={changePages}>{t("kutibxona")}</Link></li>
-                        <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
+                        <li><Link to="/about" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
                         <li><Link to="/recognition" className='partners_li' onClick={changePages}>Our Recognition</Link></li>
                         <li><Link to="/gallery" className='add' onClick={changePages}>Gallery</Link></li>
                     </ul>  
               </li>
-                <li><Link to="/bizhaqimizda" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
+                <li><Link to="/about" onClick={changePages}>{t("biz_haqimizda")}</Link></li>
                 <li><Link onClick={changePages} to="/el_kutubxona">{t("el_kutibxona")}</Link></li>
                 <li><Link className='faq' onClick={changePages} to="/faq">{t("FAQ")}</Link></li>
                 <li><Link to="/aloqa">{t("aloqa")}</Link></li>

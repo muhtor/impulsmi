@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {Link} from 'react-router-dom';
 import './Faq.css';
 
 
 import { useTranslation } from "react-i18next";
-
+import { BsFillDiamondFill } from "react-icons/bs";
 
 
 function Faq() {
@@ -21,15 +21,35 @@ function Faq() {
         e.target.parentElement.classList.add('active');
     }
 
-    return(
-        <>
+    const [load, setLoad] = useState(false);
+  
+    useEffect(() => {
+          setTimeout(() => {
+              setLoad(true);
+          }, 2000);
+      }, [])
 
-            <div className="bino_banner">
-                    <div>
-                    <p><Link to="/">{t("bosh_sahifa")}</Link>FAQ</p>
-                </div>
-                <h1>{t("ko'p_beriladighan_savollar")}</h1>
+    return(
+        <div className="container">
+
+        <div className={!load ? "loader" : "loader active"}>
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+          </div>
+
+          <div className="pages_link">
+          <Link to="/">Main page</Link>
+          <BsFillDiamondFill />
+          FAQ
+        </div>
 
             <div className="savollar">
             <div className="accordion-section">
@@ -39,11 +59,6 @@ function Faq() {
             {t("ko'p_beriladighan_savollar")}
           </h1>
           <div className="accordion-box">
-            <div
-              className="left-menu"
-            >
-              <p>{t("accordion_section_p")}</p>
-            </div>
             <div
               className="right-menu"
               onClick={accordion}
@@ -147,7 +162,7 @@ function Faq() {
         </div>
             </div>
 
-        </>
+        </div>
     )
 }
 

@@ -64,6 +64,7 @@ import { Link } from 'react-router-dom';
 function BoshSahifa() {
 
   
+  
 
 
 
@@ -71,20 +72,23 @@ function BoshSahifa() {
 
 
   const [nav, setNav] = useState(false);
-  const [minNav, setMinNav] = useState(false);
+  
+  
+  
+  function upBtnF() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+  
+  const [load, setLoad] = useState(false);
+  
+  useEffect(() => {
+        setTimeout(() => {
+            setLoad(true);
+        }, 2000);
+    }, [])
     
-
-
-    function upBtnF() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-
-    function changePages() {
-      nav ? setNav(false) : setNav(true);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
 
 
 
@@ -94,6 +98,19 @@ function BoshSahifa() {
     return (
       <>
 
+
+      <div className={!load ? "loader" : "loader active"}>
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+      </div>
 
 
         <header id="boshSahifa">

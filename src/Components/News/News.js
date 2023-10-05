@@ -5,6 +5,7 @@ import "./News.css";
 
 
 import NewsData from "../NewsData/NewsData";
+import { BsArrowRight } from 'react-icons/bs'
 
 
 
@@ -24,12 +25,16 @@ function News() {
           {NewsData.map((el, i) => (
             <div key={i} id={i} className="news_card">
               <img src={el.news_img} alt="" />
-              <Link onClick={upBtnF} to={`/news/${i}`} className="title_news">{el.news_tite}</Link>
-              <p>{el.news_desc}</p>
-              <div className="button-date">
-                <Link onClick={upBtnF} to={`/news/${i}`} className="btn">
-                  Batafsil o'qing              </Link>
+              <div className="news_inner_div">
                 <p>{el.news_date}</p>
+                <Link onClick={upBtnF} to={`/news/${i}`} className="title_news">{el.news_tite}</Link>
+                <p>{el.news_desc}</p>
+                <div className="button-date">
+                  <Link onClick={upBtnF} to={`/news/${i}`} className="more_link">
+                    Batafsil o'qing
+                    <BsArrowRight />
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
