@@ -50,6 +50,8 @@ import { useTranslation } from "react-i18next";
 
 import './BoshSahifa.css'
 import { Link } from 'react-router-dom';
+import Header from '../Page components/Header/Header';
+import Contact from '../Page components/Contact/Contact';
 
 
 
@@ -112,8 +114,8 @@ function BoshSahifa() {
         </div>
       </div>
 
-
-        <header id="boshSahifa">
+        <Header />
+        {/* <header id="boshSahifa">
           <div className="banner_txt_infos">
             <h1>Impuls Tibbiyot Instituti</h1>
             <p>{t("biz_haqimizda_p-1")}</p>
@@ -122,9 +124,9 @@ function BoshSahifa() {
               <a target='blank' href="https://t.me/impulsmi_uz">Telegram <BsTelegram /></a>
             </div>
           </div>
-        </header>
+        </header> */}
 
-        <div className="exam_results">
+        {/* <div className="exam_results">
           <h1>Kirish imtihonlari narijalari</h1>
           <div className="results_docs">
               <div>
@@ -160,7 +162,7 @@ function BoshSahifa() {
                 <a href="https://drive.google.com/file/d/1sHy93vJAf1xP19fLTXfLa7AA-MfiFF-q/view?usp=sharing" target="_blank">30 avgust test natijalari</a>
               </div>
           </div>
-        </div>
+        </div> */}
        
 
         <div className="biz-haqimizda reveal section"
@@ -229,61 +231,14 @@ function BoshSahifa() {
 
         <News />
 
+        <Contact />
   
 
-        <div className="usmle bg_gradient">
-          <div className="usmle_box">
-            <h1>{t("about_usmle")}</h1>
-            <h4>{t("about_usmle_text")} </h4>
-            <Link onClick={upBtnF} to="/usmle" className='bg_gradient'>{t("about_usmle_btn")}</Link>
-          </div>
-          <div className="usmle_box_img">
-              <img src={usmle_img} alt="" />
-          </div>
-        </div>
+  
 
 
 
-        <div className="impuls">
 
-          <div
-            className="impuls-box">
-            <div  className="img-impuls-box">
-              <div className="img-logo">
-                <img src={logoImg} alt="" />
-              </div>
-              <img src={impuls1Img} alt="" />
-            </div>
-            <h1>{t("impuls_box_h1_1")}</h1>
-            <p>{t("impuls_box_p_1")}</p>
-          </div>
-          
-          <div
-            className="impuls-box">
-            <div  className="img-impuls-box">
-              <div className="img-logo">
-                <img src={logoImg} alt="" />
-              </div>
-              <img src={impuls2Img} alt="" />
-            </div>
-            <h1>{t("impuls_box_h1_2")}</h1>
-            <p>{t("impuls_box_p_2")}</p>
-          </div>
-
-          <div
-            className="impuls-box"
-          >
-            <div  className="img-impuls-box">
-              <div className="img-logo">
-                <img src={logoImg} alt="" />
-              </div>
-              <img src={impuls3Img} alt="" />
-            </div>
-            <h1>{t("impuls_box_h1_3")}</h1>
-            <p>{t("impuls_box_p_3")}</p>
-          </div>
-
-        </div>
 
         <div className="main_gallery">
             <Marquee className="main_galler_row">

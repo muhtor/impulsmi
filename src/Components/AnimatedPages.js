@@ -36,6 +36,7 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from './Navbar/Navbar';
 import News from './News/News';
 import NewsBigPage from './NewsBigPage/NewsBigPage';
+import Contact from './Page components/Contact/Contact';
 
 function AnimatedPages() {
 
@@ -47,6 +48,7 @@ function AnimatedPages() {
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<BoshSahifa />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/bino" element={<Bino />} />
             <Route path="/nizom" element={<Nizom />} />

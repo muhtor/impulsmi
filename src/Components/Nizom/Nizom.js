@@ -2,8 +2,13 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import './Nizom.css'
 
-import { BsArrowUpRightSquareFill } from 'react-icons/bs';
-import nizom_img from '../../imgs/nizom img.jpg'
+import { FiExternalLink } from 'react-icons/fi';
+import nizom_1 from '../../imgs/nizom/1.png'
+import nizom_2 from '../../imgs/nizom/2.png'
+import nizom_3 from '../../imgs/nizom/3.png'
+import { BsFillDiamondFill } from "react-icons/bs";
+
+
 
 
 import { useTranslation } from "react-i18next";
@@ -14,24 +19,21 @@ function Nizom(){
 
     return(
         <>
-            <div className="nizom_wrapper">
-                <div className="nizom_banner">
-                     <div>
-                        <p><Link to="/">{t("bosh_sahifa")}</Link> {t("nizom_page_text")}</p>
-                    </div>
-                    <h1>{t("nizom")}</h1>
-                    <div className="nizom">
-                        <div>
-                            <div className="nizom_img">
-                                <img src={nizom_img} alt="" />
-                            </div>
-                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="desktop-nizom" >{t("nizom")}</a>
-                        </div>
-                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="nizom_text">{t("nizom")}</a>
-                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="view_btn">{t("nizom-btn")}</a>
-                            <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link" className="view_icon"><BsArrowUpRightSquareFill /></a>
-                    </div>
+            <div className="page_links_box">
+                <div className="pages_link">
+                    <Link to="/">Main page</Link>
+                    <BsFillDiamondFill />
+                    Institut nizomi
                 </div>
+            </div>
+            <div className="nizom_wrapper">
+                    <h1>Institut nizomi</h1> <br />
+                    <div className="nizom_box">
+                        <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link"><img src={nizom_1} alt="" /></a>
+                        <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link"><img src={nizom_2} alt="" /></a>
+                        <a href="https://drive.google.com/file/d/1oAeCZqnAg3otwAOGUDdkISHEpup1j_Qv/view?usp=share_link"><img src={nizom_3} alt="" /></a>
+                        {/* <a href="#" className="icon_link"><FiExternalLink /></a> */}
+                    </div>
             </div>
         </>
     )

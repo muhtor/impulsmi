@@ -1,202 +1,125 @@
 
-.nizom_banner
+.nizom_wrapper
 {
     width: 100%;
     height: 100vh;
-    background: url(../../imgs/impuls.jpg);
-    background-size: cover;
-    background-position: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgb(250, 250, 250);
-}
-
-.nizom_banner p
-{
-    padding: 10px 15px;
-    background: #c0baba59;
-    backdrop-filter: blur(20xp);
-    color: #fff;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.nizom_banner p a
-{
-    color: #fff;
-    border-right: 1px solid #fff;
-    padding-right: 5px;
-    font-size: .9em;
-}
-
-
-.nizom_banner h1
-{
-    font-size: 2.5em;
-    width: 70%;
-    text-align: center;
+    flex-direction: column;
 }
 
 
 
-.nizom
+.nizom_box
 {
     width: 60%;
-    margin: 20px auto;
-    transform: translateY(50px);
-    background: #ffffff75;
-    backdrop-filter: blur(20px);
-    border-radius: 5px;
-    padding: 20px;
+    height: 65vh;
+    background: #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 5px 20px #ffffff79;
+    padding: 20px 30px;
+    box-shadow: 0 7px 50px 15px #c8c8c844;
+    opacity: .7;
 }
 
-
-.nizom a
+.nizom_box a
 {
-    color: #fff;
-    transition: .5s;
-    font-weight: 700;
-}
-
-.nizom a:hover
-{
-   color: rgb(132, 0, 255);
-}
-
-
-
-.nizom div:nth-child(1)
-{
-    display: flex;
-    align-items: center;
+    width: 33%;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    z-index: -1;
 }
 
 
 
 
 
-.nizom_img
+.nizom_box a img
 {
-    width: 50px;
-    height: 50px;
-    background: #ffffff79;
-    border-radius: 7px;
-    margin-right: 10px;
-}
-
-.nizom_img img
-{
-    border-radius: 50%;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    margin: 0 auto;
+    z-index: -1;
 }
 
 
-.nizom svg
+.external_link
 {
-    font-size: 1.5em;
-}
-
-
-.view_btn
-{
-    display: none;
-}
-
-.desktop-nizom
-{
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    z-index: 999;
 }
 
 
 
 
-@media (max-width: 646px) {
 
-    .nizom
+
+
+
+
+
+@media (max-width: 1250px) {
+
+    .nizom_box
     {
         width: 80%;
     }
 
-    .nizom div a
-    {
-        display: none;
-    }
-
-    .view_icon
-    {
-        display: none;
-    }
-
-
-    .view_btn
-    {
-        display: block;
-        background:blue;
-        width: 40%;
-        text-align: center;
-        border-radius: 3px;
-        padding: 10px 0;
-    }
-    .nizom_text
-    {
-        margin: 10px 0;
-    }
-    
-    .desktop-nizom
-    {
-        display: block;
-    }
-
 }
 
-@media (max-width: 470px) {
 
-    .nizom_banner
-    {
-        height: 100vh;
-    }
+@media (max-width: 1050px) {
 
-    .nizom_banner h1
-    {
-        font-style: 1.5em !important;
-        display: none;
-    }
-
-
-    .nizom
+    .nizom_box
     {
         width: 90%;
-        height: 61vh;
-        flex-direction: column;
-        transform: translateY(0);
-        padding: 50px 0;
+        height: 50vh;
     }
-    
-
-    .nizom_img
-    {
-        width: 150px;
-        height: 150px;
-        background: #ffffff79;
-        border-radius: 7px;
-        margin-right: 10px;
-    }
-
-    
 
 }
+@media (max-width: 850px) {
 
+    .nizom_box
+    {
+        width: 95%;
+        height: 50vh;
+    }
 
+}
+@media (max-width: 700px) {
+    .nizom_wrapper
+    {
+        height: auto;
+    }
 
+    .nizom_box
+    {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
 
+    .nizom_box a
+    {
+        width: 100%;
+        height: 70vh;
+        margin: 10px 0px;
+    }
 
-
+}

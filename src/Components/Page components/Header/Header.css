@@ -1,0 +1,149 @@
+.header_boxx
+{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    /* background: red; */
+}
+
+.impuls_txt2
+{
+    font-size: 150px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 900;
+    letter-spacing: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 6px;
+    text-align: center;
+}
+
+.bg_img_logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* opacity: .5; */
+}
+
+.header_boxx p
+{
+    font-size: 2em;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+
+.buttons_banner
+{
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+.buttons_banner a
+{
+    color: #fff;
+    font-size: 1.2em;
+    margin: 5px 20px 10px 0;
+    display: inline-block;
+    padding: 7px 20px;
+}
+
+
+.padding
+{
+    padding: 20px 5%;
+}
+
+
+
+
+@media (max-width: 850px) {
+
+    .impuls_txt2
+    {
+        font-size: 7em;
+        -webkit-text-stroke-width: 4px;
+    }
+
+    .header_boxx p
+    {
+        font-size: 1.5em;
+        text-align: left;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+
+    .impuls_txt2
+    {
+        font-size: 5.5em;
+        -webkit-text-stroke-width: 3px;
+        letter-spacing: 6px;
+    }
+
+    .header_boxx p
+    {
+        font-size: 1.3em;
+        text-align: left;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .impuls_txt2
+    {
+        font-size: 4em;
+        -webkit-text-stroke-width: 1px;
+        letter-spacing: 6px;
+    }
+
+    .header_boxx p
+    {
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    .header_boxx
+    {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .impuls_txt2
+    {
+        font-size: 4em;
+        -webkit-text-stroke-width: 1px;
+        letter-spacing: 1px;
+    }
+
+    .header_boxx p
+    {
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .buttons_banner
+    {
+        font-size: .8em;
+        /* margin: 5px 20px 10px 0; */
+    }
+}

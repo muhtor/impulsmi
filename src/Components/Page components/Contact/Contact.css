@@ -1,0 +1,194 @@
+.contact_box
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_box_1,
+.contact_box_2
+{
+    width: 100%;
+    height: 35vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 20px 50px 10px #796e6e0f;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.contact_box_1:hover,
+.contact_box_2:hover
+{
+    opacity: 1;
+    cursor: default;
+}
+
+
+.map_box
+{
+    width: 90%;
+    background: #000;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.map_box:hover
+{
+    opacity: .8;
+}
+
+.map_box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.form_box
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.form_box input
+{
+    outline: none;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 6px;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: .9em;
+    -o-border-radius: 5px;
+    margin: 10px 0;
+}
+
+.form_box button
+{
+    outline: none;
+    border: 2px solid #fff;
+    background: #fff;
+    color:  rgb(26, 115, 232);
+    padding: 6px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: .9em;
+}
+
+.form_box input::placeholder
+{
+    color: #fff;
+}
+
+
+.contact_box_2
+{
+    padding: 20px 50px;
+    font-size: 2.2em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1150px) {
+
+    .map_box
+    {
+        width: 70%;
+    }
+
+    .form_box input
+    {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .map_box
+    {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .contact_box_1
+    {
+        height: auto;
+        flex-direction: column;
+        padding: 20px 5px;
+    }
+
+    .map_box,
+    .form_box
+    {
+        height: 40vh;
+        width: 90%;
+    }
+
+    .contact_box_2
+    {
+        font-size: 2em;
+    }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+    .contact_box_2
+    {
+        padding: 10px;
+        font-size: 1.3em;
+    }
+
+
+}

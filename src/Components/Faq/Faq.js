@@ -30,6 +30,19 @@ function Faq() {
       }, [])
 
     return(
+
+      <>
+
+            <div className="page_links_box">
+                <div className="pages_link">
+                    <Link to="/">Main page</Link>
+                    <BsFillDiamondFill />
+                    FAQ
+                </div>
+            </div>
+      
+
+      
         <div className="container">
 
         <div className={!load ? "loader" : "loader active"}>
@@ -45,11 +58,7 @@ function Faq() {
             </div>
           </div>
 
-          <div className="pages_link">
-          <Link to="/">Main page</Link>
-          <BsFillDiamondFill />
-          FAQ
-        </div>
+          
 
             <div className="savollar">
             <div className="accordion-section">
@@ -163,6 +172,8 @@ function Faq() {
             </div>
 
         </div>
+
+        </>
     )
 }
 
