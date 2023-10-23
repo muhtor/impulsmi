@@ -31,7 +31,7 @@ function Footer() {
 
     return (
       <>
-          <footer className='padding'>
+          <footer>
 
               <div className='links'>
                   <Link to="/">Bosh sahifa</Link>
@@ -46,7 +46,7 @@ function Footer() {
               </div>
 
               <div className='social_links'>
-                <div className='sc_link_box'>
+                <div className='div sc_link_box'>
                   <div className="social_link">
                     <a href="#"><BsTelegram /></a>
                   </div>
@@ -63,7 +63,7 @@ function Footer() {
                     <a href="#"><BsChatText /></a>
                   </div>
                 </div>
-                <div className='sc_link_box'>
+                <div className='div sc_link_box'>
                   <div className="social_link">
                     <a href="#"><MdMarkEmailUnread /></a>
                     info@impulsmi.uz
@@ -73,7 +73,7 @@ function Footer() {
                   +998 55 510 50 15
                   </div>
                 </div>
-                <div className="inner_links">
+                <div className="div inner_links">
                   <Link to="/gallery">Gallery</Link>
                   <Link to="/internationalFaculty">International Faculty</Link>
                   <Link to="/recognition">Our Recognition</Link>
