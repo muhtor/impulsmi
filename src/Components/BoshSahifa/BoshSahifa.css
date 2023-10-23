@@ -565,8 +565,9 @@ header .img {
 
 .biz_1_box a
 {
-    width: 150px;
+    width: max-content;
     text-align: center;
+    padding: 10px 20px !important;
 }
 
 .biz_haqimizda_info_card
@@ -1247,6 +1248,12 @@ header .img {
     }
 
 
+    .avzal_box
+    {
+        margin-bottom: 0px;
+    }
+
+
 
 
    
@@ -1265,6 +1272,11 @@ header .img {
     header
     {
         height: 90vh !important;
+    }
+
+    .box-info
+    {
+        padding: 1px;
     }
 
     .usmle_box h1

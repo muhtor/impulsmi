@@ -37,6 +37,7 @@ import Navbar from './Navbar/Navbar';
 import News from './News/News';
 import NewsBigPage from './NewsBigPage/NewsBigPage';
 import Contact from './Page components/Contact/Contact';
+import Teachers_page from './Page components/Teachers_page/Teachers_page';
 
 function AnimatedPages() {
 
@@ -48,14 +49,14 @@ function AnimatedPages() {
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<BoshSahifa />} />
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/teachersp" element={<Teachers_page />} /> */}
             <Route path="/admin" element={<Admin />} />
             <Route path="/bino" element={<Bino />} />
             <Route path="/nizom" element={<Nizom />} />
             <Route path="/struktura" element={<Struktura />} />
             <Route path="/rektorat" element={<Rektorat />} />
             <Route path="/kengash" element={<Kengash />} />
-            <Route path="/teachers" element={<Teachers />} />
+            <Route path="/teachers" element={<Teachers_page />} />
             <Route path="/fakultet" element={<Fakultet />} />
             <Route path="/usmle" element={<USMLE />} />
             <Route path="/yotoqxona" element={<Yotoqxona />} />

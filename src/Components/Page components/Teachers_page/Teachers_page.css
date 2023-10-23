@@ -1,0 +1,107 @@
+.teacher_page_box
+{
+    padding: 20px 8%;
+    display: flex;
+}
+
+.teachers_divs
+{
+    width: 80%;
+}
+
+
+.teacher_div
+{
+    
+    padding: 20px;
+    height: 40vh;
+    box-shadow: 0 7px 50px 15px #c8c8c844;
+    margin: 10px 10px 20px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img_box_tr
+{
+    min-width: 25%;
+    max-width: 25%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.img_box_tr img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tr_infos button
+{
+    outline: none;
+    border: none;
+}
+
+
+.links_page_
+{
+    width: 25%;
+    height: max-content;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+.links_page_logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.links_page_logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.links_page_ .pages_links
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.pages_links a
+{
+    display: inline-flex;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    color: #000;
+}
+

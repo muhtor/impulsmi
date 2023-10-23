@@ -10,7 +10,7 @@ function Contact() {
         <div className="contact_box padding">
             <h1>Biz bilan bog'laning</h1>
             <div className="contact_box_1 btn">
-                <a href='#' className="map_box">
+                <a href='https://goo.gl/maps/QEviBtDeDuxLpc148' className="map_box">
                     <img src={map} alt="" />
                 </a>
                 <div className="form_box">

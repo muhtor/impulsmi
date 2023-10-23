@@ -139,6 +139,21 @@
         line-height: 37px;
         margin-bottom: 20px;
     }
+
+    .news_section
+    {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .news_box
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+        padding: 10px 0%;
+    }
 }
 
 
@@ -150,6 +165,6 @@
 
     .news_card img
     {
-        height: 37vh;
+        height: 30vh;
     }
 }

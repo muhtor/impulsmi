@@ -107,6 +107,11 @@
 
 @media (max-width: 520px) {
 
+    .buttons_banner
+    {
+        width: 90%;
+    }
+
     .impuls_txt2
     {
         font-size: 4em;
@@ -118,6 +123,7 @@
     {
         font-size: 1.1em;
         text-align: left;
+        width: 90%;
     }
 
     .header_boxx

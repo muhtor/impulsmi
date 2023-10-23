@@ -79,7 +79,7 @@
     background: transparent;
     color: #fff;
     padding: 6px;
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -164,18 +164,25 @@
         height: auto;
         flex-direction: column;
         padding: 20px 5px;
+        margin-top: 10px;
     }
 
     .map_box,
     .form_box
     {
-        height: 40vh;
+        height: 25vh;
         width: 90%;
+        text-align: left;
     }
 
     .contact_box_2
     {
         font-size: 2em;
+    }
+
+    .form_box
+    {
+        padding: 10px 0;
     }
 
 }
