@@ -182,17 +182,6 @@ function BoshSahifa() {
               </div>
               <div className='biz_1 biz_2_box'>
                   <div className="avzalliklar_box_">
-                    <div className='avzal_box'>
-                        <div className="icon_avzal bg_gradient">
-                          <SiCampaignmonitor />
-                        </div>
-                        <div>
-                          <h4>{t("avzallik_1_1")}</h4>
-                          <p>{t("avzallik_1_2")}</p>
-                        </div>
-                    </div>
-
-
 
                     <div className='avzal_box'>
                         <div className="icon_avzal bg_gradient">
