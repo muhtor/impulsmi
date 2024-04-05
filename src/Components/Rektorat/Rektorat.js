@@ -35,7 +35,7 @@ function Rektorat() {
                                 <h3>{t("rektor-name")}</h3>
                                 <h4>{t("rektor_lavozim")}</h4> <br />
                                 <h4>{t("rektor-qabul_kunlari")}</h4> <br />
-                                <h4>{t("rektor-tel")}</h4> <br />
+                                <!-- <h4>{t("rektor-tel")}</h4> <br> -->
                                 <h4>{t("rektor-email")}</h4> <br />
                             </div>
                         </div>
